@@ -133,7 +133,7 @@ script_scatter_plot.py survey --left_out "" --nb_of_examples 150
 
 Figure 4: `./data/results/0.8_0.5_150/survey_80_1337671202_False`
 
-Figure 5: `./data/results/0.8_0.5_150/survey_80_1337671202_False`
+Figure 5: `./data/results/0.7_0.5_150/survey_80_1337671202_False`
 
 Figure 6: `./data/results/scatter.txt`
 
