@@ -63,7 +63,9 @@ script_maximisation.py earthquake --decisions 2 --approach both --seed 5 --repea
 Several lr's were tried, the conclusion remains roughly the same.
 
 Report
+```
 script_maximisation_report.py
+```
 
 ### Learning
 Perform experiments [asia, survey, earthquake] x [0.0, 0.1, ..., 0.9, 0.25, 0.75] x 5
