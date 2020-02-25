@@ -215,9 +215,7 @@ def _get_fixed_weights(kc: BaseFormula, semiring: Semiring, utilities, decision_
         When both a positive and negative weight are specified, the problog.formula.pn_weight namedtuple is used.
     """
     current_weights = dict(kc.get_weights())
-
-    # set weight for 0, set as negative weight because -0 would override 0 in d-DNNF and 0 + -0 in SDD.
-    current_weights[0] = pn_weight(Term('s', 0.0, Constant(0), set()), Term('s', 1.0, Constant(0), set()))
+    current_weights[0] = pn_weight(Term('s', 1.0, Constant(0), set()), Term('s', 0.0, Constant(0), set()))
 
     printer.print("start decisions: %s" % decision_keys)
     printer.print('start utilities: %s' % utilities)
@@ -244,11 +242,11 @@ def _get_fixed_weights(kc: BaseFormula, semiring: Semiring, utilities, decision_
         l_set_opposite = {-key} if len(l_set) else set()
 
         if key == 0:  # True nodes, p_w = n_w because -0 will override 0.
-            pos_weight, cur_neg_weight = current_weight
-            new_cost = Constant(cur_neg_weight.args[1].compute_value() + cost)
-            new_l_set = cur_neg_weight.args[2] | l_set
-            new_neg_weight = Term('s', 1.0, new_cost, new_l_set)
-            current_weights[key] = pn_weight(pos_weight, new_neg_weight)
+            cur_pos_weight, neg_weight = current_weight
+            new_cost = Constant(cur_pos_weight.args[1].compute_value() + cost)
+            new_l_set = cur_pos_weight.args[2] | l_set
+            new_pos_weight = Term('s', 1.0, new_cost, new_l_set)
+            current_weights[key] = pn_weight(new_pos_weight, neg_weight)
         elif key > 0:
             if current_weight is True:
                 pos_weight = Term('s', 1.0, cost_cst, l_set)
