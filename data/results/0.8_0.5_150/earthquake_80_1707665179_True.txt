@@ -1,0 +1,424 @@
+----------------------------------------------
+Running adaptive_learning_rate learning with:
+	 learning_rate's increase_rate: 1.05
+	 learning_rate's decrease_rate: 0.8
+	 Left out approach: True
+	 max_epoch: 80
+	 learning_rate: 0.2
+	 batch_size: None
+----------------------------------------------
+Preparation took 0.07420134544372559 seconds
+Using 0.3333 of the data to validate.
+---
+Ran 57.8496994972229 seconds.
+MSE
+Total MSE after epoch 0 is 1168.8774151304779
+Total MSE after epoch 1 is 290.90188976821935
+Total MSE after epoch 2 is 233.70960328641803
+Total MSE after epoch 3 is 224.2207496365962
+Total MSE after epoch 4 is 11131.407309000382
+Total MSE after epoch 5 is 1005.4979587286471
+Total MSE after epoch 6 is 413.64486235218794
+Total MSE after epoch 7 is 376.3767828621694
+Total MSE after epoch 8 is 361.6325660636853
+Total MSE after epoch 9 is 441.3667985766039
+Total MSE after epoch 10 is 319.8582406058425
+Total MSE after epoch 11 is 303.2171289381131
+Total MSE after epoch 12 is 108.02211249366255
+Total MSE after epoch 13 is 58.284297595119874
+Total MSE after epoch 14 is 55.404199455461374
+Total MSE after epoch 15 is 55.249872114565484
+Total MSE after epoch 16 is 55.2062981135648
+Total MSE after epoch 17 is 55.16538516438028
+Total MSE after epoch 18 is 5633.852125046185
+Total MSE after epoch 19 is 572.8012984038595
+Total MSE after epoch 20 is 275.22532102417074
+Total MSE after epoch 21 is 254.7231402124149
+Total MSE after epoch 22 is 127.06158320527203
+Total MSE after epoch 23 is 94.6072288555343
+Total MSE after epoch 24 is 91.5703253741621
+Total MSE after epoch 25 is 90.23630074880867
+Total MSE after epoch 26 is 88.96532600940472
+Total MSE after epoch 27 is 87.69220834869137
+Total MSE after epoch 28 is 1248.5957058358745
+Total MSE after epoch 29 is 851.1645102128851
+Total MSE after epoch 30 is 798.8569355833954
+Total MSE after epoch 31 is 766.424392219536
+Total MSE after epoch 32 is 6084.241247949119
+Total MSE after epoch 33 is 495.3066470279169
+Total MSE after epoch 34 is 171.89929770551703
+Total MSE after epoch 35 is 154.80396194921616
+Total MSE after epoch 36 is 150.16510578018793
+Total MSE after epoch 37 is 1086.7730371033867
+Total MSE after epoch 38 is 217.14248145844653
+Total MSE after epoch 39 is 163.2371693964773
+Total MSE after epoch 40 is 156.76034609885022
+Total MSE after epoch 41 is 1360.083193573139
+Total MSE after epoch 42 is 468.21114165306426
+Total MSE after epoch 43 is 403.4785829978143
+Total MSE after epoch 44 is 386.7728272297979
+Total MSE after epoch 45 is 5503.069396465758
+Total MSE after epoch 46 is 481.7304467557188
+Total MSE after epoch 47 is 189.93304006746402
+Total MSE after epoch 48 is 173.2592411292221
+Total MSE after epoch 49 is 167.76759049961328
+Total MSE after epoch 50 is 9537.543560858434
+Total MSE after epoch 51 is 745.4815027875213
+Total MSE after epoch 52 is 236.6464754333043
+Total MSE after epoch 53 is 209.67213362819038
+Total MSE after epoch 54 is 202.29305268769306
+Total MSE after epoch 55 is 2538.046726653594
+Total MSE after epoch 56 is 934.5985488739582
+Total MSE after epoch 57 is 812.9415138382221
+Total MSE after epoch 58 is 777.2860200694101
+Total MSE after epoch 59 is 602.8991063786642
+Total MSE after epoch 60 is 317.9241522838336
+Total MSE after epoch 61 is 292.14686802326094
+Total MSE after epoch 62 is 281.3839657677419
+Total MSE after epoch 63 is 271.1859688809918
+Total MSE after epoch 64 is 260.9767642440743
+Total MSE after epoch 65 is 250.76450786217111
+Total MSE after epoch 66 is 240.57402043885105
+Total MSE after epoch 67 is 230.43145726811198
+Total MSE after epoch 68 is 220.3639399137781
+Total MSE after epoch 69 is 210.39937480945449
+Total MSE after epoch 70 is 200.5662445414965
+Total MSE after epoch 71 is 190.8933709217559
+Total MSE after epoch 72 is 181.40965083898595
+Total MSE after epoch 73 is 172.1437666986111
+Total MSE after epoch 74 is 163.1238741707037
+Total MSE after epoch 75 is 154.37727095014233
+Total MSE after epoch 76 is 145.93005126766045
+Total MSE after epoch 77 is 137.80675194467716
+Total MSE after epoch 78 is 130.02999681912206
+Total MSE after epoch 79 is 122.62014733659949
+Total MSE after epoch 80 is 3009.6290839199432
+Total MSE after epoch 81 is 594.6982247003276
+Total MSE after epoch 82 is 441.4636257519408
+Total MSE after epoch 83 is 419.70607405916604
+Total MSE after epoch 84 is 486.1157727986313
+Total MSE after epoch 85 is 409.15552001909504
+Total MSE after epoch 86 is 391.6129051993038
+Total MSE after epoch 87 is 660.0233409857443
+Total MSE after epoch 88 is 420.84787423558805
+Total MSE after epoch 89 is 394.0649877468754
+Total MSE after epoch 90 is 379.5479586136434
+Total MSE after epoch 91 is 365.46546259104355
+Total MSE after epoch 92 is 351.35786284934295
+Total MSE after epoch 93 is 337.2451519188831
+Total MSE after epoch 94 is 323.16167591944964
+Total MSE after epoch 95 is 309.14349964701165
+Total MSE after epoch 96 is 295.2280193567188
+
+TEST_MSE
+Test_MSE after epoch 0 is 806.6803862069089
+Test_MSE after epoch 1 is 28.658849199327545
+Test_MSE after epoch 2 is 3.253499176539478
+Test_MSE after epoch 3 is 6.09115743220044
+Test_MSE after epoch 4 is 10378.119613751087
+Test_MSE after epoch 5 is 516.2557601792237
+Test_MSE after epoch 6 is 19.582434395965564
+Test_MSE after epoch 7 is 13.396009570885868
+Test_MSE after epoch 8 is 14.787477663403005
+Test_MSE after epoch 9 is 82.68791341655434
+Test_MSE after epoch 10 is 8.170728007606021
+Test_MSE after epoch 11 is 10.587384576036225
+Test_MSE after epoch 12 is 86.81673829464187
+Test_MSE after epoch 13 is 19.131796964784872
+Test_MSE after epoch 14 is 11.948898903606912
+Test_MSE after epoch 15 is 10.966129508615726
+Test_MSE after epoch 16 is 10.853560611397187
+Test_MSE after epoch 17 is 10.877888735980738
+Test_MSE after epoch 18 is 5085.103623923667
+Test_MSE after epoch 19 is 234.43982955830737
+Test_MSE after epoch 20 is 5.327848364878866
+Test_MSE after epoch 21 is 6.233336326769196
+Test_MSE after epoch 22 is 56.8623187469528
+Test_MSE after epoch 23 is 10.493475752213847
+Test_MSE after epoch 24 is 5.058648204397752
+Test_MSE after epoch 25 is 4.282196079012148
+Test_MSE after epoch 26 is 4.222214819077323
+Test_MSE after epoch 27 is 4.2819232214360055
+Test_MSE after epoch 28 is 324.26377015520325
+Test_MSE after epoch 29 is 46.91106694318146
+Test_MSE after epoch 30 is 46.52172669349722
+Test_MSE after epoch 31 is 47.72878168897765
+Test_MSE after epoch 32 is 5677.497477057878
+Test_MSE after epoch 33 is 267.918791622827
+Test_MSE after epoch 34 is 3.253723550430195
+Test_MSE after epoch 35 is 2.2300490513987223
+Test_MSE after epoch 36 is 3.7799364344075532
+Test_MSE after epoch 37 is 818.4451962405021
+Test_MSE after epoch 38 is 29.496398340643395
+Test_MSE after epoch 39 is 0.5755328865779881
+Test_MSE after epoch 40 is 2.8576555177544964
+Test_MSE after epoch 41 is 808.042682176052
+Test_MSE after epoch 42 is 36.949915392951226
+Test_MSE after epoch 43 is 13.98096839365409
+Test_MSE after epoch 44 is 16.80789782282155
+Test_MSE after epoch 45 is 5083.838973060759
+Test_MSE after epoch 46 is 237.63628385389092
+Test_MSE after epoch 47 is 2.984645239843174
+Test_MSE after epoch 48 is 2.642506644178883
+Test_MSE after epoch 49 is 4.072964718470428
+Test_MSE after epoch 50 is 9008.97266496316
+Test_MSE after epoch 51 is 439.53118029555884
+Test_MSE after epoch 52 is 8.261737408495247
+Test_MSE after epoch 53 is 3.4415325766090943
+Test_MSE after epoch 54 is 5.243998942669012
+Test_MSE after epoch 55 is 1499.047877239261
+Test_MSE after epoch 56 is 94.28679894108012
+Test_MSE after epoch 57 is 46.54322015810698
+Test_MSE after epoch 58 is 49.425786374389844
+Test_MSE after epoch 59 is 384.348763553082
+Test_MSE after epoch 60 is 45.64678200581801
+Test_MSE after epoch 61 is 14.315405994856395
+Test_MSE after epoch 62 is 10.037762794425879
+Test_MSE after epoch 63 is 8.970640805341061
+Test_MSE after epoch 64 is 8.385805439275783
+Test_MSE after epoch 65 is 7.879139557420025
+Test_MSE after epoch 66 is 7.400382250621755
+Test_MSE after epoch 67 is 6.9479215614364005
+Test_MSE after epoch 68 is 6.52444874795125
+Test_MSE after epoch 69 is 6.132764614479661
+Test_MSE after epoch 70 is 5.775604217057822
+Test_MSE after epoch 71 is 5.4556039911855425
+Test_MSE after epoch 72 is 5.175261565191146
+Test_MSE after epoch 73 is 4.936893662867067
+Test_MSE after epoch 74 is 4.74259211639005
+Test_MSE after epoch 75 is 4.594178790392322
+Test_MSE after epoch 76 is 4.493160236944011
+Test_MSE after epoch 77 is 4.440683082188067
+Test_MSE after epoch 78 is 4.437491269301242
+Test_MSE after epoch 79 is 4.483886411885917
+Test_MSE after epoch 80 is 2329.5829539742517
+Test_MSE after epoch 81 is 104.08642502424176
+Test_MSE after epoch 82 is 13.727232243118706
+Test_MSE after epoch 83 is 17.211595711383943
+Test_MSE after epoch 84 is 50.556656619516325
+Test_MSE after epoch 85 is 14.472210002747957
+Test_MSE after epoch 86 is 16.850515889555094
+Test_MSE after epoch 87 is 327.93451515308277
+Test_MSE after epoch 88 is 48.359223841283466
+Test_MSE after epoch 89 is 21.74799511865811
+Test_MSE after epoch 90 is 17.561880007413762
+Test_MSE after epoch 91 is 16.058424219117754
+Test_MSE after epoch 92 is 14.960206751233212
+Test_MSE after epoch 93 is 13.930498811118719
+Test_MSE after epoch 94 is 12.92901401278466
+Test_MSE after epoch 95 is 11.956218412857387
+Test_MSE after epoch 96 is 11.016220110917368
+
+Weights
+Weights after epoch 0 is {maryCalls: 0, \+maryCalls: 0, alarm: 0, earthquake: 0, \+earthquake: 0}
+Weights after epoch 1 is {maryCalls: 0.9761610862921464, \+maryCalls: 11.549576743959598, alarm: 1.2707546975847646, earthquake: 0.40591608519568506, \+earthquake: 12.11982174505606}
+Weights after epoch 2 is {maryCalls: 1.7361841173747707, \+maryCalls: 14.227179357102694, alarm: 2.3288151112262483, earthquake: 0.6698202278446814, \+earthquake: 15.293543246632785}
+Weights after epoch 3 is {maryCalls: 2.453905710024743, \+maryCalls: 14.57421241972013, alarm: 3.3516981854117103, earthquake: 0.9013426778736193, \+earthquake: 16.126775451871257}
+Weights after epoch 4 is {maryCalls: 37, \+maryCalls: -29, alarm: -47, earthquake: -33, \+earthquake: -45}
+Weights after epoch 5 is {maryCalls: 38.977238166026126, \+maryCalls: 10.875883063184816, alarm: -44.60441057261716, earthquake: -32.03779641246668, \+earthquake: -4.109082358322347}
+Weights after epoch 6 is {maryCalls: 40.177917772353425, \+maryCalls: 20.530224602517926, alarm: -42.99092508893568, earthquake: -31.57276166294439, \+earthquake: 6.280904037815773}
+Weights after epoch 7 is {maryCalls: 41.194722643852465, \+maryCalls: 22.256520811100216, alarm: -41.55420837063548, earthquake: -31.23128707661245, \+earthquake: 8.682530531565163}
+Weights after epoch 8 is {maryCalls: 42.19165780765376, \+maryCalls: 22.232252184293493, alarm: -40.1268474476737, earthquake: -30.909857908585725, \+earthquake: 9.333767900533013}
+Weights after epoch 9 is {maryCalls: -35, \+maryCalls: 15, alarm: 20, earthquake: -35, \+earthquake: 6}
+Weights after epoch 10 is {maryCalls: -34.109087196129785, \+maryCalls: 18.92849150701573, alarm: 21.23141926100316, earthquake: -34.675830158220506, \+earthquake: 10.495234469106446}
+Weights after epoch 11 is {maryCalls: -33.27942162732184, \+maryCalls: 19.678770499933826, alarm: 22.409764542717948, earthquake: -34.396658974614255, \+earthquake: 11.796007847226239}
+Weights after epoch 12 is {maryCalls: 47, \+maryCalls: 10, alarm: 36, earthquake: 15, \+earthquake: 26}
+Weights after epoch 13 is {maryCalls: 46.97295565324379, \+maryCalls: 7.169281184264687, alarm: 35.991629396812804, earthquake: 14.982094255330082, \+earthquake: 23.160142582178388}
+Weights after epoch 14 is {maryCalls: 47.003663959141264, \+maryCalls: 6.4563801040693365, alarm: 36.04281243756649, earthquake: 15.000862526919278, \+earthquake: 22.459181536291315}
+Weights after epoch 15 is {maryCalls: 47.05055651264461, \+maryCalls: 6.298432783978457, alarm: 36.111084332529956, earthquake: 15.030150330489223, \+earthquake: 22.318838966133836}
+Weights after epoch 16 is {maryCalls: 47.10210439537272, \+maryCalls: 6.262399529920447, alarm: 36.18466197337432, earthquake: 15.062736459135582, \+earthquake: 22.301767466157575}
+Weights after epoch 17 is {maryCalls: 47.155613132926696, \+maryCalls: 6.247683628368778, alarm: 36.2607836783959, earthquake: 15.096970734412622, \+earthquake: 22.306326026882836}
+Weights after epoch 18 is {maryCalls: -5, \+maryCalls: -37, alarm: -21, earthquake: 43, \+earthquake: -7}
+Weights after epoch 19 is {maryCalls: -3.521662451996484, \+maryCalls: -8.851915294576337, alarm: -19.191197959782432, earthquake: 43.69072181304384, \+earthquake: 21.93570044038333}
+Weights after epoch 20 is {maryCalls: -2.589845185694194, \+maryCalls: -2.0670025186190504, alarm: -17.931817605857866, earthquake: 44.03008890076282, \+earthquake: 29.313063394923915}
+Weights after epoch 21 is {maryCalls: -1.7856274611011766, \+maryCalls: -0.887237059927056, alarm: -16.79400304986176, earthquake: 44.28215039498009, \+earthquake: 31.044985083991655}
+Weights after epoch 22 is {maryCalls: 17, \+maryCalls: 3, alarm: 36, earthquake: -34, \+earthquake: 33}
+Weights after epoch 23 is {maryCalls: 17.21205484928242, \+maryCalls: 0.6772516205852748, alarm: 36.32831284652604, earthquake: -33.922084492356134, \+earthquake: 30.81139096222383}
+Weights after epoch 24 is {maryCalls: 17.47679548939295, \+maryCalls: 0.03075696955021323, alarm: 36.71373849067056, earthquake: -33.81187275615003, \+earthquake: 30.31942521509319}
+Weights after epoch 25 is {maryCalls: 17.761239505682504, \+maryCalls: -0.17799818806249562, alarm: 37.12256609028606, earthquake: -33.690042052761484, \+earthquake: 30.273283370381492}
+Weights after epoch 26 is {maryCalls: 18.056182875160587, \+maryCalls: -0.2921368519087417, alarm: 37.54536001237284, earthquake: -33.562270140498654, \+earthquake: 30.326316163750498}
+Weights after epoch 27 is {maryCalls: 18.35939280754455, \+maryCalls: -0.39130965365957204, alarm: 37.97979092065409, earthquake: -33.429825300632125, \+earthquake: 30.397908454517097}
+Weights after epoch 28 is {maryCalls: -49, \+maryCalls: 47, alarm: -38, earthquake: 39, \+earthquake: -34}
+Weights after epoch 29 is {maryCalls: -47.437344999464415, \+maryCalls: 54.11413717756475, alarm: -35.84196267395002, earthquake: 39.505046035939195, \+earthquake: -25.828253857838863}
+Weights after epoch 30 is {maryCalls: -45.98741592881659, \+maryCalls: 55.46177822424244, alarm: -33.78247970541703, earthquake: 39.92465387970279, \+earthquake: -23.450291584276947}
+Weights after epoch 31 is {maryCalls: -44.5376133609067, \+maryCalls: 55.28625556290582, alarm: -31.706638209520435, earthquake: 40.32983518612602, \+earthquake: -22.581192984126908}
+Weights after epoch 32 is {maryCalls: 32, \+maryCalls: -2, alarm: 16, earthquake: -45, \+earthquake: -46}
+Weights after epoch 33 is {maryCalls: 33.29616792694456, \+maryCalls: 27.705358620456146, alarm: 17.53088893337779, earthquake: -44.32824363078292, \+earthquake: -15.670229821816381}
+Weights after epoch 34 is {maryCalls: 34.0101168631446, \+maryCalls: 34.95352026045613, alarm: 18.47317483454496, earthquake: -44.027119124882034, \+earthquake: -8.009243751517243}
+Weights after epoch 35 is {maryCalls: 34.58233602481133, \+maryCalls: 36.31205613502773, alarm: 19.2767610207174, earthquake: -43.818952638847335, \+earthquake: -6.286655201313605}
+Weights after epoch 36 is {maryCalls: 35.13475959374331, \+maryCalls: 36.37179342734336, alarm: 20.06613543599626, earthquake: -43.62678600370459, \+earthquake: -5.866660975208742}
+Weights after epoch 37 is {maryCalls: 46, \+maryCalls: -39, alarm: -40, earthquake: 35, \+earthquake: 38}
+Weights after epoch 38 is {maryCalls: 46.82542207848217, \+maryCalls: -27.42737911681518, alarm: -38.944262752556554, earthquake: 35.363870315448814, \+earthquake: 50.03417264621817}
+Weights after epoch 39 is {maryCalls: 47.43100080424045, \+maryCalls: -24.697454501594795, alarm: -38.106792404331664, earthquake: 35.58498774215509, \+earthquake: 53.14855856049055}
+Weights after epoch 40 is {maryCalls: 47.9900586990043, \+maryCalls: -24.289121386773587, alarm: -37.31058405309121, earthquake: 35.77265289263679, \+earthquake: 53.928284419593915}
+Weights after epoch 41 is {maryCalls: 11, \+maryCalls: 45, alarm: -9, earthquake: -44, \+earthquake: -44}
+Weights after epoch 42 is {maryCalls: 12.242467587715982, \+maryCalls: 56.491248476949025, alarm: -7.347600213617575, earthquake: -43.51752311931101, \+earthquake: -31.748760816023996}
+Weights after epoch 43 is {maryCalls: 13.275717019669324, \+maryCalls: 59.07283662085116, alarm: -5.897588287379405, earthquake: -43.17539331933413, \+earthquake: -28.47605304014539}
+Weights after epoch 44 is {maryCalls: 14.274217081137165, \+maryCalls: 59.311719519125056, alarm: -4.471821444651236, earthquake: -42.86356546451012, \+earthquake: -27.550497935227668}
+Weights after epoch 45 is {maryCalls: 37, \+maryCalls: -15, alarm: -6, earthquake: -19, \+earthquake: -29}
+Weights after epoch 46 is {maryCalls: 38.3035819688237, \+maryCalls: 13.121981555854234, alarm: -4.4409250239318565, earthquake: -18.344635459327307, \+earthquake: -0.2298010159947559}
+Weights after epoch 47 is {maryCalls: 39.05759034896637, \+maryCalls: 19.959442280017207, alarm: -3.436492805760196, earthquake: -18.04003520676504, \+earthquake: 7.0570678357486205}
+Weights after epoch 48 is {maryCalls: 39.67948049896238, \+maryCalls: 21.21413126641691, alarm: -2.560331163462512, earthquake: -17.823047187851863, \+earthquake: 8.716658953231148}
+Weights after epoch 49 is {maryCalls: 40.28479147210418, \+maryCalls: 21.236963816660573, alarm: -1.6944899288462816, earthquake: -17.620748467555323, \+earthquake: 9.142503756320075}
+Weights after epoch 50 is {maryCalls: 14, \+maryCalls: -50, alarm: -19, earthquake: 16, \+earthquake: -18}
+Weights after epoch 51 is {maryCalls: 15.62921086530689, \+maryCalls: -12.751747389052042, alarm: -17.074231230319526, earthquake: 16.82765366559743, \+earthquake: 20.04980981065743}
+Weights after epoch 52 is {maryCalls: 16.52827411019968, \+maryCalls: -3.6705180481326334, alarm: -15.886545510308332, earthquake: 17.189689473774447, \+earthquake: 29.668066588292614}
+Weights after epoch 53 is {maryCalls: 17.249664451613768, \+maryCalls: -1.9767048867233892, alarm: -14.872659999593372, earthquake: 17.434336771529136, \+earthquake: 31.838622793361257}
+Weights after epoch 54 is {maryCalls: 17.946313218754064, \+maryCalls: -1.9123511958939823, alarm: -13.876439886443213, earthquake: 17.658078341709118, \+earthquake: 32.37588368115098}
+Weights after epoch 55 is {maryCalls: -50, \+maryCalls: 17, alarm: -40, earthquake: -5, \+earthquake: -25}
+Weights after epoch 56 is {maryCalls: -48.20896882746523, \+maryCalls: 32.32440253109834, alarm: -37.60423840754021, earthquake: -4.329707054944754, \+earthquake: -8.554859241422132}
+Weights after epoch 57 is {maryCalls: -46.694193782816775, \+maryCalls: 35.721629449798044, alarm: -35.47393137983538, earthquake: -3.846781215321786, \+earthquake: -4.1257831176969395}
+Weights after epoch 58 is {maryCalls: -45.22217572401719, \+maryCalls: 35.981407305451675, alarm: -33.37067187203909, earthquake: -3.4039650424882186, \+earthquake: -2.836803376077288}
+Weights after epoch 59 is {maryCalls: 47, \+maryCalls: 32, alarm: -50, earthquake: 47, \+earthquake: 16}
+Weights after epoch 60 is {maryCalls: 47.59313831713267, \+maryCalls: 25.06316252618869, alarm: -49.07539483898322, earthquake: 47.106405496995336, \+earthquake: 9.549895346326025}
+Weights after epoch 61 is {maryCalls: 48.341521737730716, \+maryCalls: 23.099542670414653, alarm: -47.982790403291204, earthquake: 47.30269442808088, \+earthquake: 8.138369980064487}
+Weights after epoch 62 is {maryCalls: 49.14724742867417, \+maryCalls: 22.43276766696455, alarm: -46.8222471155835, earthquake: 47.5272150053061, \+earthquake: 8.052800090332621}
+Weights after epoch 63 is {maryCalls: 49.982996644642526, \+maryCalls: 22.044214641342652, alarm: -45.621764797825904, earthquake: 47.76282589101297, \+earthquake: 8.2643853949722}
+Weights after epoch 64 is {maryCalls: 50.84214694654085, \+maryCalls: 21.69730806067681, alarm: -44.388244084389804, earthquake: 48.005461711617556, \+earthquake: 8.533993295600105}
+Weights after epoch 65 is {maryCalls: 51.72309607570086, \+maryCalls: 21.348321582166196, alarm: -43.123502090120965, earthquake: 48.25425727415617, \+earthquake: 8.817160383710892}
+Weights after epoch 66 is {maryCalls: 52.62513532253185, \+maryCalls: 20.991488364505205, alarm: -41.82849074285741, earthquake: 48.508949756518675, \+earthquake: 9.107673930518377}
+Weights after epoch 67 is {maryCalls: 53.54757937818889, \+maryCalls: 20.62656395603058, alarm: -40.50418870211458, earthquake: 48.76933294555451, \+earthquake: 9.404810388664965}
+Weights after epoch 68 is {maryCalls: 54.48962657156574, \+maryCalls: 20.253845567505262, alarm: -39.15174711981963, earthquake: 49.035171648267976, \+earthquake: 9.708300490803035}
+Weights after epoch 69 is {maryCalls: 55.450339372795696, \+maryCalls: 19.873699831030898, alarm: -37.772512400798796, earthquake: 49.30619176187065, \+earthquake: 10.017847441955949}
+Weights after epoch 70 is {maryCalls: 56.428637606583145, \+maryCalls: 19.486549000391253, alarm: -36.36803576810003, earthquake: 49.582078175632965, \+earthquake: 10.333108431341438}
+Weights after epoch 71 is {maryCalls: 57.42329278451628, \+maryCalls: 19.092873664130032, alarm: -34.94008140659796, earthquake: 49.862473145457976, \+earthquake: 10.653693303188335}
+Weights after epoch 72 is {maryCalls: 58.432923271332356, \+maryCalls: 18.693214597300898, alarm: -33.49063340345443, earthquake: 50.14697490116337, \+earthquake: 10.979162967469884}
+Weights after epoch 73 is {maryCalls: 59.45599049053121, \+maryCalls: 18.28817425794743, alarm: -32.02190119693344, earthquake: 50.435136550404344, \+earthquake: 11.309028198074293}
+Weights after epoch 74 is {maryCalls: 60.49079637101408, \+maryCalls: 17.87841778465956, alarm: -30.536323243308008, earthquake: 50.726465336201876, \+earthquake: 11.642748819471764}
+Weights after epoch 75 is {maryCalls: 61.53548224980041, \+maryCalls: 17.464673422542738, alarm: -29.036568593223905, earthquake: 51.02042230955191, \+earthquake: 11.979733362791233}
+Weights after epoch 76 is {maryCalls: 62.58802945400471, \+maryCalls: 17.047732286374973, alarm: -27.525536057045368, earthquake: 51.31642248077425, \+earthquake: 12.319339259605428}
+Weights after epoch 77 is {maryCalls: 63.64626179018699, \+maryCalls: 16.6284473722266, alarm: -26.006350631676344, earthquake: 51.61383551471072, \+earthquake: 12.660873647702857}
+Weights after epoch 78 is {maryCalls: 64.70785016926247, \+maryCalls: 16.207731727100146, alarm: -24.482356861228396, earthquake: 51.91198703489151, \+earthquake: 13.003594861471091}
+Weights after epoch 79 is {maryCalls: 65.77031958954157, \+maryCalls: 15.786555689168107, alarm: -22.95710881197699, earthquake: 52.21016060019834, \+earthquake: 13.346714678511322}
+Weights after epoch 80 is {maryCalls: 27, \+maryCalls: 27, alarm: -42, earthquake: 15, \+earthquake: -47}
+Weights after epoch 81 is {maryCalls: 28.49589991394107, \+maryCalls: 46.204847909223616, alarm: -40.06860319685619, earthquake: 15.605687279048547, \+earthquake: -26.904939455883863}
+Weights after epoch 82 is {maryCalls: 29.62931690548466, \+maryCalls: 50.683185456038146, alarm: -38.495548822571735, earthquake: 15.972973720144534, \+earthquake: -21.66047135862173}
+Weights after epoch 83 is {maryCalls: 30.688833278229744, \+maryCalls: 51.29347363754066, alarm: -36.98613500986048, earthquake: 16.28376889106155, \+earthquake: -20.301461975291154}
+Weights after epoch 84 is {maryCalls: 1, \+maryCalls: 14, alarm: -20, earthquake: -44, \+earthquake: 10}
+Weights after epoch 85 is {maryCalls: 1.9907647775777795, \+maryCalls: 16.83905517894344, alarm: -18.613106608221752, earthquake: -43.65210623459859, \+earthquake: 13.481926191119815}
+Weights after epoch 86 is {maryCalls: 2.9448556923622027, \+maryCalls: 17.280897581799746, alarm: -17.25259372486933, earthquake: -43.33478909452464, \+earthquake: 14.560542368686587}
+Weights after epoch 87 is {maryCalls: 26, \+maryCalls: 4, alarm: -49, earthquake: -37, \+earthquake: 44}
+Weights after epoch 88 is {maryCalls: 26.745281167743226, \+maryCalls: -2.340521272415071, alarm: -47.86377032479055, earthquake: -36.800338844556144, \+earthquake: 38.20509873988429}
+Weights after epoch 89 is {maryCalls: 27.637286947718362, \+maryCalls: -4.1800074090044586, alarm: -46.56657331556833, earthquake: -36.51537339867527, \+earthquake: 36.97265293738917}
+Weights after epoch 90 is {maryCalls: 28.587348403219167, \+maryCalls: -4.8467195571753745, alarm: -45.199046148786515, earthquake: -36.20082306697312, \+earthquake: 36.941451913016905}
+Weights after epoch 91 is {maryCalls: 29.57067376191673, \+maryCalls: -5.262768535477832, alarm: -43.78662284536543, earthquake: -35.872112684948725, \+earthquake: 37.180017911387615}
+Weights after epoch 92 is {maryCalls: 30.58118151888395, \+maryCalls: -5.642241895465154, alarm: -42.335674046282946, earthquake: -35.532831432194705, \+earthquake: 37.471771055613495}
+Weights after epoch 93 is {maryCalls: 31.61730633088516, \+maryCalls: -6.024621191343024, alarm: -40.84800941068994, earthquake: -35.183674021809075, \+earthquake: 37.7763591613512}
+Weights after epoch 94 is {maryCalls: 32.67826101193369, \+maryCalls: -6.415007188063518, alarm: -39.3246995312736, earthquake: -34.824792918073584, \+earthquake: 38.08804674194375}
+Weights after epoch 95 is {maryCalls: 33.763246752452034, \+maryCalls: -6.813485206130378, alarm: -37.76688630039897, earthquake: -34.4562927571302, \+earthquake: 38.40605430345185}
+Weights after epoch 96 is {maryCalls: 34.87132464278378, \+maryCalls: -7.219633425745058, alarm: -36.17591766404698, earthquake: -34.07830813237159, \+earthquake: 38.729999349410306}
+
+Weight errors
+Weight errors after epoch 0 is 1.0
+Weight errors after epoch 1 is 0.6355556575616429
+Weight errors after epoch 2 is 0.6091748707041729
+Weight errors after epoch 3 is 0.5921602932793523
+Weight errors after epoch 4 is 2.5747271521827826
+Weight errors after epoch 5 is 1.3585656707859242
+Weight errors after epoch 6 is 1.3266508873799336
+Weight errors after epoch 7 is 1.3034152846593026
+Weight errors after epoch 8 is 1.2731996485743309
+Weight errors after epoch 9 is 0.9670670134638922
+Weight errors after epoch 10 is 0.9831439070666443
+Weight errors after epoch 11 is 0.9861887947465797
+Weight errors after epoch 12 is 0.46213535291717667
+Weight errors after epoch 13 is 0.47371379375568734
+Weight errors after epoch 14 is 0.4773977618343835
+Weight errors after epoch 15 is 0.47902964269589765
+Weight errors after epoch 16 is 0.48022739895311123
+Weight errors after epoch 17 is 0.4813658407221353
+Weight errors after epoch 18 is 1.8172251121991023
+Weight errors after epoch 19 is 1.113187623873684
+Weight errors after epoch 20 is 1.076853156403173
+Weight errors after epoch 21 is 1.0646972613279897
+Weight errors after epoch 22 is 1.074877600979192
+Weight errors after epoch 23 is 1.088215112150166
+Weight errors after epoch 24 is 1.0949773880394882
+Weight errors after epoch 25 is 1.1000988787036947
+Weight errors after epoch 26 is 1.1049441579455448
+Weight errors after epoch 27 is 1.1098268395341442
+Weight errors after epoch 28 is 2.2799903100775194
+Weight errors after epoch 29 is 2.2695846288118755
+Weight errors after epoch 30 is 2.2365207092948
+Weight errors after epoch 31 is 2.1966697513967044
+Weight errors after epoch 32 is 1.5723250713994288
+Weight errors after epoch 33 is 1.1952838021551504
+Weight errors after epoch 34 is 1.2052026504283642
+Weight errors after epoch 35 is 1.1997177789612936
+Weight errors after epoch 36 is 1.20000222362677
+Weight errors after epoch 37 is 1.7787561199510404
+Weight errors after epoch 38 is 1.7313066015813328
+Weight errors after epoch 39 is 1.7201208337259946
+Weight errors after epoch 40 is 1.7184538909802087
+Weight errors after epoch 41 is 2.2185740514075887
+Weight errors after epoch 42 is 2.23076628807818
+Weight errors after epoch 43 is 2.2106765039493808
+Weight errors after epoch 44 is 2.181487264322031
+Weight errors after epoch 45 is 1.6223148714810283
+Weight errors after epoch 46 is 0.8048165609137522
+Weight errors after epoch 47 is 0.8117046409853051
+Weight errors after epoch 48 is 0.7983997935502157
+Weight errors after epoch 49 is 0.7802633908796155
+Weight errors after epoch 50 is 2.0932170542635657
+Weight errors after epoch 51 is 1.0650136561422552
+Weight errors after epoch 52 is 1.0149416752543163
+Weight errors after epoch 53 is 0.9982865798761754
+Weight errors after epoch 54 is 0.9888046403153465
+Weight errors after epoch 55 is 1.8806941044471643
+Weight errors after epoch 56 is 1.8927983022847874
+Weight errors after epoch 57 is 1.8615672630594715
+Weight errors after epoch 58 is 1.8180308767479763
+Weight errors after epoch 59 is 1.1720037739698084
+Weight errors after epoch 60 is 1.1307072555650433
+Weight errors after epoch 61 is 1.1088308846623502
+Weight errors after epoch 62 is 1.0917221613869477
+Weight errors after epoch 63 is 1.075324579033527
+Weight errors after epoch 64 is 1.058700797163347
+Weight errors after epoch 65 is 1.0416841037054823
+Weight errors after epoch 66 is 1.0242611250791658
+Weight errors after epoch 67 is 1.0064426567958993
+Weight errors after epoch 68 is 0.9882439369399074
+Weight errors after epoch 69 is 0.9696828849193484
+Weight errors after epoch 70 is 0.9507801585825236
+Weight errors after epoch 71 is 0.9315592652525404
+Weight errors after epoch 72 is 0.9120466543261496
+Weight errors after epoch 73 is 0.8922717900951026
+Weight errors after epoch 74 is 0.8722672006212266
+Weight errors after epoch 75 is 0.8520684985784186
+Weight errors after epoch 76 is 0.8317143697499148
+Weight errors after epoch 77 is 0.8112465247940908
+Weight errors after epoch 78 is 0.7907096098832107
+Weight errors after epoch 79 is 0.7701510719313323
+Weight errors after epoch 80 is 1.8602738678090576
+Weight errors after epoch 81 is 1.8980926973176104
+Weight errors after epoch 82 is 1.8830500909234162
+Weight errors after epoch 83 is 1.8534749239266222
+Weight errors after epoch 84 is 1.1892084863321093
+Weight errors after epoch 85 is 1.1716205731490812
+Weight errors after epoch 86 is 1.1447598584440364
+Weight errors after epoch 87 is 1.7094425744594044
+Weight errors after epoch 88 is 1.7260070446200442
+Weight errors after epoch 89 is 1.7216749708754482
+Weight errors after epoch 90 is 1.7116169743349074
+Weight errors after epoch 91 is 1.7000375390255174
+Weight errors after epoch 92 is 1.6879153201659998
+Weight errors after epoch 93 is 1.6754346130222593
+Weight errors after epoch 94 is 1.6626246203889232
+Weight errors after epoch 95 is 1.6494934098890497
+Weight errors after epoch 96 is 1.6360485671222718
+----------------------
+RESULTS
+Expected: 43; 	 Found: 47.9900586990043; 	 Error: 4.990058699004301; 	 Relative error: 0.11604787672103026; 	 For term: maryCalls;
+Expected: 12; 	 Found: -24.289121386773587; 	 Error: 36.28912138677359; 	 Relative error: 3.024093448897799; 	 For term: \+maryCalls;
+Expected: 19; 	 Found: -37.31058405309121; 	 Error: 56.31058405309121; 	 Relative error: 2.963714950162695; 	 For term: alarm;
+Expected: 32; 	 Found: 35.77265289263679; 	 Error: 3.772652892636792; 	 Relative error: 0.11789540289489975; 	 For term: earthquake;
+Expected: 16; 	 Found: 53.928284419593915; 	 Error: 37.928284419593915; 	 Relative error: 2.3705177762246197; 	 For term: \+earthquake;
+Mean relative error: 1.7184538909802087
+Median of relative error: 2.3705177762246197
+Variance of relative error: 1.7620099158942963
+Minimum relative error: 0.11604787672103026
+Maximum relative error: 3.024093448897799
+----------------------------------------------
+MSE of actual solution: 50.25758221207979
+Expected weights: {maryCalls: 43, \+maryCalls: 12, alarm: 19, earthquake: 32, \+earthquake: 16, \+burglary: 26}
+Found weights: {maryCalls: 47.9900586990043, \+maryCalls: -24.289121386773587, alarm: -37.31058405309121, earthquake: 35.77265289263679, \+earthquake: 53.928284419593915}

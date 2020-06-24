@@ -1,0 +1,365 @@
+----------------------------------------------
+Running adaptive_learning_rate learning with:
+	 learning_rate's increase_rate: 1.05
+	 learning_rate's decrease_rate: 0.8
+	 Left out approach: True
+	 max_epoch: 80
+	 learning_rate: 0.2
+	 batch_size: None
+----------------------------------------------
+Preparation took 0.12613916397094727 seconds
+Using 0.3333 of the data to validate.
+---
+Ran 832.8423631191254 seconds.
+MSE
+Total MSE after epoch 0 is 3529.779180036635
+Total MSE after epoch 1 is 1966.7861277732623
+Total MSE after epoch 2 is 1792.0447079941976
+Total MSE after epoch 3 is 1736.1200716331175
+Total MSE after epoch 4 is 1693.7404642607296
+Total MSE after epoch 5 is 1657.7024025672922
+Total MSE after epoch 6 is 1627.0156666721782
+Total MSE after epoch 7 is 1600.997816371601
+Total MSE after epoch 8 is 1579.016943040675
+Total MSE after epoch 9 is 1560.4918125777215
+Total MSE after epoch 10 is 1544.897205139441
+Total MSE after epoch 11 is 1531.7669440675236
+Total MSE after epoch 12 is 1520.6945832027081
+Total MSE after epoch 13 is 1511.3319648107783
+Total MSE after epoch 14 is 1503.385965324909
+Total MSE after epoch 15 is 1496.6138222607904
+Total MSE after epoch 16 is 1490.817478143428
+Total MSE after epoch 17 is 1485.8373839788514
+Total MSE after epoch 18 is 1481.546177383137
+Total MSE after epoch 19 is 1477.8425941897287
+Total MSE after epoch 20 is 1474.6458952728879
+Total MSE after epoch 21 is 1471.8910022088426
+Total MSE after epoch 22 is 1469.5244463016577
+Total MSE after epoch 23 is 1467.5011544044653
+Total MSE after epoch 24 is 1465.7820286446788
+Total MSE after epoch 25 is 1464.3322295153196
+Total MSE after epoch 26 is 1463.1200437175664
+Total MSE after epoch 27 is 1462.1162079089975
+Total MSE after epoch 28 is 1461.2935635637612
+Total MSE after epoch 29 is 1460.626932035682
+Total MSE after epoch 30 is 1460.0931182080144
+Total MSE after epoch 31 is 1459.6709720961826
+Total MSE after epoch 32 is 1459.341457791506
+Total MSE after epoch 33 is 1459.087696652828
+Total MSE after epoch 34 is 1458.8949660411852
+Total MSE after epoch 35 is 1458.7506461300618
+Total MSE after epoch 36 is 1458.6441156946219
+Total MSE after epoch 37 is 1458.5666036569578
+Total MSE after epoch 38 is 1458.51100688285
+Total MSE after epoch 39 is 1458.471686582788
+Total MSE after epoch 40 is 1458.4442559415593
+Total MSE after epoch 41 is 1458.4253705823921
+Total MSE after epoch 42 is 1458.4125315011458
+Total MSE after epoch 43 is 6106.010263823598
+Total MSE after epoch 44 is 3227.8439926581227
+Total MSE after epoch 45 is 2793.194895854765
+Total MSE after epoch 46 is 2583.863647742158
+Total MSE after epoch 47 is 2414.195381473844
+Total MSE after epoch 48 is 2269.786537496847
+Total MSE after epoch 49 is 2147.145954311899
+Total MSE after epoch 50 is 2043.413891697917
+Total MSE after epoch 51 is 1955.9373386068532
+Total MSE after epoch 52 is 1882.288827665408
+Total MSE after epoch 53 is 1820.2880388689878
+Total MSE after epoch 54 is 1768.0130306381186
+Total MSE after epoch 55 is 1723.8013393096455
+Total MSE after epoch 56 is 1686.2419331600522
+Total MSE after epoch 57 is 1654.15945650258
+Total MSE after epoch 58 is 1626.592522300177
+Total MSE after epoch 59 is 1602.767985404469
+Total MSE after epoch 60 is 1582.0731443779832
+Total MSE after epoch 61 is 1564.0276860143413
+Total MSE after epoch 62 is 1548.2569269755516
+Total MSE after epoch 63 is 1534.4675576669113
+Total MSE after epoch 64 is 1522.4266981062453
+Total MSE after epoch 65 is 1511.9446788059831
+Total MSE after epoch 66 is 1502.8616013220806
+Total MSE after epoch 67 is 1495.037442965568
+Total MSE after epoch 68 is 1488.3452651399582
+Total MSE after epoch 69 is 1482.6669682867553
+Total MSE after epoch 70 is 1477.8910001663844
+Total MSE after epoch 71 is 1473.9114515803358
+Total MSE after epoch 72 is 1470.6280440951102
+Total MSE after epoch 73 is 1467.9466074642762
+Total MSE after epoch 74 is 1465.7797431573742
+Total MSE after epoch 75 is 1464.0474625706158
+Total MSE after epoch 76 is 1462.677667213331
+Total MSE after epoch 77 is 1461.6064009020681
+Total MSE after epoch 78 is 1460.777851171526
+Total MSE after epoch 79 is 1460.1441106639395
+Total MSE after epoch 80 is 1459.6647315365676
+Total MSE after epoch 81 is 1459.306119078982
+
+TEST_MSE
+Test_MSE after epoch 0 is 3131.9009552295934
+Test_MSE after epoch 1 is 1770.4328158114477
+Test_MSE after epoch 2 is 1701.1150587166812
+Test_MSE after epoch 3 is 1672.2689001382803
+Test_MSE after epoch 4 is 1633.9910719814086
+Test_MSE after epoch 5 is 1597.1711921870317
+Test_MSE after epoch 6 is 1564.9796686326902
+Test_MSE after epoch 7 is 1537.4886935651348
+Test_MSE after epoch 8 is 1514.180742412596
+Test_MSE after epoch 9 is 1494.4937939992822
+Test_MSE after epoch 10 is 1477.9058681956017
+Test_MSE after epoch 11 is 1463.9462180627406
+Test_MSE after epoch 12 is 1452.1974949949272
+Test_MSE after epoch 13 is 1442.295694912283
+Test_MSE after epoch 14 is 1433.92840268793
+Test_MSE after epoch 15 is 1426.8316329791412
+Test_MSE after epoch 16 is 1420.785616121955
+Test_MSE after epoch 17 is 1415.6098924460148
+Test_MSE after epoch 18 is 1411.1580656263664
+Test_MSE after epoch 19 is 1407.3125286295292
+Test_MSE after epoch 20 is 1403.9794207683326
+Test_MSE after epoch 21 is 1401.084008902864
+Test_MSE after epoch 22 is 1398.5666177800729
+Test_MSE after epoch 23 is 1396.3791709134125
+Test_MSE after epoch 24 is 1394.4823495890137
+Test_MSE after epoch 25 is 1392.8433366523338
+Test_MSE after epoch 26 is 1391.4340845097383
+Test_MSE after epoch 27 is 1390.2300321694538
+Test_MSE after epoch 28 is 1389.2091917417413
+Test_MSE after epoch 29 is 1388.3515276541652
+Test_MSE after epoch 30 is 1387.63855905556
+Test_MSE after epoch 31 is 1387.0531251884263
+Test_MSE after epoch 32 is 1386.579263358308
+Test_MSE after epoch 33 is 1386.2021586830483
+Test_MSE after epoch 34 is 1385.9081336974534
+Test_MSE after epoch 35 is 1385.6846540517097
+Test_MSE after epoch 36 is 1385.5203338038575
+Test_MSE after epoch 37 is 1385.4049303664528
+Test_MSE after epoch 38 is 1385.3293239051457
+Test_MSE after epoch 39 is 1385.2854818392498
+Test_MSE after epoch 40 is 1385.2664053306264
+Test_MSE after epoch 41 is 1385.2660804307156
+Test_MSE after epoch 42 is 1385.2793593814752
+Test_MSE after epoch 43 is 5365.166073499937
+Test_MSE after epoch 44 is 3117.021440745696
+Test_MSE after epoch 45 is 2921.4141691082464
+Test_MSE after epoch 46 is 2751.527979242623
+Test_MSE after epoch 47 is 2566.7273437255967
+Test_MSE after epoch 48 is 2396.9318554802685
+Test_MSE after epoch 49 is 2248.7989218094995
+Test_MSE after epoch 50 is 2121.3564703402826
+Test_MSE after epoch 51 is 2012.2606352314062
+Test_MSE after epoch 52 is 1919.1333516737427
+Test_MSE after epoch 53 is 1839.778007593908
+Test_MSE after epoch 54 is 1772.212898157352
+Test_MSE after epoch 55 is 1714.678849104436
+Test_MSE after epoch 56 is 1665.637999579581
+Test_MSE after epoch 57 is 1623.7655046532736
+Test_MSE after epoch 58 is 1587.9354951588284
+Test_MSE after epoch 59 is 1557.2028241204825
+Test_MSE after epoch 60 is 1530.7821756331505
+Test_MSE after epoch 61 is 1508.0260375417013
+Test_MSE after epoch 62 is 1488.4028599432322
+Test_MSE after epoch 63 is 1471.4764661672846
+Test_MSE after epoch 64 is 1456.887485736909
+Test_MSE after epoch 65 is 1444.3372752053897
+Test_MSE after epoch 66 is 1433.5745139836984
+Test_MSE after epoch 67 is 1424.3844316956997
+Test_MSE after epoch 68 is 1416.5804543797938
+Test_MSE after epoch 69 is 1409.9979516890178
+Test_MSE after epoch 70 is 1404.489719932155
+Test_MSE after epoch 71 is 1399.9228341954317
+Test_MSE after epoch 72 is 1396.1765322200772
+Test_MSE after epoch 73 is 1393.1408391558311
+Test_MSE after epoch 74 is 1390.715694567961
+Test_MSE after epoch 75 is 1388.8103937623
+Test_MSE after epoch 76 is 1387.3432008484028
+Test_MSE after epoch 77 is 1386.2410298941024
+Test_MSE after epoch 78 is 1385.4391234151574
+Test_MSE after epoch 79 is 1384.8806849515977
+Test_MSE after epoch 80 is 1384.5164453876807
+Test_MSE after epoch 81 is 1384.3041601094342
+
+Weights
+Weights after epoch 0 is {o("emp"): 0, t("car"): 0, \+s("F"): 0, \+t("train"): 0, o("self"): 0, \+o("emp"): 0}
+Weights after epoch 1 is {o("emp"): 15.794996147908135, t("car"): 4.648948735237476, \+s("F"): 10.222800426192224, \+t("train"): 10.312387672859993, o("self"): 0.4781197792412968, \+o("emp"): 0.4781197792412968}
+Weights after epoch 2 is {o("emp"): 21.624883914163416, t("car"): 4.0012500249209495, \+s("F"): 13.660438879789012, \+t("train"): 12.789910248280556, o("self"): 0.6566594709090244, \+o("emp"): 0.6566594709090244}
+Weights after epoch 3 is {o("emp"): 24.32356537424489, t("car"): 1.7959493989939879, \+s("F"): 14.965297329046516, \+t("train"): 12.92111319369094, o("self"): 0.7721662752697703, \+o("emp"): 0.7721662752697703}
+Weights after epoch 4 is {o("emp"): 26.113905322506906, t("car"): -0.746483279542483, \+s("F"): 15.652190650874164, \+t("train"): 12.493250426964535, o("self"): 0.901727328650086, \+o("emp"): 0.901727328650086}
+Weights after epoch 5 is {o("emp"): 27.623691597197304, t("car"): -3.277672579248757, \+s("F"): 16.15063750079889, \+t("train"): 12.01219590714975, o("self"): 1.0670068258336485, \+o("emp"): 1.0670068258336485}
+Weights after epoch 6 is {o("emp"): 29.001596481775486, t("car"): -5.712155574764708, \+s("F"): 16.564219559279923, \+t("train"): 11.597816437476473, o("self"): 1.2727302519762191, \+o("emp"): 1.2727302519762191}
+Weights after epoch 7 is {o("emp"): 30.275553406813135, t("car"): -8.031785878389117, \+s("F"): 16.914416385583827, \+t("train"): 11.271484308264007, o("self"): 1.5190347043607924, \+o("emp"): 1.5190347043607924}
+Weights after epoch 8 is {o("emp"): 31.449596728684348, t("car"): -10.232899303467569, \+s("F"): 17.206465511009938, \+t("train"): 11.03376270081201, o("self"): 1.804801904786315, \+o("emp"): 1.804801904786315}
+Weights after epoch 9 is {o("emp"): 32.5248834703573, t("car"): -12.31484383791694, \+s("F"): 17.443625818963223, \+t("train"): 10.881287815125043, o("self"): 2.128382761191684, \+o("emp"): 2.128382761191684}
+Weights after epoch 10 is {o("emp"): 33.503079018800825, t("car"): -14.278107149802418, \+s("F"): 17.62943653352339, \+t("train"): 10.809535042642642, o("self"): 2.4877216264449316, \+o("emp"): 2.4877216264449316}
+Weights after epoch 11 is {o("emp"): 34.38668058627368, t("car"): -16.124084077946442, \+s("F"): 17.7678900141318, \+t("train"): 10.813164156666915, o("self"): 2.8803835321901907, \+o("emp"): 2.8803835321901907}
+Weights after epoch 12 is {o("emp"): 35.17898498509594, t("car"): -17.85500675931141, \+s("F"): 17.863361413576953, \+t("train"): 10.88611492882278, o("self"): 3.303577956507937, \+o("emp"): 3.303577956507937}
+Weights after epoch 13 is {o("emp"): 35.88402243241524, t("car"): -19.473863365852832, \+s("F"): 17.920515671620816, \+t("train"): 11.021709591099963, o("self"): 3.7541901128104285, \+o("emp"): 3.7541901128104285}
+Weights after epoch 14 is {o("emp"): 36.50647341525614, t("car"): -20.984299135542884, \+s("F"): 17.944205184841454, \+t("train"): 11.212772614179201, o("self"): 4.228819925393698, \+o("emp"): 4.228819925393698}
+Weights after epoch 15 is {o("emp"): 37.05157027203929, t("car"): -22.39050312926653, \+s("F"): 17.939361170976603, \+t("train"): 11.451764473121509, o("self"): 4.7238280071916705, \+o("emp"): 4.7238280071916705}
+Weights after epoch 16 is {o("emp"): 37.52498628211727, t("car"): -23.697084777921077, \+s("F"): 17.91088257605183, \+t("train"): 11.730925613990381, o("self"): 5.235387681510435, \+o("emp"): 5.235387681510435}
+Weights after epoch 17 is {o("emp"): 37.93271566466916, t("car"): -24.9089450075258, \+s("F"): 17.86352674337716, \+t("train"): 12.042426148265696, o("self"): 5.759541822817765, \+o("emp"): 5.759541822817765}
+Weights after epoch 18 is {o("emp"): 38.280948417661364, t("car"): -26.031147206251635, \+s("F"): 17.80180626221566, \+t("train"): 12.378516341089245, o("self"): 6.29226306678089, \+o("emp"): 6.29226306678089}
+Weights after epoch 19 is {o("emp"): 38.575944268512856, t("car"): -27.0687934985498, \+s("F"): 17.72989635742506, \+t("train"): 12.731672727148307, o("self"): 6.829515771413244, \+o("emp"): 6.829515771413244}
+Weights after epoch 20 is {o("emp"): 38.82391013477633, t("car"): -28.026911664246903, \+s("F"): 17.651556850951295, \+t("train"): 13.094734734527885, o("self"): 7.367318014204521, \+o("emp"): 7.367318014204521}
+Weights after epoch 21 is {o("emp"): 39.03088537521998, t("car"): -28.910357561765228, \+s("F"): 17.57007211055745, \+t("train"): 13.461027040291922, o("self"): 7.901801894468706, \+o("emp"): 7.901801894468706}
+Weights after epoch 22 is {o("emp"): 39.20263874243952, t("car"): -29.72373708598327, \+s("F"): 17.488211517585178, \+t("train"): 13.82446352185835, o("self"): 8.429270480338744, \+o("emp"): 8.429270480338744}
+Weights after epoch 23 is {o("emp"): 39.34458033896638, t("car"): -30.471350547501903, \+s("F"): 17.40821187570714, \+t("train"): 14.179629576762164, o("self"): 8.946249893410945, \+o("emp"): 8.946249893410945}
+Weights after epoch 24 is {o("emp"): 39.46169106503503, t("car"): -31.15716096839538, \+s("F"): 17.331781916192412, \+t("train"): 14.521840705491828, o("self"): 9.44953525127541, \+o("emp"): 9.44953525127541}
+Weights after epoch 25 is {o("emp"): 39.55847108311766, t("car"): -31.784786248334406, \+s("F"): 17.260127724583825, \+t("train"): 14.847176507368102, o("self"): 9.93622947235241, \+o("emp"): 9.93622947235241}
+Weights after epoch 26 is {o("emp"): 39.638907785519706, t("car"): -32.35751358610738, \+s("F"): 17.193996628478338, \+t("train"): 15.1524905294048, o("self"): 10.403774266289808, \+o("emp"): 10.403774266289808}
+Weights after epoch 27 is {o("emp"): 39.70646271993348, t("car"): -32.878333080221886, \+s("F"): 17.13373596166794, \+t("train"): 15.435397624223812, o("self"): 10.849972960973304, \+o("emp"): 10.849972960973304}
+Weights after epoch 28 is {o("emp"): 39.76407598943137, t("car"): -33.34998621176234, \+s("F"): 17.079362265626315, \+t("train"): 15.694241510333903, o("self"): 11.273005127928574, \+o("emp"): 11.273005127928574}
+Weights after epoch 29 is {o("emp"): 39.814185873785476, t("car"): -33.77502404949829, \+s("F"): 17.030635993325127, \+t("train"): 15.928045996659794, o("self"): 11.671433238465186, \+o("emp"): 11.671433238465186}
+Weights after epoch 30 is {o("emp"): 39.858760876921686, t("car"): -34.15586959417527, \+s("F"): 16.987136698030298, \+t("train"): 16.136453773290796, o("self"): 12.04420179646705, \+o("emp"): 12.04420179646705}
+Weights after epoch 31 is {o("emp"): 39.89934112079637, t("car"): -34.49487873461709, \+s("F"): 16.948334031331953, \+t("train"): 16.319656758915954, o("self"): 12.390629541973407, \+o("emp"): 12.390629541973407}
+Weights after epoch 32 is {o("emp"): 39.9370859818095, t("car"): -34.79439480720806, \+s("F"): 16.913650604564864, \+t("train"): 16.478321755208004, o("self"): 12.710395404244323, \+o("emp"): 12.710395404244323}
+Weights after epoch 33 is {o("emp"): 39.97282506774771, t("car"): -35.05679266885931, \+s("F"): 16.882513799659495, \+t("train"): 16.613514648261994, o("self"): 13.003518914571071, \+o("emp"): 13.003518914571071}
+Weights after epoch 34 is {o("emp"): 40.007110015094696, t("car"): -35.28450939746499, \+s("F"): 16.854394835341328, \+t("train"): 16.72662571875435, o("self"): 13.270335785906537, \+o("emp"): 13.270335785906537}
+Weights after epoch 35 is {o("emp"): 40.04026505781046, t("car"): -35.48006009684132, \+s("F"): 16.828834647918708, \+t("train"): 16.819297871449972, o("self"): 13.511469349057132, \+o("emp"): 13.511469349057132}
+Weights after epoch 36 is {o("emp"): 40.0724348553389, t("car"): -35.64603863290204, \+s("F"): 16.805457324766234, \+t("train"): 16.893358921404037, o("self"): 13.727798525588241, \+o("emp"): 13.727798525588241}
+Weights after epoch 37 is {o("emp"): 40.10362847512575, t("car"): -35.78510440289386, \+s("F"): 16.783972722806077, \+t("train"): 16.950758464883183, o("self"): 13.92042302596667, \+o("emp"): 13.92042302596667}
+Weights after epoch 38 is {o("emp"): 40.13375903186942, t("car"): -35.89995713342683, \+s("F"): 16.764170684086725, \+t("train"): 16.993509673323846, o("self"): 14.090626506684744, \+o("emp"): 14.090626506684744}
+Weights after epoch 39 is {o("emp"): 40.16267812277224, t("car"): -35.99330278117403, \+s("F"): 16.745909108820236, \+t("train"): 17.02363566986612, o("self"): 14.239838458505993, \+o("emp"): 14.239838458505993}
+Weights after epoch 40 is {o("emp"): 40.1902066732252, t("car"): -36.0678127763252, \+s("F"): 16.729099666912624, \+t("train"): 17.04312200403321, o("self"): 14.3695957477001, \+o("emp"): 14.3695957477001}
+Weights after epoch 41 is {o("emp"): 40.216155618537385, t("car"): -36.12608350410313, \+s("F"): 16.713688977703715, \+t("train"): 17.05387021793606, o("self"): 14.481504507433142, \+o("emp"): 14.481504507433142}
+Weights after epoch 42 is {o("emp"): 40.24036254856789, t("car"): -36.17058497648905, \+s("F"): 16.69965481161179, \+t("train"): 17.057673860754264, o("self"): 14.577204234363297, \+o("emp"): 14.577204234363297}
+Weights after epoch 43 is {o("emp"): -14, t("car"): 34, \+s("F"): -34, \+t("train"): 7, o("self"): -17, \+o("emp"): -41}
+Weights after epoch 44 is {o("emp"): 7.012650905476761, t("car"): 38.56427575238175, \+s("F"): -18.04776859815548, \+t("train"): 19.4009522323742, o("self"): -15.797476597692333, \+o("emp"): -39.79747659769233}
+Weights after epoch 45 is {o("emp"): 14.824900942848416, t("car"): 36.19466048875177, \+s("F"): -11.152456734200907, \+t("train"): 21.521938807149354, o("self"): -14.964956957048463, \+o("emp"): -38.964956957048464}
+Weights after epoch 46 is {o("emp"): 18.467621374118682, t("car"): 31.83432148572564, \+s("F"): -7.173136382432385, \+t("train"): 20.617708497533496, o("self"): -14.190769225424724, \+o("emp"): -38.190769225424724}
+Weights after epoch 47 is {o("emp"): 20.879360839235346, t("car"): 27.097973176481318, \+s("F"): -4.1140530646768205, \+t("train"): 19.051725223368315, o("self"): -13.374181296931608, \+o("emp"): -37.37418129693161}
+Weights after epoch 48 is {o("emp"): 22.891443872851962, t("car"): 22.44740030029003, \+s("F"): -1.4127950238233127, \+t("train"): 17.493640146062006, o("self"): -12.487935905141805, \+o("emp"): -36.48793590514181}
+Weights after epoch 49 is {o("emp"): 24.70251964284104, t("car"): 17.996369772511216, \+s("F"): 1.063158321062796, \+t("train"): 16.102343690451498, o("self"): -11.527399178730985, \+o("emp"): -35.52739917873099}
+Weights after epoch 50 is {o("emp"): 26.35207489661177, t("car"): 13.769068673732095, \+s("F"): 3.338697101927081, \+t("train"): 14.905841208121153, o("self"): -10.494236490874318, \+o("emp"): -34.49423649087432}
+Weights after epoch 51 is {o("emp"): 27.848357190744295, t("car"): 9.769919960110023, \+s("F"): 5.418165491851884, \+t("train"): 13.90388979797541, o("self"): -9.391998500327746, \+o("emp"): -33.39199850032775}
+Weights after epoch 52 is {o("emp"): 29.196105661342564, t("car"): 5.998756844791112, \+s("F"): 7.304255726781738, \+t("train"): 13.090308645028612, o("self"): -8.225148947622309, \+o("emp"): -32.225148947622316}
+Weights after epoch 53 is {o("emp"): 30.400967761679176, t("car"): 2.4533308504854996, \+s("F"): 9.001024416134841, \+t("train"): 12.456653613101032, o("self"): -6.9988807437280505, \+o("emp"): -30.99888074372806}
+Weights after epoch 54 is {o("emp"): 31.469859758174707, t("car"): -0.8703320883969594, \+s("F"): 10.514134696512, \+t("train"): 11.992709644947322, o("self"): -5.719055501517766, \+o("emp"): -29.719055501517772}
+Weights after epoch 55 is {o("emp"): 32.41084865440896, t("car"): -3.9777762873054723, \+s("F"): 11.85075823328159, \+t("train"): 11.686670115681665, o("self"): -4.392143225211709, \+o("emp"): -28.392143225211715}
+Weights after epoch 56 is {o("emp"): 33.23298258279429, t("car"): -6.8759333801775515, \+s("F"): 13.019427628225111, \+t("train"): 11.525341307935603, o("self"): -3.0251481726669085, \+o("emp"): -27.025148172666913}
+Weights after epoch 57 is {o("emp"): 33.94609462556843, t("car"): -9.572905749555506, \+s("F"): 14.029856720114314, \+t("train"): 11.49438452547636, o("self"): -1.625521396954076, \+o("emp"): -25.62552139695408}
+Weights after epoch 58 is {o("emp"): 34.56058516662855, t("car"): -12.077723816917256, \+s("F"): 14.892733306789601, \+t("train"): 11.57858945231438, o("self"): -0.20106177337246112, \+o("emp"): -24.201061773372466}
+Weights after epoch 59 is {o("emp"): 35.087189728885505, t("car"): -14.400086100691832, \+s("F"): 15.619490626189219, \+t("train"): 11.762171118442662, o("self"): 1.2401921722550242, \+o("emp"): -22.75980782774498}
+Weights after epoch 60 is {o("emp"): 35.536740268998116, t("car"): -16.550092332872396, \+s("F"): 16.22206513102673, \+t("train"): 12.029081362586817, o("self"): 2.6900768602316525, \+o("emp"): -21.30992313976835}
+Weights after epoch 61 is {o("emp"): 35.91992863405297, t("car"): -18.537980785639885, \+s("F"): 16.712649016535792, \+t("train"): 12.363324632284312, o("self"): 4.140421557175675, \+o("emp"): -19.85957844282433}
+Weights after epoch 62 is {o("emp"): 36.24708116142002, t("car"): -20.373881217378063, \+s("F"): 17.10344646129702, \+t("train"): 12.749267376841317, o("self"): 5.583166250650146, \+o("emp"): -18.41683374934986}
+Weights after epoch 63 is {o("emp"): 36.52795317292009, t("car"): -22.06759440170852, \+s("F"): 17.40644255301326, \+t("train"): 13.171930268983095, o("self"): 7.010476127177791, \+o("emp"): -16.989523872822215}
+Weights after epoch 64 is {o("emp"): 36.77155133735804, t("car"): -23.62840801206058, \+s("F"): 17.63319334505302, \+t("train"): 13.617253081775388, o("self"): 8.414849420482613, \+o("emp"): -15.585150579517393}
+Weights after epoch 65 is {o("emp"): 36.98599056210503, t("car"): -25.06495671161629, \+s("F"): 17.794644422785044, \+t("train"): 14.072323254177185, o("self"): 9.789215714946616, \+o("emp"): -14.21078428505339}
+Weights after epoch 66 is {o("emp"): 37.178390280921896, t("car"): -26.385131728415534, \+s("F"): 17.900983793479888, \+t("train"): 14.52556095040853, o("self"): 11.127022271863366, \+o("emp"): -12.87297772813664}
+Weights after epoch 67 is {o("emp"): 37.35481284028349, t("car"): -27.596042131579928, \+s("F"): 17.961532943425272, \+t("train"): 14.966855650074823, o("self"): 12.422306560835853, \+o("emp"): -11.577693439164154}
+Weights after epoch 68 is {o("emp"): 37.520244303223045, t("car"): -28.704026685804898, \+s("F"): 17.984677669881144, \+t("train"): 15.387651840091166, o("self"): 13.669753878295001, \+o("emp"): -10.330246121705006}
+Weights after epoch 69 is {o("emp"): 37.678615577018654, t("car"): -29.71471181472047, \+s("F"): 17.977837969761932, \+t("train"): 15.780984019579778, o("self"): 14.864739661139875, \+o("emp"): -9.135260338860132}
+Weights after epoch 70 is {o("emp"): 37.83285953364013, t("car"): -30.633108142095633, \+s("F"): 17.947474047103015, \+t("train"): 16.141463757026035, o("self"): 16.003356792136096, \+o("emp"): -7.9966432078639125}
+Weights after epoch 71 is {o("emp"): 37.984997930008355, t("car"): -31.46373558879648, \+s("F"): 17.899123582786054, \+t("train"): 16.465223741299013, o("self"): 17.082428783461452, \+o("emp"): -6.9175712165385566}
+Weights after epoch 72 is {o("emp"): 38.13625061710467, t("car"): -32.210765328116, \+s("F"): 17.837463962250535, \+t("train"): 16.74982546002586, o("self"): 18.099510164611377, \+o("emp"): -5.900489835388632}
+Weights after epoch 73 is {o("emp"): 38.28715886872112, t("car"): -32.87816621217564, \+s("F"): 17.766392303128207, \+t("train"): 16.994138192858948, o("self"): 19.05287565798891, \+o("emp"): -4.947124342011099}
+Weights after epoch 74 is {o("emp"): 38.437714702696766, t("car"): -33.46984364758516, \+s("F"): 17.689115920264683, \+t("train"): 17.19819736921805, o("self"): 19.94149979098084, \+o("emp"): -4.05850020901917}
+Weights after epoch 75 is {o("emp"): 38.5874887733333, t("car"): -33.98976027156314, \+s("F"): 17.60824629345386, \+t("train"): 17.363050044797724, o("self"): 20.765028484847974, \+o("emp"): -3.234971515152036}
+Weights after epoch 76 is {o("emp"): 38.735750659432156, t("car"): -34.442030003563296, \+s("F"): 17.52589056654579, \+t("train"): 17.490594407991622, o("self"): 21.52374392047618, \+o("emp"): -2.4762560795238304}
+Weights after epoch 77 is {o("emp"): 38.88157698823678, t("car"): -34.83097986179211, \+s("F"): 17.443735959586533, \+t("train"): 17.583419024084083, o("self"): 22.21852367033431, \+o("emp"): -1.7814763296656981}
+Weights after epoch 78 is {o("emp"): 39.023944577667564, t("car"): -35.161177039545095, \+s("F"): 17.363124009907754, \+t("train"): 17.644646154177167, o("self"): 22.850794773750994, \+o("emp"): -1.1492052262490149}
+Weights after epoch 79 is {o("emp"): 39.16180749140509, t("car"): -35.43742176953321, \+s("F"): 17.285113119786676, \+t("train"): 17.677782211122906, o("self"): 23.422483187604637, \+o("emp"): -0.5775168123953737}
+Weights after epoch 80 is {o("emp"): 39.294158226203784, t("car"): -35.664709260632414, \+s("F"): 17.21052918899927, \+t("train"): 17.686577275162325, o("self"): 23.935958912182876, \+o("emp"): -0.0640410878171358}
+Weights after epoch 81 is {o("emp"): 39.42007454441416, t("car"): -35.84816598035116, \+s("F"): 17.14000535555736, \+t("train"): 17.6748950837115, o("self"): 24.393977115594243, \+o("emp"): 0.39397711559422993}
+
+Weight errors
+Weight errors after epoch 0 is 1.0
+Weight errors after epoch 1 is 0.7617810548478234
+Weight errors after epoch 2 is 0.6779906577625615
+Weight errors after epoch 3 is 0.6415757431687612
+Weight errors after epoch 4 is 0.6176977087624929
+Weight errors after epoch 5 is 0.5996465322739497
+Weight errors after epoch 6 is 0.5874306924436544
+Weight errors after epoch 7 is 0.5738266289111333
+Weight errors after epoch 8 is 0.558908877251698
+Weight errors after epoch 9 is 0.542772340041409
+Weight errors after epoch 10 is 0.5255263540033526
+Weight errors after epoch 11 is 0.507292926662417
+Weight errors after epoch 12 is 0.4882051428304886
+Weight errors after epoch 13 is 0.46840528957396027
+Weight errors after epoch 14 is 0.44804271460763634
+Weight errors after epoch 15 is 0.4272714702477024
+Weight errors after epoch 16 is 0.40624780646097514
+Weight errors after epoch 17 is 0.38512758642172457
+Weight errors after epoch 18 is 0.36406370470332594
+Weight errors after epoch 19 is 0.34320359109719334
+Weight errors after epoch 20 is 0.3226868814691124
+Weight errors after epoch 21 is 0.3026433307610606
+Weight errors after epoch 22 is 0.2831910323206264
+Weight errors after epoch 23 is 0.26443499271618587
+Weight errors after epoch 24 is 0.246466093030809
+Weight errors after epoch 25 is 0.22936044766626174
+Weight errors after epoch 26 is 0.21317915155537304
+Weight errors after epoch 27 is 0.1979683881235615
+Weight errors after epoch 28 is 0.18375985502300207
+Weight errors after epoch 29 is 0.17057145395057377
+Weight errors after epoch 30 is 0.15963601328933769
+Weight errors after epoch 31 is 0.1581140118970266
+Weight errors after epoch 32 is 0.15685209372676015
+Weight errors after epoch 33 is 0.15582367948372075
+Weight errors after epoch 34 is 0.15500263735977246
+Weight errors after epoch 35 is 0.15436369145998693
+Weight errors after epoch 36 is 0.1538827225355449
+Weight errors after epoch 37 is 0.15353697745865758
+Weight errors after epoch 38 is 0.15330520776686107
+Weight errors after epoch 39 is 0.15316775849063174
+Weight errors after epoch 40 is 0.15310662473895134
+Weight errors after epoch 41 is 0.1531054930518024
+Weight errors after epoch 42 is 0.15314976147636727
+Weight errors after epoch 43 is 2.20888781591046
+Weight errors after epoch 44 is 1.8581897881805536
+Weight errors after epoch 45 is 1.7117466920894002
+Weight errors after epoch 46 is 1.6281799362162208
+Weight errors after epoch 47 is 1.5615305832738275
+Weight errors after epoch 48 is 1.4988596816319755
+Weight errors after epoch 49 is 1.4371595839132207
+Weight errors after epoch 50 is 1.3759395259449403
+Weight errors after epoch 51 is 1.3152221410581466
+Weight errors after epoch 52 is 1.2551083309021434
+Weight errors after epoch 53 is 1.1957066735888477
+Weight errors after epoch 54 is 1.1371258165202571
+Weight errors after epoch 55 is 1.0794738458618995
+Weight errors after epoch 56 is 1.0228579782024971
+Weight errors after epoch 57 is 0.9673842361374553
+Weight errors after epoch 58 is 0.9131571004338245
+Weight errors after epoch 59 is 0.8602791208074314
+Weight errors after epoch 60 is 0.8134768238547833
+Weight errors after epoch 61 is 0.7738152559678664
+Weight errors after epoch 62 is 0.7337151258392509
+Weight errors after epoch 63 is 0.693515597888749
+Weight errors after epoch 64 is 0.6535417952926548
+Weight errors after epoch 65 is 0.6141000607381208
+Weight errors after epoch 66 is 0.5754738266519382
+Weight errors after epoch 67 is 0.5379201944627692
+Weight errors after epoch 68 is 0.5016672865987
+Weight errors after epoch 69 is 0.46691239687374086
+Weight errors after epoch 70 is 0.4338209278576678
+Weight errors after epoch 71 is 0.40252607089156567
+Weight errors after epoch 72 is 0.3731291583032335
+Weight errors after epoch 73 is 0.3466282430830945
+Weight errors after epoch 74 is 0.3367988485232191
+Weight errors after epoch 75 is 0.3278499291966574
+Weight errors after epoch 76 is 0.31977411640808856
+Weight errors after epoch 77 is 0.3125512927778676
+Weight errors after epoch 78 is 0.3061503190972693
+Weight errors after epoch 79 is 0.3005308070880191
+Weight errors after epoch 80 is 0.29564490577342845
+Weight errors after epoch 81 is 0.29143907296019256
+----------------------
+RESULTS
+Expected: 43; 	 Found: 39.42007454441416; 	 Error: 3.579925455585837; 	 Relative error: 0.08325408036246132; 	 For term: o("emp");
+Expected: -42; 	 Found: -35.84816598035116; 	 Error: 6.151834019648838; 	 Relative error: 0.14647223856306757; 	 For term: t("car");
+Expected: 16; 	 Found: 17.14000535555736; 	 Error: 1.14000535555736; 	 Relative error: 0.071250334722335; 	 For term: \+s("F");
+Expected: 22; 	 Found: 17.6748950837115; 	 Error: 4.325104916288499; 	 Relative error: 0.1965956780131136; 	 For term: \+t("train");
+Expected: 19; 	 Found: 24.393977115594243; 	 Error: 5.393977115594243; 	 Relative error: 0.283893532399697; 	 For term: o("self");
+Expected: 12; 	 Found: 0.39397711559422993; 	 Error: 11.60602288440577; 	 Relative error: 0.9671685737004808; 	 For term: \+o("emp");
+Mean relative error: 0.29143907296019256
+Median of relative error: 0.1715339582880906
+Variance of relative error: 0.09641700293049625
+Minimum relative error: 0.071250334722335
+Maximum relative error: 0.9671685737004808
+----------------------------------------------
+MSE of actual solution: 1444.605743358436
+Expected weights: {o("emp"): 43, s("F"): 32, \+r("small"): -44, o("self"): 19, \+s("F"): 16, a("old"): 19, \+t("other"): -3, t("other"): -18, \+a("adult"): 26, \+t("train"): 22, t("train"): 6, e("high"): -46, e("uni"): -48, t("car"): -42, r("big"): -32, r("small"): -40, \+o("emp"): 12}
+Found weights: {o("emp"): 39.42007454441416, t("car"): -35.84816598035116, \+s("F"): 17.14000535555736, \+t("train"): 17.6748950837115, o("self"): 24.393977115594243, \+o("emp"): 0.39397711559422993}

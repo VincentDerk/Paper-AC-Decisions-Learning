@@ -39,58 +39,6 @@ def main(argv):
     #experiments('survey', nb=5, max_epoch=80, drop_prob=0.0, left_out=True)   # 27     8   (0.1, True)
     #experiments('survey', nb=5, max_epoch=80, drop_prob=0.0, left_out=False)  # 23     9
 
-    # pinac31   5       evaluator 0.2 1 KILLED - (ONE LEFT TO RESTART)
-    # pinac27   0       (0.8, True) evaluator 0.1 1 ABORT
-    # pinac24   1       evaluator 0.75 1    UNAVAILABLE
-    # pinac 25  2       evaluator 0.25 1    ABORT
-    # pinac 26  3       evaluator 0.5 1     ABORT
-    # pinac 23  4       (0.3, True) (0.7, True) evaluator 0.0 1     ABORT
-    # himec03   6       evaluator 0.3 1
-    # himec03   7       evaluator 0.4 1 FINISHED
-    # himec03   8       evaluator 0.6 1
-
-    # NEW
-    # himec04   0   evaluator 0.1 1 (DONE)
-    # himec02   2   evaluator 0.3 1 (DONE)
-    # himec04   1   evaluator 0.25  1 (DONE)
-    # pinac31   5   evaluator 0.7 1 (DONE) - 0.8 1 (DONE) - 0.9 1 (DONE) - 0.4 1 (DONE)
-    # himec02   4   evaluator 0.5 1 (DONE)
-    # himec02   7   evaluator 0.75 1 (DONE) - 0.6 1 (DONE)
-    # himec02   9   evaluator 0.0 1 (DONE)
-    # pinac31   10  evaluator 0.1 1 (KILLED) - 0.2 1 (DONE)
-
-    # learning
-    # himec03   12    learning 0.0 0
-    # himec03   9     learning 0.1 0
-    # pinac31   10    learning 0.2 0
-    # himec03   13    learning 0.25 0
-    # himec03   1     learning 0.3 0
-    # himec03   2     learning 0.4 0
-    # himec03   3     learning 0.5 0
-    # himec03   5     learning 0.6 0
-    # himec03   6     learning 0.7 0
-    # himec03   14    learning 0.75 0
-    # himec03   7     learning 0.8 0
-    # himec03   11    learning 0.9 0
-
-
-    # evaluator
-    # pinacs31  4   evaluator 0.25 0 X
-    # himec02   14  evaluator 0.9  0 X
-    # himec02   15  evaluator 0.8 0 X
-    # himec02   0   evaluator 0.75 0 X
-    # pinacs31  1   evaluator 0.7 0 X
-    # himec02   2   evaluator 0.6 0 X
-    # himec02   3   evaluator 0.5 0 X
-    # himec02   5   evaluator 0.4 0 X
-    # himec04   6   evaluator 0.3 0 X
-    # himec04   7   evaluator 0.2 0 X
-    # himec04   8   evaluator 0.1 0 X
-    # himec04   9   evaluator 0.0 0 X
-
-
-    # NEW - Max
-    # himec04   1   maximisation (sachs 1 constrained) FAILED TOO MUCH MEMORY (128 GB)
 
 def temp(argv):
     # TODO Documentation if used.

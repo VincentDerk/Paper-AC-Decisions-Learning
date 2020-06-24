@@ -1,0 +1,365 @@
+----------------------------------------------
+Running adaptive_learning_rate learning with:
+	 learning_rate's increase_rate: 1.05
+	 learning_rate's decrease_rate: 0.8
+	 Left out approach: True
+	 max_epoch: 80
+	 learning_rate: 0.2
+	 batch_size: None
+----------------------------------------------
+Preparation took 0.030237436294555664 seconds
+Using 0.3333 of the data to validate.
+---
+Ran 118.50772428512573 seconds.
+MSE
+Total MSE after epoch 0 is 1347.8897566733592
+Total MSE after epoch 1 is 313.6259007385084
+Total MSE after epoch 2 is 279.5573515600174
+Total MSE after epoch 3 is 256.55069589317264
+Total MSE after epoch 4 is 234.81518873542603
+Total MSE after epoch 5 is 214.35085097163338
+Total MSE after epoch 6 is 195.1773659746899
+Total MSE after epoch 7 is 177.30522446017818
+Total MSE after epoch 8 is 160.7354513227995
+Total MSE after epoch 9 is 145.45949100637642
+Total MSE after epoch 10 is 131.45926286193136
+Total MSE after epoch 11 is 118.70739411325594
+Total MSE after epoch 12 is 107.16763248463049
+Total MSE after epoch 13 is 96.79543460181225
+Total MSE after epoch 14 is 87.53872023937407
+Total MSE after epoch 15 is 79.3387766361621
+Total MSE after epoch 16 is 72.13129169577995
+Total MSE after epoch 17 is 65.84749015419015
+Total MSE after epoch 18 is 60.41534291232945
+Total MSE after epoch 19 is 55.76081683660881
+Total MSE after epoch 20 is 51.80913052789187
+Total MSE after epoch 21 is 48.48598092836303
+Total MSE after epoch 22 is 45.71870623704917
+Total MSE after epoch 23 is 43.43735248601606
+Total MSE after epoch 24 is 41.57561431813724
+Total MSE after epoch 25 is 40.0716249972668
+Total MSE after epoch 26 is 38.868576409580925
+Total MSE after epoch 27 is 37.91515663587723
+Total MSE after epoch 28 is 37.16580033966749
+Total MSE after epoch 29 is 36.58075535985666
+Total MSE after epoch 30 is 36.12597704408815
+Total MSE after epoch 31 is 35.7728694512113
+Total MSE after epoch 32 is 35.49789899899537
+Total MSE after epoch 33 is 35.28211088504499
+Total MSE after epoch 34 is 35.11058123284774
+Total MSE after epoch 35 is 34.97183818753025
+Total MSE after epoch 36 is 34.857283402533845
+Total MSE after epoch 37 is 34.76064732436216
+Total MSE after epoch 38 is 34.67763625591389
+Total MSE after epoch 39 is 34.609005377566476
+Total MSE after epoch 40 is 34.5988221927452
+Total MSE after epoch 41 is 34.58420204690365
+Total MSE after epoch 42 is 4921.336338211755
+Total MSE after epoch 43 is 597.8416963943721
+Total MSE after epoch 44 is 484.6171528797157
+Total MSE after epoch 45 is 424.07107257514343
+Total MSE after epoch 46 is 372.89784856182473
+Total MSE after epoch 47 is 329.26983541737656
+Total MSE after epoch 48 is 291.7748067916903
+Total MSE after epoch 49 is 259.2696421608638
+Total MSE after epoch 50 is 230.84827968585336
+Total MSE after epoch 51 is 205.80686563868085
+Total MSE after epoch 52 is 183.60834697500442
+Total MSE after epoch 53 is 163.84845459013118
+Total MSE after epoch 54 is 146.22460849548906
+Total MSE after epoch 55 is 130.50879977408198
+Total MSE after epoch 56 is 116.52502212148217
+Total MSE after epoch 57 is 104.1313867686507
+Total MSE after epoch 58 is 93.20669547714638
+Total MSE after epoch 59 is 83.64098832144602
+Total MSE after epoch 60 is 75.32943088412382
+Total MSE after epoch 61 is 68.16884962397616
+Total MSE after epoch 62 is 62.056244684061994
+Total MSE after epoch 63 is 56.88868154804081
+Total MSE after epoch 64 is 52.56406223083289
+Total MSE after epoch 65 is 48.98238276502873
+Total MSE after epoch 66 is 46.04718256748498
+Total MSE after epoch 67 is 43.6669753721122
+Total MSE after epoch 68 is 41.75651877848111
+Total MSE after epoch 69 is 40.23783164701337
+Total MSE after epoch 70 is 39.040908742816605
+Total MSE after epoch 71 is 38.10411344652299
+Total MSE after epoch 72 is 37.374254456279054
+Total MSE after epoch 73 is 36.80637255813002
+Total MSE after epoch 74 is 36.36327917517591
+Total MSE after epoch 75 is 36.014899403665204
+Total MSE after epoch 76 is 35.73747835418513
+Total MSE after epoch 77 is 35.51271083356938
+Total MSE after epoch 78 is 35.32685223975992
+Total MSE after epoch 79 is 35.16988697201659
+Total MSE after epoch 80 is 35.035367945026906
+Total MSE after epoch 81 is 34.93447983061529
+
+TEST_MSE
+Test_MSE after epoch 0 is 1317.8991500182262
+Test_MSE after epoch 1 is 371.96993562291533
+Test_MSE after epoch 2 is 341.1523817300894
+Test_MSE after epoch 3 is 317.7977295752916
+Test_MSE after epoch 4 is 295.48262820262056
+Test_MSE after epoch 5 is 274.35372829095303
+Test_MSE after epoch 6 is 254.43186045949062
+Test_MSE after epoch 7 is 235.72939029123128
+Test_MSE after epoch 8 is 218.25084479641896
+Test_MSE after epoch 9 is 201.99271332321499
+Test_MSE after epoch 10 is 186.94341243504985
+Test_MSE after epoch 11 is 173.08338309726727
+Test_MSE after epoch 12 is 160.38532880281767
+Test_MSE after epoch 13 is 148.81459614411244
+Test_MSE after epoch 14 is 138.32969457896775
+Test_MSE after epoch 15 is 128.88294776955163
+Test_MSE after epoch 16 is 120.42126400604033
+Test_MSE after epoch 17 is 112.8870090275501
+Test_MSE after epoch 18 is 106.21896044654586
+Test_MSE after epoch 19 is 100.35331969566434
+Test_MSE after epoch 20 is 95.22475458655245
+Test_MSE after epoch 21 is 90.76744382108666
+Test_MSE after epoch 22 is 86.91609374523921
+Test_MSE after epoch 23 is 83.60689804625953
+Test_MSE after epoch 24 is 80.7784122661682
+Test_MSE after epoch 25 is 78.37231823078636
+Test_MSE after epoch 26 is 76.33405688182364
+Test_MSE after epoch 27 is 74.61331484224755
+Test_MSE after epoch 28 is 73.16435375618725
+Test_MSE after epoch 29 is 71.9461849461234
+Test_MSE after epoch 30 is 70.92258503206695
+Test_MSE after epoch 31 is 70.06199241059115
+Test_MSE after epoch 32 is 69.33723049677734
+Test_MSE after epoch 33 is 68.72530286642674
+Test_MSE after epoch 34 is 68.20658520141076
+Test_MSE after epoch 35 is 67.76584226407736
+Test_MSE after epoch 36 is 67.38634756832684
+Test_MSE after epoch 37 is 67.07118914807123
+Test_MSE after epoch 38 is 66.75058781157476
+Test_MSE after epoch 39 is 66.70312751043066
+Test_MSE after epoch 40 is 65.98151623365301
+Test_MSE after epoch 41 is 66.87025840495065
+Test_MSE after epoch 42 is 4802.233712415261
+Test_MSE after epoch 43 is 646.0694506236329
+Test_MSE after epoch 44 is 531.6484157411712
+Test_MSE after epoch 45 is 472.4127670368559
+Test_MSE after epoch 46 is 422.62328407285236
+Test_MSE after epoch 47 is 380.1495053696373
+Test_MSE after epoch 48 is 343.5275736566922
+Test_MSE after epoch 49 is 311.5875180544673
+Test_MSE after epoch 50 is 283.4161290117472
+Test_MSE after epoch 51 is 258.3184910208053
+Test_MSE after epoch 52 is 235.77886779776426
+Test_MSE after epoch 53 is 215.42316657412601
+Test_MSE after epoch 54 is 196.98464034434187
+Test_MSE after epoch 55 is 180.27398722906935
+Test_MSE after epoch 56 is 165.1544770637902
+Test_MSE after epoch 57 is 151.5222580990659
+Test_MSE after epoch 58 is 139.29160261622457
+Test_MSE after epoch 59 is 128.38456643354232
+Test_MSE after epoch 60 is 118.72436712538148
+Test_MSE after epoch 61 is 110.23172083636327
+Test_MSE after epoch 62 is 102.82339566636385
+Test_MSE after epoch 63 is 96.41231551251869
+Test_MSE after epoch 64 is 90.9086545673886
+Test_MSE after epoch 65 is 86.22147885594849
+Test_MSE after epoch 66 is 82.26060004434204
+Test_MSE after epoch 67 is 78.9384024932299
+Test_MSE after epoch 68 is 76.17148015434748
+Test_MSE after epoch 69 is 73.88198395075905
+Test_MSE after epoch 70 is 71.99862133153461
+Test_MSE after epoch 71 is 70.457300221842
+Test_MSE after epoch 72 is 69.2014059704865
+Test_MSE after epoch 73 is 68.18180342856573
+Test_MSE after epoch 74 is 67.35644984896241
+Test_MSE after epoch 75 is 66.69016349477077
+Test_MSE after epoch 76 is 66.15306416389235
+Test_MSE after epoch 77 is 65.72301562366557
+Test_MSE after epoch 78 is 65.37297131272761
+Test_MSE after epoch 79 is 65.1176415552823
+Test_MSE after epoch 80 is 64.81245881035869
+Test_MSE after epoch 81 is 65.07348249628971
+
+Weights
+Weights after epoch 0 is {\+xray: 0, smoke: 0, dysp: 0, either: 0, \+either: 0, lung: 0}
+Weights after epoch 1 is {\+xray: 10.870541549114666, smoke: 7.376600488374449, dysp: 7.999065135868476, either: -0.8405747594466316, \+either: 11.599230278001896, lung: -0.8405772858359968}
+Weights after epoch 2 is {\+xray: 11.629174332867699, smoke: 8.269274581672121, dysp: 9.987752271194779, either: -2.0668034204043533, \+either: 12.499347477743495, lung: -2.066801976899969}
+Weights after epoch 3 is {\+xray: 11.290178550065516, smoke: 8.463062561391839, dysp: 11.300570589440696, either: -3.3444034033106926, \+either: 12.235383429545621, lung: -3.3443972781100952}
+Weights after epoch 4 is {\+xray: 10.892128224007116, smoke: 8.624759797692871, dysp: 12.549035176610117, either: -4.632047737546156, \+either: 11.905354777226076, lung: -4.632036892523798}
+Weights after epoch 5 is {\+xray: 10.500712516775051, smoke: 8.796745093480354, dysp: 13.768579947578228, either: -5.923964291918552, \+either: 11.578069464939931, lung: -5.923948739530456}
+Weights after epoch 6 is {\+xray: 10.117263294555242, smoke: 8.979972516041649, dysp: 14.956587271790204, either: -7.216558617618615, \+either: 11.254194099151105, lung: -7.216538380006342}
+Weights after epoch 7 is {\+xray: 9.742652133204292, smoke: 9.174946139409043, dysp: 16.110250352234136, either: -8.50608864830372, \+either: 10.933844873245816, lung: -8.506063757311948}
+Weights after epoch 8 is {\+xray: 9.37781539433978, smoke: 9.382028803884477, dysp: 17.226909721059876, either: -9.788673005285567, \+either: 10.617142799106471, lung: -9.788643502772814}
+Weights after epoch 9 is {\+xray: 9.023725064293503, smoke: 9.601397579484265, dysp: 18.3040628641674, either: -11.060323655179676, \+either: 10.304184085448396, lung: -11.06028959325725}
+Weights after epoch 10 is {\+xray: 8.681391434654573, smoke: 9.83302337660388, dysp: 19.33939395899349, either: -12.316981138158653, \+either: 9.99504590277052, lung: -12.316942579367666}
+Weights after epoch 11 is {\+xray: 8.351859351307413, smoke: 10.076651512859137, dysp: 20.33080089878442, either: -13.554553441300317, \+either: 9.68978730414922, lung: -13.554510458711514}
+Weights after epoch 12 is {\+xray: 8.036203067642182, smoke: 10.331787794871168, dysp: 21.27642231306034, either: -14.768957907841214, \+either: 9.38845085892182, lung: -14.768910585065301}
+Weights after epoch 13 is {\+xray: 7.73551824066781, smoke: 10.59769038653716, dysp: 22.174663315713058, either: -15.956165724568272, \+either: 9.091063642000044, lung: -15.956114155663625}
+Weights after epoch 14 is {\+xray: 7.450911260031226, smoke: 10.873368597194782, dysp: 23.024219544356278, either: -17.112248387009917, \+either: 8.797637909687456, lung: -17.11219267627524}
+Weights after epoch 15 is {\+xray: 7.183485709417953, smoke: 11.157589195717398, dysp: 23.824098672472886, either: -18.233425480595013, \+either: 8.5081713040004, lung: -18.23336574223554}
+Weights after epoch 16 is {\+xray: 6.934326112543014, smoke: 11.448890733667703, dysp: 24.573638641437775, either: -19.316113032977018, \+either: 8.222646708669739, lung: -19.316049390634692}
+Weights after epoch 17 is {\+xray: 6.704479158634428, smoke: 11.745605978630698, dysp: 25.272521763832422, either: -20.356971626344205, \+either: 7.94103181912108, lung: -20.356904212484686}
+Weights after epoch 18 is {\+xray: 6.494932829355731, smoke: 12.045892253009288, dysp: 25.920783901415373, either: -21.352953389858534, \+either: 7.663278612130536, lung: -21.3528823450112}
+Weights after epoch 19 is {\+xray: 6.306593953849294, smoke: 12.347769069914138, dysp: 26.518817954562127, either: -22.301346932398033, \+either: 7.389322888718901, lung: -22.30127240424889}
+Weights after epoch 20 is {\+xray: 6.140264899325099, smoke: 12.649162109814931, dysp: 27.067371045338103, either: -23.199819218062906, \+either: 7.119084131668764, lung: -23.199741360404833}
+Weights after epoch 21 is {\+xray: 5.996620179188461, smoke: 12.947952200314521, dysp: 27.56753493411331, either: -24.04645334069183, \+either: 6.852465880732948, lung: -24.04637231224131}
+Weights after epoch 22 is {\+xray: 5.876183882830405, smoke: 13.24202767292496, dysp: 28.02072947274715, either: -24.839781118025797, \+either: 6.589356854029227, lung: -24.839697081120434}
+Weights after epoch 23 is {\+xray: 5.77930881861986, smoke: 13.529338183231943, dysp: 28.428679152134524, either: -25.578809415022732, \+either: 6.329632947988302, lung: -25.57872253421878}
+Weights after epoch 24 is {\+xray: 5.7061583226096975, smoke: 13.807947948997262, dysp: 28.793383157681827, either: -26.263039120891854, \+either: 6.073160258218125, lung: -26.262949561485883}
+Weights after epoch 25 is {\+xray: 5.656691530876777, smoke: 14.076086214613406, dysp: 29.117079610398232, either: -26.89247576720307, \+either: 5.819799080661267, lung: -26.89238369370609}
+Weights after epoch 26 is {\+xray: 5.630652977638135, smoke: 14.332192878011856, dysp: 29.40220507384907, either: -27.467630880155195, \+either: 5.569408941567872, lung: -27.467536454751254}
+Weights after epoch 27 is {\+xray: 5.627566950978496, smoke: 14.574957162738679, dysp: 29.651350495909227, either: -27.98951334481888, \+either: 5.321854315468417, lung: -27.989416725842577}
+Weights after epoch 28 is {\+xray: 5.646737426721957, smoke: 14.8033478227659, dysp: 29.86721527784974, either: -28.459610281211635, \+either: 5.077011213834943, lung: -28.459511621680708}
+Weights after epoch 29 is {\+xray: 5.687253011579309, smoke: 15.016632954119721, dysp: 30.05256055936795, either: -28.879857288335483, \+either: 4.834773515338981, lung: -28.879756734574254}
+Weights after epoch 30 is {\+xray: 5.747998823735015, smoke: 15.214389674253635, dysp: 30.210164414513528, either: -29.252598189347417, \+either: 4.595060749736027, lung: -29.252495879736774}
+Weights after epoch 31 is {\+xray: 5.8276702869600845, smoke: 15.39650013651473, dysp: 30.34277756658957, either: -29.580535086152295, \+either: 4.357821927268697, lung: -29.580431150036087}
+Weights after epoch 32 is {\+xray: 5.924801532356827, smoke: 15.563142437865833, dysp: 30.453088658824836, either: -29.86666933009669, \+either: 4.123049005481873, lung: -29.866563886878595}
+Weights after epoch 33 is {\+xray: 6.037769268962034, smoke: 15.714752452117004, dysp: 30.543677280753002, either: -30.11423637305172, \+either: 3.8907590210454686, lung: -30.11412953148639}
+Weights after epoch 34 is {\+xray: 6.16489233823052, smoke: 15.852035589068219, dysp: 30.6170271147675, either: -30.32663202780271, \+either: 3.661072741507166, lung: -30.3265238855558}
+Weights after epoch 35 is {\+xray: 6.304217624331213, smoke: 15.975768290341342, dysp: 30.675357751871307, either: -30.507347489264877, \+either: 3.43395775443122, lung: -30.50723813254708}
+Weights after epoch 36 is {\+xray: 6.454465079261075, smoke: 16.087337347218085, dysp: 30.721148007557225, either: -30.65986154215613, \+either: 3.2101950269774178, lung: -30.659751046172403}
+Weights after epoch 37 is {\+xray: 6.611442775968882, smoke: 16.186369543162375, dysp: 30.75498227775509, either: -30.787701769603313, \+either: 2.987552057335321, lung: -30.787590196904773}
+Weights after epoch 38 is {\+xray: 6.783368618684047, smoke: 16.280494812662674, dysp: 30.784598774079196, either: -30.893815922125363, \+either: 2.776955899159169, lung: -30.89370333096273}
+Weights after epoch 39 is {\+xray: 6.922081162835864, smoke: 16.34113769678403, dysp: 30.784135382880866, either: -30.98304272937654, \+either: 2.529692003570632, lung: -30.982929138128597}
+Weights after epoch 40 is {\+xray: 7.133630825402075, smoke: 16.452385649664464, dysp: 30.851434408730725, either: -31.025862452283214, \+either: 2.501742718585052, lung: -31.025748319718648}
+Weights after epoch 41 is {\+xray: 7.036743031932086, smoke: 16.375799519753322, dysp: 30.76262923289948, either: -31.05313269691166, \+either: 2.2686318827954017, lung: -31.053018154443794}
+Weights after epoch 42 is {\+xray: 3, smoke: -1, dysp: 9, either: -22, \+either: -44, lung: 48}
+Weights after epoch 43 is {\+xray: 26.62414681569447, smoke: 12.546266885125213, dysp: 21.853771863370724, either: -23.83638389770693, \+either: -18.553465657685145, lung: 46.16360206723432}
+Weights after epoch 44 is {\+xray: 29.37609269540834, smoke: 12.997436079263004, dysp: 22.596904391804596, either: -26.333394369074423, \+either: -15.139475854587833, lung: 43.66659132184398}
+Weights after epoch 45 is {\+xray: 29.73560743700463, smoke: 12.199476772344159, dysp: 22.161121982264884, either: -28.81268114048141, \+either: -14.211607889841188, lung: 41.18730617083375}
+Weights after epoch 46 is {\+xray: 29.83682092906894, smoke: 11.506551875774566, dysp: 21.796608990742797, either: -31.197443751519476, \+either: -13.514732576693383, lung: 38.80254567947761}
+Weights after epoch 47 is {\+xray: 29.820808089778094, smoke: 10.99164652521059, dysp: 21.5714839851081, either: -33.484748263857696, \+either: -12.902356318960774, lung: 36.51524366504251}
+Weights after epoch 48 is {\+xray: 29.69751654655029, smoke: 10.64173492265586, dysp: 21.47467271680252, either: -35.67696990679477, \+either: -12.366974865810704, lung: 34.32302485848617}
+Weights after epoch 49 is {\+xray: 29.47655210496514, smoke: 10.442082201906988, dysp: 21.49368136406732, either: -37.776857770712, \+either: -11.901678818674368, lung: 32.2231401277152}
+Weights after epoch 50 is {\+xray: 29.168065785200167, smoke: 10.377221754391638, dysp: 21.615475973265713, either: -39.787366466071106, \+either: -11.499164956660746, lung: 30.21263481859567}
+Weights after epoch 51 is {\+xray: 28.782497891039412, smoke: 10.43121993634879, dysp: 21.82670243432052, either: -41.711527447346846, \+either: -11.151953158263913, lung: 28.288477431797205}
+Weights after epoch 52 is {\+xray: 28.330387707159172, smoke: 10.587989122546418, dysp: 22.1139500732075, either: -43.552321676422274, \+either: -10.852532061620135, lung: 26.447686960149753}
+Weights after epoch 53 is {\+xray: 27.82217808653521, smoke: 10.83158835443687, dysp: 22.464003709558824, either: -45.31256250062456, \+either: -10.59351003464113, lung: 24.687450011360866}
+Weights after epoch 54 is {\+xray: 27.268032833766352, smoke: 11.146507824381636, dysp: 22.86408160175515, either: -46.99479416384329, \+either: -10.367754272370451, lung: 23.005222297620225}
+Weights after epoch 55 is {\+xray: 26.677670884500113, smoke: 11.517925544549536, dysp: 23.302049338273953, either: -48.601211281579815, \+either: -10.168515464959032, lung: 21.398809161221543}
+Weights after epoch 56 is {\+xray: 26.060223606373395, smoke: 11.931927991656998, dysp: 23.766602771804457, either: -50.13360352813978, \+either: -9.989532835931572, lung: 19.8664208879691}
+Weights after epoch 57 is {\+xray: 25.424119259646726, smoke: 12.37568783669397, dysp: 24.247414118869944, either: -51.59332851005205, \+either: -9.825116494734457, lung: 18.406699834269602}
+Weights after epoch 58 is {\+xray: 24.77699754940415, smoke: 12.837594608842053, dysp: 24.735237649517348, either: -52.98131419553602, \+either: -9.670204870105094, lung: 17.018717998076156}
+Weights after epoch 59 is {\+xray: 24.12565524257218, smoke: 13.307336749449576, dysp: 25.221973553388015, either: -54.29809051889074, \+either: -9.520396669719325, lung: 15.701945414805502}
+Weights after epoch 60 is {\+xray: 23.476022182525096, smoke: 13.775936424091652, dysp: 25.700691018847877, either: -55.543847973848706, \+either: -9.371958142609945, lung: 14.456191564185737}
+Weights after epoch 61 is {\+xray: 22.833165257725003, smoke: 14.235741042688181, dysp: 26.16561373935048, either: -56.718519319001345, \+either: -9.22180792132687, lung: 13.281523664933514}
+Weights after epoch 62 is {\+xray: 22.201316548497964, smoke: 14.680377722857077, dysp: 26.61207302035409, either: -57.82187907082066, \+either: -9.06748281338301, lung: 12.178167181746451}
+Weights after epoch 63 is {\+xray: 21.583920765526795, smoke: 15.104678487272183, dysp: 27.036435020241694, either: -58.85365439664121, \+either: -8.907088861266578, lung: 11.146394932260439}
+Weights after epoch 64 is {\+xray: 20.983696628951694, smoke: 15.504584882675047, dysp: 27.43600949603299, either: -59.81364042356993, \+either: -8.739242368265675, lung: 10.18641177801983}
+Weights after epoch 65 is {\+xray: 20.402706694921317, smoke: 15.877040659103937, dysp: 27.8089474746414, either: -60.701812910672025, \+either: -8.56300574100066, lung: 9.298241952127816}
+Weights after epoch 66 is {\+xray: 19.842430726930438, smoke: 16.21988047425127, dysp: 28.154134818705845, either: -61.51843166838247, \+either: -8.37782248512612, lung: 8.48162563964169}
+Weights after epoch 67 is {\+xray: 19.303838356270873, smoke: 16.531721048996253, dysp: 28.471087458897134, either: -62.26412901182605, \+either: -8.18345519804132, lung: 7.73593052404133}
+Weights after epoch 68 is {\+xray: 18.78745823119735, smoke: 16.811859581236305, dysp: 28.75985281661353, either: -62.939978764451766, \+either: -7.979929099241971, lung: 7.060082783372993}
+Weights after epoch 69 is {\+xray: 18.29344148310166, smoke: 17.060181844631135, dysp: 29.020919978945823, either: -63.54754280270993, \+either: -7.767483211017513, lung: 6.452520545344314}
+Weights after epoch 70 is {\+xray: 17.821619652007115, smoke: 17.277081244198666, dysp: 29.255140312137225, either: -64.08889360719884, \+either: -7.5465290492681465, lung: 5.911171335944035}
+Weights after epoch 71 is {\+xray: 17.37155572992099, smoke: 17.46338697756395, dysp: 29.46365743522651, either: -64.56661282350562, \+either: -7.3176183709581855, lung: 5.433453518361268}
+Weights after epoch 72 is {\+xray: 16.942593192450346, smoke: 17.62030195850617, dysp: 29.647847817616057, either: -64.98376690738736, \+either: -7.081414970950617, lung: 5.01630064755255}
+Weights after epoch 73 is {\+xray: 16.53389440444317, smoke: 17.74934181413919, dysp: 29.809264574602537, either: -65.34386247688734, \+either: -6.838679697957403, lung: 4.656206117865338}
+Weights after epoch 74 is {\+xray: 16.144496534577733, smoke: 17.852289904890526, dysp: 29.949598697403385, either: -65.65078342819709, \+either: -6.590238805008558, lung: 4.3492860468881585}
+Weights after epoch 75 is {\+xray: 15.77330702799297, smoke: 17.93111589042396, dysp: 30.070609520572333, either: -65.90871630593432, \+either: -6.3370177257914655, lung: 4.091353904908153}
+Weights after epoch 76 is {\+xray: 15.419287244709631, smoke: 17.988015951421282, dysp: 30.174170309690368, either: -66.12205873553238, \+either: -6.0798766505933655, lung: 3.8780120821241715}
+Weights after epoch 77 is {\+xray: 15.08098733785452, smoke: 18.02503732975882, dysp: 30.261932849988938, either: -66.29534577767099, \+either: -5.8201323264623985, lung: 3.7047255342273284}
+Weights after epoch 78 is {\+xray: 14.758452763711125, smoke: 18.045226252862722, dysp: 30.33639989879872, either: -66.43308728283709, \+either: -5.55756989863597, lung: 3.5669844263320774}
+Weights after epoch 79 is {\+xray: 14.445843590275626, smoke: 18.04781918517715, dysp: 30.39650231350214, either: -66.539948798415, \+either: -5.298276632642147, lung: 3.460123230338511}
+Weights after epoch 80 is {\+xray: 14.162803929150707, smoke: 18.048306134299537, dysp: 30.45612857803615, either: -66.6195139686136, \+either: -5.021480805423349, lung: 3.380558304642962}
+Weights after epoch 81 is {\+xray: 13.81343680960047, smoke: 17.987872397639766, dysp: 30.460573636292526, either: -66.67939322009921, \+either: -4.828750179667736, lung: 3.3206792986484164}
+
+Weight errors
+Weight errors after epoch 0 is 1.0
+Weight errors after epoch 1 is 1.3762244494622953
+Weight errors after epoch 2 is 1.381709361952427
+Weight errors after epoch 3 is 1.346756879448766
+Weight errors after epoch 4 is 1.3094416208900233
+Weight errors after epoch 5 is 1.272191963836626
+Weight errors after epoch 6 is 1.2350780135843005
+Weight errors after epoch 7 is 1.1981525240720008
+Weight errors after epoch 8 is 1.1614698833665416
+Weight errors after epoch 9 is 1.1250847928624494
+Weight errors after epoch 10 is 1.0890521204708437
+Weight errors after epoch 11 is 1.0534265328026362
+Weight errors after epoch 12 is 1.0182620988764932
+Weight errors after epoch 13 is 0.9836118203659516
+Weight errors after epoch 14 is 0.9495271041931079
+Weight errors after epoch 15 is 0.9203798730339241
+Weight errors after epoch 16 is 0.90762093272069
+Weight errors after epoch 17 is 0.8947915647597884
+Weight errors after epoch 18 is 0.8818741782401547
+Weight errors after epoch 19 is 0.8688526564201176
+Weight errors after epoch 20 is 0.8557125374787399
+Weight errors after epoch 21 is 0.842441193414503
+Weight errors after epoch 22 is 0.8290280164349604
+Weight errors after epoch 23 is 0.815464618147543
+Weight errors after epoch 24 is 0.801745045958564
+Weight errors after epoch 25 is 0.7878660133288233
+Weight errors after epoch 26 is 0.7738271419739403
+Weight errors after epoch 27 is 0.7596311994916742
+Weight errors after epoch 28 is 0.7452843328021346
+Weight errors after epoch 29 is 0.7307962529878332
+Weight errors after epoch 30 is 0.7161804242917997
+Weight errors after epoch 31 is 0.7014540693932573
+Weight errors after epoch 32 is 0.6866384510400404
+Weight errors after epoch 33 is 0.6717580378795766
+Weight errors after epoch 34 is 0.6568429040748877
+Weight errors after epoch 35 is 0.6419196809460456
+Weight errors after epoch 36 is 0.6270440653858368
+Weight errors after epoch 37 is 0.6121703625797026
+Weight errors after epoch 38 is 0.597700874816222
+Weight errors after epoch 39 is 0.5820107792178968
+Weight errors after epoch 40 is 0.5764348133633701
+Weight errors after epoch 41 is 0.5661179088038942
+Weight errors after epoch 42 is 3.075624788117637
+Weight errors after epoch 43 is 1.5646178939386075
+Weight errors after epoch 44 is 1.4194184848348368
+Weight errors after epoch 45 is 1.3961063097446205
+Weight errors after epoch 46 is 1.3802142499701624
+Weight errors after epoch 47 is 1.364551605234897
+Weight errors after epoch 48 is 1.3490249607871703
+Weight errors after epoch 49 is 1.3335936942349986
+Weight errors after epoch 50 is 1.3182132668916773
+Weight errors after epoch 51 is 1.302839527461806
+Weight errors after epoch 52 is 1.2874293245463266
+Weight errors after epoch 53 is 1.2719415696388618
+Weight errors after epoch 54 is 1.2563381216449765
+Weight errors after epoch 55 is 1.24058459047639
+Weight errors after epoch 56 is 1.2246509905720815
+Weight errors after epoch 57 is 1.2085122384727307
+Weight errors after epoch 58 is 1.1921484738407417
+Weight errors after epoch 59 is 1.1755452053952202
+Weight errors after epoch 60 is 1.1586932859134595
+Weight errors after epoch 61 is 1.1415887356192902
+Weight errors after epoch 62 is 1.1242324370641437
+Weight errors after epoch 63 is 1.1066297352243555
+Weight errors after epoch 64 is 1.0887899754924317
+Weight errors after epoch 65 is 1.0707260185868055
+Weight errors after epoch 66 is 1.0524537617489258
+Weight errors after epoch 67 is 1.0339917020362817
+Weight errors after epoch 68 is 1.0153605529635747
+Weight errors after epoch 69 is 0.9965829501122396
+Weight errors after epoch 70 is 0.9776832113058012
+Weight errors after epoch 71 is 0.958687240510196
+Weight errors after epoch 72 is 0.9396223586374731
+Weight errors after epoch 73 is 0.920517580714752
+Weight errors after epoch 74 is 0.9014028762365031
+Weight errors after epoch 75 is 0.8823116386112383
+Weight errors after epoch 76 is 0.8632729946837587
+Weight errors after epoch 77 is 0.8443389589781991
+Weight errors after epoch 78 is 0.8254838878618976
+Weight errors after epoch 79 is 0.8070034141433075
+Weight errors after epoch 80 is 0.7878283726601382
+Weight errors after epoch 81 is 0.7731132483142666
+----------------------
+RESULTS
+Expected: 12; 	 Found: 13.81343680960047; 	 Error: 1.8134368096004696; 	 Relative error: 0.15111973413337246; 	 For term: \+xray;
+Expected: 19; 	 Found: 17.987872397639766; 	 Error: 1.0121276023602341; 	 Relative error: 0.05326987380843338; 	 For term: smoke;
+Expected: 32; 	 Found: 30.460573636292526; 	 Error: 1.5394263637074737; 	 Relative error: 0.04810707386585855; 	 For term: dysp;
+Expected: -18; 	 Found: -66.67939322009921; 	 Error: 48.679393220099215; 	 Relative error: 2.704410734449956; 	 For term: either;
+Expected: -3; 	 Found: -4.828750179667736; 	 Error: 1.8287501796677361; 	 Relative error: 0.6095833932225787; 	 For term: \+either;
+Expected: -46; 	 Found: 3.3206792986484164; 	 Error: 49.320679298648415; 	 Relative error: 1.0721886804054004; 	 For term: lung;
+Mean relative error: 0.7731132483142666
+Median of relative error: 0.38035156367797557
+Variance of relative error: 0.8794637460053667
+Minimum relative error: 0.04810707386585855
+Maximum relative error: 2.704410734449956
+----------------------------------------------
+MSE of actual solution: 44.39666920817919
+Expected weights: {xray: 43, \+xray: 12, smoke: 19, dysp: 32, \+dysp: 16, \+bronc: 26, either: -18, \+either: -3, asia: 6, \+asia: 22, lung: -46}
+Found weights: {\+xray: 13.81343680960047, smoke: 17.987872397639766, dysp: 30.460573636292526, either: -66.67939322009921, \+either: -4.828750179667736, lung: 3.3206792986484164}

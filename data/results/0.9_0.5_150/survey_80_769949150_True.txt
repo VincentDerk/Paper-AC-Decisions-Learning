@@ -1,0 +1,372 @@
+----------------------------------------------
+Running adaptive_learning_rate learning with:
+	 learning_rate's increase_rate: 1.05
+	 learning_rate's decrease_rate: 0.8
+	 Left out approach: True
+	 max_epoch: 80
+	 learning_rate: 0.2
+	 batch_size: None
+----------------------------------------------
+Preparation took 0.0767822265625 seconds
+Using 0.3333 of the data to validate.
+---
+Ran 735.765496969223 seconds.
+MSE
+Total MSE after epoch 0 is 12231.151559939071
+Total MSE after epoch 1 is 5905.148976526136
+Total MSE after epoch 2 is 5857.984896946189
+Total MSE after epoch 3 is 5811.496390374577
+Total MSE after epoch 4 is 5765.404348072548
+Total MSE after epoch 5 is 5719.813796793352
+Total MSE after epoch 6 is 5674.829766326567
+Total MSE after epoch 7 is 5630.555644450211
+Total MSE after epoch 8 is 5587.092138194977
+Total MSE after epoch 9 is 5544.536224424096
+Total MSE after epoch 10 is 5502.980105025118
+Total MSE after epoch 11 is 5462.510188942876
+Total MSE after epoch 12 is 5423.206124717055
+Total MSE after epoch 13 is 5385.139907808698
+Total MSE after epoch 14 is 5348.375086757658
+Total MSE after epoch 15 is 5312.96609099366
+Total MSE after epoch 16 is 5278.957700849267
+Total MSE after epoch 17 is 5246.384676964539
+Total MSE after epoch 18 is 5215.271561865942
+Total MSE after epoch 19 is 5185.632661154857
+Total MSE after epoch 20 is 5157.472205642617
+Total MSE after epoch 21 is 5130.784689190003
+Total MSE after epoch 22 is 5105.55537029333
+Total MSE after epoch 23 is 5081.760919010874
+Total MSE after epoch 24 is 5059.370185080269
+Total MSE after epoch 25 is 5038.345058480003
+Total MSE after epoch 26 is 5018.641390638155
+Total MSE after epoch 27 is 5000.2099433092735
+Total MSE after epoch 28 is 4982.997333034433
+Total MSE after epoch 29 is 4966.9469422478505
+Total MSE after epoch 30 is 4951.9997749715785
+Total MSE after epoch 31 is 4938.095265285221
+Total MSE after epoch 32 is 4925.172372721115
+Total MSE after epoch 33 is 4913.176082133149
+Total MSE after epoch 34 is 4902.154635352309
+Total MSE after epoch 35 is 11631.38956500428
+Total MSE after epoch 36 is 6148.345209951265
+Total MSE after epoch 37 is 6081.095430346728
+Total MSE after epoch 38 is 6014.978165523091
+Total MSE after epoch 39 is 5949.830491563807
+Total MSE after epoch 40 is 5885.8189997382315
+Total MSE after epoch 41 is 5823.107595094014
+Total MSE after epoch 42 is 5761.855151032041
+Total MSE after epoch 43 is 5702.213674611664
+Total MSE after epoch 44 is 5644.32646949391
+Total MSE after epoch 45 is 5588.326330977804
+Total MSE after epoch 46 is 5534.33381535922
+Total MSE after epoch 47 is 5482.45562830205
+Total MSE after epoch 48 is 5432.783177944482
+Total MSE after epoch 49 is 5385.391337878278
+Total MSE after epoch 50 is 5340.3374627100275
+Total MSE after epoch 51 is 5297.660694476616
+Total MSE after epoch 52 is 5257.381591666052
+Total MSE after epoch 53 is 5219.502104027564
+Total MSE after epoch 54 is 5184.005905911894
+Total MSE after epoch 55 is 5150.859088884074
+Total MSE after epoch 56 is 5120.0112012693635
+Total MSE after epoch 57 is 5091.396608746424
+Total MSE after epoch 58 is 5064.936136831617
+Total MSE after epoch 59 is 5040.538943929381
+Total MSE after epoch 60 is 5018.104563409307
+Total MSE after epoch 61 is 4997.525045724431
+Total MSE after epoch 62 is 4978.687127603035
+Total MSE after epoch 63 is 4961.474355336657
+Total MSE after epoch 64 is 4945.769093502031
+Total MSE after epoch 65 is 4931.454360400265
+Total MSE after epoch 66 is 4918.415463856565
+Total MSE after epoch 67 is 4906.54170034888
+Total MSE after epoch 68 is 4895.732515570179
+Total MSE after epoch 69 is 4885.98171356068
+Total MSE after epoch 70 is 13253.337084100043
+Total MSE after epoch 71 is 7140.587332740912
+Total MSE after epoch 72 is 7013.706610724321
+Total MSE after epoch 73 is 6889.29179847534
+Total MSE after epoch 74 is 6767.301895336297
+Total MSE after epoch 75 is 6648.053344001532
+Total MSE after epoch 76 is 6531.851162688583
+Total MSE after epoch 77 is 6418.984611467559
+Total MSE after epoch 78 is 6309.723488001361
+Total MSE after epoch 79 is 6204.314531944468
+Total MSE after epoch 80 is 6102.978024564369
+Total MSE after epoch 81 is 6005.904679411036
+Total MSE after epoch 82 is 5913.252921352934
+
+TEST_MSE
+Test_MSE after epoch 0 is 7199.869109837547
+Test_MSE after epoch 1 is 4364.696197486305
+Test_MSE after epoch 2 is 4345.469753477098
+Test_MSE after epoch 3 is 4295.6198723214275
+Test_MSE after epoch 4 is 4247.055472163609
+Test_MSE after epoch 5 is 4198.31977051652
+Test_MSE after epoch 6 is 4149.682939680219
+Test_MSE after epoch 7 is 4101.221521871026
+Test_MSE after epoch 8 is 4053.0508263052657
+Test_MSE after epoch 9 is 4005.2796892361825
+Test_MSE after epoch 10 is 3958.0217029471123
+Test_MSE after epoch 11 is 3911.390481435594
+Test_MSE after epoch 12 is 3865.500672394453
+Test_MSE after epoch 13 is 3820.466343757858
+Test_MSE after epoch 14 is 3776.400745792498
+Test_MSE after epoch 15 is 3733.4151768266656
+Test_MSE after epoch 16 is 3691.61848883888
+Test_MSE after epoch 17 is 3651.1160586796123
+Test_MSE after epoch 18 is 3612.009275117668
+Test_MSE after epoch 19 is 3574.3945093627362
+Test_MSE after epoch 20 is 3538.3627327424783
+Test_MSE after epoch 21 is 3503.998349302083
+Test_MSE after epoch 22 is 3471.3792163416974
+Test_MSE after epoch 23 is 3440.574883867861
+Test_MSE after epoch 24 is 3411.647967016927
+Test_MSE after epoch 25 is 3384.6497920271026
+Test_MSE after epoch 26 is 3359.6277161631438
+Test_MSE after epoch 27 is 3336.607073525051
+Test_MSE after epoch 28 is 3315.6331600892877
+Test_MSE after epoch 29 is 3296.660707034131
+Test_MSE after epoch 30 is 3279.860934635829
+Test_MSE after epoch 31 is 3264.7016815973266
+Test_MSE after epoch 32 is 3252.895564287718
+Test_MSE after epoch 33 is 3238.2985901942034
+Test_MSE after epoch 34 is 3244.039467019779
+Test_MSE after epoch 35 is 7582.0089227769195
+Test_MSE after epoch 36 is 4831.315317866754
+Test_MSE after epoch 37 is 4787.978549232696
+Test_MSE after epoch 38 is 4720.750057508247
+Test_MSE after epoch 39 is 4654.7369871197325
+Test_MSE after epoch 40 is 4588.859005582184
+Test_MSE after epoch 41 is 4523.395219517226
+Test_MSE after epoch 42 is 4458.471878146611
+Test_MSE after epoch 43 is 4394.245001664007
+Test_MSE after epoch 44 is 4330.864030302242
+Test_MSE after epoch 45 is 4268.48008048727
+Test_MSE after epoch 46 is 4207.24156258771
+Test_MSE after epoch 47 is 4147.294370993454
+Test_MSE after epoch 48 is 4088.7800131816616
+Test_MSE after epoch 49 is 4031.8348758627376
+Test_MSE after epoch 50 is 3976.588829257281
+Test_MSE after epoch 51 is 3923.1644114289493
+Test_MSE after epoch 52 is 3871.6756623967976
+Test_MSE after epoch 53 is 3822.2274627134684
+Test_MSE after epoch 54 is 3774.914550671679
+Test_MSE after epoch 55 is 3729.8211644928792
+Test_MSE after epoch 56 is 3687.0201469500485
+Test_MSE after epoch 57 is 3646.573117817337
+Test_MSE after epoch 58 is 3608.5292787509557
+Test_MSE after epoch 59 is 3572.9268754113277
+Test_MSE after epoch 60 is 3539.7900009002474
+Test_MSE after epoch 61 is 3509.135124086009
+Test_MSE after epoch 62 is 3480.9565419830624
+Test_MSE after epoch 63 is 3455.2620019662063
+Test_MSE after epoch 64 is 3431.9803872982566
+Test_MSE after epoch 65 is 3411.2211494902544
+Test_MSE after epoch 66 is 3392.495756007273
+Test_MSE after epoch 67 is 3377.2253536591747
+Test_MSE after epoch 68 is 3360.1142952982063
+Test_MSE after epoch 69 is 3360.993296598384
+Test_MSE after epoch 70 is 7961.182523721739
+Test_MSE after epoch 71 is 5125.131633501497
+Test_MSE after epoch 72 is 5052.017656847653
+Test_MSE after epoch 73 is 4951.589497783976
+Test_MSE after epoch 74 is 4853.742975773239
+Test_MSE after epoch 75 is 4757.277976840119
+Test_MSE after epoch 76 is 4662.599316162518
+Test_MSE after epoch 77 is 4569.922831594285
+Test_MSE after epoch 78 is 4479.4904441360895
+Test_MSE after epoch 79 is 4391.525907858019
+Test_MSE after epoch 80 is 4306.243430727585
+Test_MSE after epoch 81 is 4223.841469205502
+Test_MSE after epoch 82 is 4144.5020754940215
+
+Weights
+Weights after epoch 0 is {a("adult"): 0, e("uni"): 0, \+t("car"): 0, \+r("big"): 0, s("M"): 0, o("emp"): 0, a("old"): 0, r("big"): 0, t("other"): 0}
+Weights after epoch 1 is {a("adult"): -14.37539852347988, e("uni"): -7.875219986214816, \+t("car"): -14.175915371829044, \+r("big"): -5.6752560971978046, s("M"): -17.947903561212932, o("emp"): -30.648289260362453, a("old"): -6.593157675520793, r("big"): -25.87841197698565, t("other"): -5.01365731540619}
+Weights after epoch 2 is {a("adult"): -12.778158021615722, e("uni"): -8.124990797297391, \+t("car"): -15.276825099381368, \+r("big"): -4.423854010103882, s("M"): -16.66089055436467, o("emp"): -31.40212337423887, a("old"): -7.0344329385718956, r("big"): -27.395873891851124, t("other"): -5.127025781537708}
+Weights after epoch 3 is {a("adult"): -11.004017546343425, e("uni"): -8.32150807744399, \+t("car"): -16.299646041201182, \+r("big"): -3.099759558572342, s("M"): -15.16326398451173, o("emp"): -31.918243727361848, a("old"): -7.426754830358991, r("big"): -28.71643852144404, t("other"): -5.190028177791718}
+Weights after epoch 4 is {a("adult"): -9.19892331555844, e("uni"): -8.534776291449724, \+t("car"): -17.36378133677952, \+r("big"): -1.7681874005988572, s("M"): -13.629090094083645, o("emp"): -32.46863617682293, a("old"): -7.825108907126764, r("big"): -30.058750972884027, t("other"): -5.245846895988988}
+Weights after epoch 5 is {a("adult"): -7.357501259468519, e("uni"): -8.762161153611515, \+t("car"): -18.463851208138777, \+r("big"): -0.4288048661492716, s("M"): -12.05003375670399, o("emp"): -33.04071418645617, a("old"): -8.22581896250203, r("big"): -31.409363430588847, t("other"): -5.291022314503771}
+Weights after epoch 6 is {a("adult"): -5.482421796829281, e("uni"): -9.00477596421911, \+t("car"): -19.60080759018256, \+r("big"): 0.9151461472255602, s("M"): -10.42731459644805, o("emp"): -33.636524308323246, a("old"): -8.628125788178595, r("big"): -32.76656032609875, t("other"): -5.324393401476288}
+Weights after epoch 7 is {a("adult"): -3.575698293291498, e("uni"): -9.26330115399518, \+t("car"): -20.77475801586432, \+r("big"): 2.260636711998405, s("M"): -8.761229978437186, o("emp"): -34.25638967965685, a("old"): -9.030818828557122, r("big"): -34.12703981217488, t("other"): -5.3444203674480955}
+Weights after epoch 8 is {a("adult"): -1.6397596935531487, e("uni"): -9.538489163043904, \+t("car"): -21.985833164936857, \+r("big"): 3.604401107109629, s("M"): -7.052453127073742, o("emp"): -34.900908515811494, a("old"): -9.432646319880867, r("big"): -35.48755585272741, t("other"): -5.3495103768439405}
+Weights after epoch 9 is {a("adult"): 0.32275366232011193, e("uni"): -9.83105717120401, \+t("car"): -23.234005231477425, \+r("big"): 4.943043803050312, s("M"): -5.301795755231515, o("emp"): -35.57055863267327, a("old"): -9.832233566938076, r("big"): -36.84461316083429, t("other"): -5.337952379662308}
+Weights after epoch 10 is {a("adult"): 2.3089341110215793, e("uni"): -10.141704525485302, \+t("car"): -24.51912212455519, \+r("big"): 6.273036589742626, s("M"): -3.5102866675275237, o("emp"): -36.265794351852215, a("old"): -10.22810354418327, r("big"): -38.19456725546754, t("other"): -5.30793330826761}
+Weights after epoch 11 is {a("adult"): 4.315628214925489, e("uni"): -10.47109312903369, \+t("car"): -25.84088011873567, \+r("big"): 7.5907523541958515, s("M"): -1.6791599430828505, o("emp"): -36.98700253360417, a("old"): -10.618669620003145, r("big"): -39.53361378173292, t("other"): -5.25753216292277}
+Weights after epoch 12 is {a("adult"): 6.339433799908367, e("uni"): -10.819839790609791, \+t("car"): -27.19881929479064, \+r("big"): 8.892491266646417, s("M"): 0.19012425068348104, o("emp"): -37.734509842362655, a("old"): -11.002240076621268, r("big"): -40.85782374977234, t("other"): -5.184723520778841}
+Weights after epoch 13 is {a("adult"): 8.376712752528679, e("uni"): -11.188501352622165, \+t("car"): -28.592309073114624, \+r("big"): 10.174516772091549, s("M"): 2.095874542602788, o("emp"): -38.50856623267152, a("old"): -11.377019119742341, r("big"): -42.16316359879453, t("other"): -5.087378308748208}
+Weights after epoch 14 is {a("adult"): 10.42360054150732, e("uni"): -11.57756185995347, \+t("car"): -30.02053995217259, \+r("big"): 11.43309297160553, s("M"): 4.0361558796966035, o("emp"): -39.30934096943446, a("old"): -11.741111979914287, r("big"): -43.445529615511205, t("other"): -4.963267888401635}
+Weights after epoch 15 is {a("adult"): 12.476023851221488, e("uni"): -11.9874164632695, \+t("car"): -31.48251253350498, \+r("big"): 12.664528076895262, s("M"): 6.008783325252788, o("emp"): -40.13691032791189, a("old"): -12.09252993258012, r("big"): -44.70077953878628, t("other"): -4.810068144305672}
+Weights after epoch 16 is {a("adult"): 14.529718927137516, e("uni"): -12.418355772749393, \+t("car"): -32.97703036583998, \+r("big"): 13.865220361633165, s("M"): 8.011313211437031, o("emp"): -40.9912513274369, a("old"): -12.429198296911169, r("big"): -45.92477274547372, t("other"): -4.625366018138634}
+Weights after epoch 17 is {a("adult"): 16.580256691967026, e("uni"): -12.870547942644814, \+t("car"): -34.502692045626276, \+r("big"): 15.031708751807896, s("M"): 10.041039020088647, o("emp"): -41.8722304908107, a("old"): -12.748965235171596, r("big"): -47.11340960278811, t("other"): -4.406666770580912}
+Weights after epoch 18 is {a("adult"): 18.62306936276792, e("uni"): -13.344021214225183, \+t("car"): -36.05788729775382, \+r("big"): 16.160725155847363, s("M"): 12.094985819376912, o("emp"): -42.77959777530892, a("old"): -13.049613504242105, r("big"): -48.26267765564104, t("other"): -4.151403697941079}
+Weights after epoch 19 is {a("adult"): 20.653483888434813, e("uni"): -13.838644585002067, \+t("car"): -37.64079299569903, \+r("big"): 17.249250097689075, s("M"): 14.169909952912688, o("emp"): -43.712975795680876, a("old"): -13.328873159554048, r("big"): -49.368695834834845, t("other"): -3.856948735675536}
+Weights after epoch 20 is {a("adult"): 22.666755996491332, e("uni"): -14.354109815762769, \+t("car"): -39.2493744990163, \+r("big"): 18.29456808340136, s("M"): 16.262296917964175, o("emp"): -44.67185594001219, a("old"): -13.584437596897095, r("big"): -50.427765207764814, t("other"): -3.5206258717215038}
+Weights after epoch 21 is {a("adult"): 24.65811221695077, e("uni"): -14.889911493028684, \+t("car"): -40.88138642474034, \+r("big"): 19.29432489793368, s("M"): 18.368366866315508, o("emp"): -45.65558728857019, a("old"): -13.813979988197095, r("big"): -51.43641369157582, t("other"): -3.1397250634538096}
+Weights after epoch 22 is {a("adult"): 26.622788894245215, e("uni"): -15.445330678381058, \+t("car"): -42.534381965912864, \+r("big"): 20.246580953759118, s("M"): 20.484075202055482, o("emp"): -46.663378494790656, a("old"): -14.015174168889255, r("big"): -52.39144990016068, t("other"): -2.711519924145036}
+Weights after epoch 23 is {a("adult"): 28.55608390124369, e("uni"): -16.019414887318355, \+t("car"): -44.20571777009406, \+r("big"): 21.14986630571686, s("M"): 22.605128072128, o("emp"): -47.69428241231849, a("old"): -14.185713613950314, r("big"): -53.290000106555226, t("other"): -2.23328417119221}
+Weights after epoch 24 is {a("adult"): 30.45339320064001, e("uni"): -16.610968034850956, \+t("car"): -45.89257709327069, \+r("big"): 22.003223984075568, s("M"): 24.726980226641917, o("emp"): -48.74721480660088, a("old"): -14.323338868304551, r("big"): -54.129568647782136, t("other"): -1.7023151327877772}
+Weights after epoch 25 is {a("adult"): 32.31028125601775, e("uni"): -17.21852714625364, \+t("car"): -47.59197053822091, \+r("big"): 22.806261613886033, s("M"): 26.844875454781597, o("emp"): -49.820913924313096, a("old"): -14.425853984216106, r("big"): -54.90804422130665, t("other"): -1.115948924501049}
+Weights after epoch 26 is {a("adult"): 34.12248525709712, e("uni"): -17.84037407473444, \+t("car"): -49.30079613991467, \+r("big"): 23.559166658668044, s("M"): 28.95381042969446, o("emp"): -50.914027275798844, a("old"): -14.491170000623402, r("big"): -55.62380232494495, t("other"): -0.47159760165972753}
+Weights after epoch 27 is {a("adult"): 35.88606624893218, e("uni"): -18.474480354452723, \+t("car"): -51.01578271691853, \+r("big"): 24.262776537068095, s("M"): 31.048680075597495, o("emp"): -52.024923816122396, a("old"): -14.517292385956605, r("big"): -56.275574836913655, t("other"): 0.23325765538790344}
+Weights after epoch 28 is {a("adult"): 37.59720557608424, e("uni"): -19.118625896232405, \+t("car"): -52.73372827531945, \+r("big"): 24.91848497408374, s("M"): 33.12400183458125, o("emp"): -53.15217139031701, a("old"): -14.502445450682918, r("big"): -56.862851153308036, t("other"): 1.0009638354674715}
+Weights after epoch 29 is {a("adult"): 39.252908391644276, e("uni"): -19.77008690303702, \+t("car"): -54.45099411005731, \+r("big"): 25.52853108826335, s("M"): 35.1747401936897, o("emp"): -54.29330825920847, a("old"): -14.44484522131034, r("big"): -57.38487735789453, t("other"): 1.8338720252545424}
+Weights after epoch 30 is {a("adult"): 40.849179333081544, e("uni"): -20.426539784793658, \+t("car"): -56.16507964445993, \+r("big"): 26.09518059330139, s("M"): 37.194095740932944, o("emp"): -55.44835591276782, a("old"): -14.34344719685488, r("big"): -57.84350614065579, t("other"): 2.733737676374848}
+Weights after epoch 31 is {a("adult"): 42.386708552588395, e("uni"): -21.083369142797263, \+t("car"): -57.870016695751076, \+r("big"): 26.62315343654082, s("M"): 39.180351219980835, o("emp"): -56.60922302481202, a("old"): -14.195788784186739, r("big"): -58.23453608887957, t("other"): 3.7034289859853913}
+Weights after epoch 32 is {a("adult"): 43.8525538242869, e("uni"): -21.74248696891975, \+t("car"): -59.57151269962522, \+r("big"): 27.111627207785855, s("M"): 41.11481717206941, o("emp"): -57.79417007700896, a("old"): -14.00510390358982, r("big"): -58.5757564836285, t("other"): 4.741265009762211}
+Weights after epoch 33 is {a("adult"): 45.28385232252746, e("uni"): -22.381833253289805, \+t("car"): -61.234592560317616, \+r("big"): 27.581814140525566, s("M"): 43.03859527988427, o("emp"): -58.928241992598274, a("old"): -13.755732766100945, r("big"): -58.80946017615044, t("other"): 5.860550714415587}
+Weights after epoch 34 is {a("adult"): 46.531643664618855, e("uni"): -23.06863944550937, \+t("car"): -62.977994686381834, \+r("big"): 27.974437235320483, s("M"): 44.76814140331855, o("emp"): -60.28676363187541, a("old"): -13.504415955049742, r("big"): -59.16377536906269, t("other"): 7.01700958555263}
+Weights after epoch 35 is {a("adult"): 21, e("uni"): -48, \+t("car"): -21, \+r("big"): -42, s("M"): -13, o("emp"): 28, a("old"): 9, r("big"): -17, t("other"): 39}
+Weights after epoch 36 is {a("adult"): 7.5428562032249875, e("uni"): -54.23344829623801, \+t("car"): -34.15809349009487, \+r("big"): -46.65232837609616, s("M"): -29.239766308846683, o("emp"): -0.624164634549448, a("old"): 2.7532392570961886, r("big"): -41.53831307313605, t("other"): 34.09220387497783}
+Weights after epoch 37 is {a("adult"): 8.9109601742045, e("uni"): -53.356723836031875, \+t("car"): -35.172030335102136, \+r("big"): -44.861476402291615, s("M"): -27.60478154142094, o("emp"): -1.492102986298669, a("old"): 2.217845062127128, r("big"): -43.45882112663742, t("other"): 33.72757385841993}
+Weights after epoch 38 is {a("adult"): 10.434416280867026, e("uni"): -52.40262800510951, \+t("car"): -36.11179262235406, \+r("big"): -42.993483532324326, s("M"): -25.762990634107208, o("emp"): -2.1460238093581507, a("old"): 1.7262670086646636, r("big"): -45.20157900355204, t("other"): 33.401988686669306}
+Weights after epoch 39 is {a("adult"): 11.977189877731503, e("uni"): -51.43686932811799, \+t("car"): -37.088079663618565, \+r("big"): -41.10980340217042, s("M"): -23.87629486190165, o("emp"): -2.8386905177857424, a("old"): 1.2276640487904156, r("big"): -46.96859822804967, t("other"): 33.07533442079013}
+Weights after epoch 40 is {a("adult"): 13.543775973214242, e("uni"): -50.457852070340785, \+t("car"): -38.09568908405351, \+r("big"): -39.21110147114457, s("M"): -21.937258214596856, o("emp"): -3.5585794699303257, a("old"): 0.7256960119831807, r("big"): -48.74625458932741, t("other"): 32.75083144028832}
+Weights after epoch 41 is {a("adult"): 15.131202777674721, e("uni"): -49.46762477873572, \+t("car"): -39.1352813032125, \+r("big"): -37.301447041727506, s("M"): -19.94737918456354, o("emp"): -4.307748876051595, a("old"): 0.22133587445914893, r("big"): -50.53172724107564, t("other"): 32.42958430588491}
+Weights after epoch 42 is {a("adult"): 16.737118081704164, e("uni"): -48.46800645958224, \+t("car"): -40.20671431696407, \+r("big"): -35.38479361623294, s("M"): -17.907363994780397, o("emp"): -5.086647168935887, a("old"): -0.2840022520517743, r("big"): -52.32063106600131, t("other"): 32.1130687356776}
+Weights after epoch 43 is {a("adult"): 18.35879913420855, e("uni"): -47.461063335008774, \+t("car"): -41.30984866307728, \+r("big"): -33.46539316304529, s("M"): -15.818335085816765, o("emp"): -5.895967475323161, a("old"): -0.7888444784568107, r("big"): -54.10854400941385, t("other"): 31.802829472165193}
+Weights after epoch 44 is {a("adult"): 19.993349027195478, e("uni"): -46.44901624118986, \+t("car"): -42.44437813081533, \+r("big"): -31.547691973157317, s("M"): -13.681613308805117, o("emp"): -6.736278764119687, a("old"): -1.291582036149027, r("big"): -55.890727356526064, t("other"): 31.500540938796224}
+Weights after epoch 45 is {a("adult"): 21.637652261259284, e("uni"): -45.434262756669376, \+t("car"): -43.60986105844023, \+r("big"): -29.636327074913186, s("M"): -11.49879319555188, o("emp"): -7.608114225884354, a("old"): -1.790491569606026, r("big"): -57.66222359848121, t("other"): 31.20799208338518}
+Weights after epoch 46 is {a("adult"): 23.288403001289584, e("uni"): -44.41936362565768, \+t("car"): -44.805694651447745, \+r("big"): -27.736087056931137, s("M"): -9.271733813602783, o("emp"): -8.511928803518972, a("old"): -2.283729942980264, r("big"): -59.41785290943172, t("other"): 30.927091474533245}
+Weights after epoch 47 is {a("adult"): 24.9421112811781, e("uni"): -43.407038734201166, \+t("car"): -46.03111068889076, \+r("big"): -25.851878316110376, s("M"): -7.002579403235691, o("emp"): -9.44810430495699, a("old"): -2.7693404384032894, r("big"): -61.152253796376215, t("other"): 30.65986333412438}
+Weights after epoch 48 is {a("adult"): 26.595124508101083, e("uni"): -42.400154565914946, \+t("car"): -47.285162296594805, \+r("big"): -23.988680530568185, s("M"): -4.693764829692302, o("emp"): -10.416932463104501, a("old"): -3.2452561620081775, r("big"): -62.85991123957898, t("other"): 30.408445769480785}
+Weights after epoch 49 is {a("adult"): 28.243646513882823, e("uni"): -41.401711471705, \+t("car"): -48.56671679881488, \+r("big"): -22.151499161344656, s("M"): -2.348027181622247, o("emp"): -11.418609700743353, a("old"): -3.7093077428556365, r("big"): -64.5351997746235, t("other"): 30.17508556245032}
+Weights after epoch 50 is {a("adult"): 29.88376462421662, e("uni"): -40.41482555480116, \+t("car"): -49.874446416636935, \+r("big"): -20.345310660035125, s("M"): 0.03158923671250191, o("emp"): -12.45322427065547, a("old"): -4.159231467555422, r("big"): -66.17242556608744, t("other"): 29.96213256665748}
+Weights after epoch 51 is {a("adult"): 31.51147773464898, e("uni"): -39.44270835391732, \+t("car"): -51.206822932446435, \+r("big"): -18.575003775019976, s("M"): 2.4417263191929326, o("emp"): -13.520749143565764, a("old"): -4.592680701736287, r("big"): -67.7658780100324, t("other"): 29.77203142923786}
+Weights after epoch 52 is {a("adult"): 33.122730844377514, e("uni"): -38.48864154048794, \+t("car"): -52.56211213617871, \+r("big"): -16.845315088502936, s("M"): 4.878710907482574, o("emp"): -14.621030466947097, a("old"): -5.007238573596234, r("big"): -69.30988203191373, t("other"): 29.607312224636562}
+Weights after epoch 53 is {a("adult"): 34.71345093849647, e("uni"): -37.55594892285224, \+t("car"): -53.93837249215931, \+r("big"): -15.160761654233081, s("M"): 7.338553221029168, o("emp"): -15.753781066622734, a("old"): -5.400433902586124, r("big"): -70.7988580616141, t("other"): 29.470578398058002}
+Weights after epoch 54 is {a("adult"): 36.2795889020746, e("uni"): -36.647963379208406, \+t("car"): -55.3334543225539, \+r("big"): -13.525569521344009, s("M"): 9.8169512552409, o("emp"): -16.918569867876997, a("old"): -5.76975848539546, r("big"): -72.22738130606439, t("other"): 29.364493487153435}
+Weights after epoch 55 is {a("adult"): 37.81716139920511, e("uni"): -35.767991528118294, \+t("car"): -56.74500454483942, \+r("big"): -11.943601758677785, s("M"): 12.309294646121232, o("emp"): -18.114818062667077, a("old"): -6.112687906264858, r("big"): -73.59024798267724, t("other"): 29.29176486163032}
+Weights after epoch 56 is {a("adult"): 39.32229921992655, e("uni"): -34.9192729648886, \+t("car"): -58.17047153380274, \+r("big"): -10.418284302016687, s("M"): 14.810676806449557, o("emp"): -19.34178899011965, a("old"): -6.426703069701255, r("big"): -74.88253652184753, t("other"): 29.255126662700103}
+Weights after epoch 57 is {a("adult"): 40.79129151230725, e("uni"): -34.10493914045957, \+t("car"): -59.60711859406389, \+r("big"): -8.952535506555085, s("M"): 17.31590372826563, o("emp"): -20.598590501768506, a("old"): -6.709316134759514, r("big"): -76.09967746253032, t("other"): 29.25731896579101}
+Weights after epoch 58 is {a("adult"): 42.2206400835458, e("uni"): -33.32796515851798, \+t("car"): -61.05203398927789, \+r("big"): -7.548694669742884, s("M"): 19.819517843102684, o("emp"): -21.884161794794615, a("old"): -6.9580948302749395, r("big"): -77.2375074590899, t("other"): 29.301067891164138}
+Weights after epoch 59 is {a("adult"): 43.60709746770133, e("uni"): -32.59112726011327, \+t("car"): -62.50215861173731, \+r("big"): -6.20846244717637, s("M"): 22.31580671987801, o("emp"): -23.1972924280082, a("old"): -7.1706946435806636, r("big"): -78.29234438603295, t("other"): 29.389059049799357}
+Weights after epoch 60 is {a("adult"): 44.94773382131909, e("uni"): -31.896944654450945, \+t("car"): -63.95429346796813, \+r("big"): -4.932835178940898, s("M"): 24.798852470592607, o("emp"): -24.53658696765889, a("old"): -7.344880665870347, r("big"): -79.2610110187475, t("other"): 29.523918727059197}
+Weights after epoch 61 is {a("adult"): 46.23993929922718, e("uni"): -31.24765081606761, \+t("car"): -65.40516285097581, \+r("big"): -3.722075184268964, s("M"): 27.26251112251335, o("emp"): -25.90054834210303, a("old"): -7.478574240362676, r("big"): -80.1409463051139, t("other"): 29.708174789042587}
+Weights after epoch 62 is {a("adult"): 47.481559379700386, e("uni"): -30.64510008097331, \+t("car"): -66.85136958189707, \+r("big"): -2.575632861908002, s("M"): 29.700561561098354, o("emp"): -27.28740673748846, a("old"): -7.56984706455068, r("big"): -80.93009815670734, t("other"): 29.944258699656977}
+Weights after epoch 63 is {a("adult"): 48.67069693098921, e("uni"): -30.09083365328718, \+t("car"): -68.2896246200529, \+r("big"): -1.4922241990049785, s("M"): 32.10646425387346, o("emp"): -28.69556685607954, a("old"): -7.617041782801725, r("big"): -81.62730715729379, t("other"): 30.2344062679959}
+Weights after epoch 64 is {a("adult"): 49.806352477975764, e("uni"): -29.585744211273013, \+t("car"): -69.71628563968235, \+r("big"): -0.4695566592650162, s("M"): 34.47414246013359, o("emp"): -30.122471384269314, a("old"): -7.618565179987654, r("big"): -82.23138506323954, t("other"): 30.580817778190326}
+Weights after epoch 65 is {a("adult"): 50.88671247072753, e("uni"): -29.13086929357772, \+t("car"): -71.12882797803543, \+r("big"): 0.4949117950523195, s("M"): 36.79594488842613, o("emp"): -31.567868077194756, a("old"): -7.573585600965947, r("big"): -82.74376585428793, t("other"): 30.985098566519152}
+Weights after epoch 66 is {a("adult"): 51.91440784827859, e("uni"): -28.724845602600684, \+t("car"): -72.52157549836254, \+r("big"): 1.4062240655284117, s("M"): 39.06901975906928, o("emp"): -33.023974342494206, a("old"): -7.480030869884147, r("big"): -83.16046300277343, t("other"): 31.449844114740426}
+Weights after epoch 67 is {a("adult"): 52.879475817188414, e("uni"): -28.372055190764275, \+t("car"): -73.89977171184852, \+r("big"): 2.264489621926706, s("M"): 41.27484917508511, o("emp"): -34.50748957374497, a("old"): -7.34119568678907, r("big"): -83.49811079121356, t("other"): 31.973381588464715}
+Weights after epoch 68 is {a("adult"): 53.81849780671958, e("uni"): -28.054259334841053, \+t("car"): -75.2309620290233, \+r("big"): 3.0904824283368217, s("M"): 43.45055452244986, o("emp"): -35.948558941507486, a("old"): -7.14290326089344, r("big"): -83.70342071398704, t("other"): 32.56791295814414}
+Weights after epoch 69 is {a("adult"): 54.59522871415007, e("uni"): -27.835747909208948, \+t("car"): -76.62553407062353, \+r("big"): 3.830410385243432, s("M"): 45.4247566409986, o("emp"): -37.602650076255884, a("old"): -6.9382861987981315, r("big"): -83.98873610823271, t("other"): 33.19212463245658}
+Weights after epoch 70 is {a("adult"): 29, e("uni"): 48, \+t("car"): -27, \+r("big"): -39, s("M"): -49, o("emp"): -10, a("old"): -42, r("big"): 47, t("other"): 18}
+Weights after epoch 71 is {a("adult"): 14.112989443362158, e("uni"): 38.93438748423336, \+t("car"): -40.129835607492126, \+r("big"): -42.74820641600641, s("M"): -65.45975197166794, o("emp"): -39.49252926238811, a("old"): -47.59983203984521, r("big"): 20.263243009641496, t("other"): 13.09973322533034}
+Weights after epoch 72 is {a("adult"): 14.79908874747518, e("uni"): 37.2854516040093, \+t("car"): -40.4862027974582, \+r("big"): -39.71167018173523, s("M"): -63.115307934525255, o("emp"): -39.79591356962599, a("old"): -47.17520886168058, r("big"): 17.290076433289926, t("other"): 12.981148296113652}
+Weights after epoch 73 is {a("adult"): 15.638233180918538, e("uni"): 35.66226388210521, \+t("car"): -40.75877605030419, \+r("big"): -36.58480272452371, s("M"): -60.54004023985371, o("emp"): -39.86378676223142, a("old"): -46.68491470149755, r("big"): 14.492569642356669, t("other"): 12.909206292656638}
+Weights after epoch 74 is {a("adult"): 16.488787995412864, e("uni"): 33.998208553803, \+t("car"): -41.065528551688374, \+r("big"): -33.434708898942375, s("M"): -57.90469280788865, o("emp"): -39.962655705184005, a("old"): -46.183475190194784, r("big"): 11.660006362264326, t("other"): 12.84148835228549}
+Weights after epoch 75 is {a("adult"): 17.356992320732903, e("uni"): 32.297802426970065, \+t("car"): -41.402733893335316, \+r("big"): -30.264791471196546, s("M"): -55.20207880494745, o("emp"): -40.08129299513887, a("old"): -45.668267524023314, r("big"): 8.808483557634634, t("other"): 12.781094126777862}
+Weights after epoch 76 is {a("adult"): 18.24138506172274, e("uni"): 30.56212723911426, \+t("car"): -41.772966668062566, \+r("big"): -27.082227179765116, s("M"): -52.43448553373627, o("emp"): -40.22283918792003, a("old"): -45.13964085909809, r("big"): 5.942869766939775, t("other"): 12.728862998594408}
+Weights after epoch 77 is {a("adult"): 19.141306862195897, e("uni"): 28.792914532697743, \+t("car"): -42.17809348006425, \+r("big"): -23.894260200656994, s("M"): -49.60345082786205, o("emp"): -40.388832945837386, a("old"): -44.59763039766744, r("big"): 3.0697997778888992, t("other"): 12.685988112657643}
+Weights after epoch 78 is {a("adult"): 20.05585908760178, e("uni"): 26.992054370233152, \+t("car"): -42.62011484961564, \+r("big"): -20.708628013494916, s("M"): -46.71103409446946, o("emp"): -40.58115931979691, a("old"): -44.042359155329805, r("big"): 0.19606032571164222, t("other"): 12.653698857145217}
+Weights after epoch 79 is {a("adult"): 20.984108264171, e("uni"): 25.16169931023862, \+t("car"): -43.100980831028366, \+r("big"): -17.533439044526016, s("M"): -43.75958719501875, o("emp"): -40.801659625200344, a("old"): -43.47395825798224, r("big"): -2.6711270765302517, t("other"): 12.633325196367164}
+Weights after epoch 80 is {a("adult"): 21.92503529173492, e("uni"): 23.304243976245317, \+t("car"): -43.62261515357198, \+r("big"): -14.37715252990051, s("M"): -40.751832507051084, o("emp"): -41.05222063212923, a("old"): -42.89258567084242, r("big"): -5.524222869539481, t("other"): 12.626282853124529}
+Weights after epoch 81 is {a("adult"): 22.87755874680593, e("uni"): 21.422337802975413, \+t("car"): -44.18687692845013, \+r("big"): -11.248517286977107, s("M"): -37.69085124908414, o("emp"): -41.33472474114731, a("old"): -42.29841606902816, r("big"): -8.355382346874961, t("other"): 12.634080392884796}
+Weights after epoch 82 is {a("adult"): 23.84053243527945, e("uni"): 19.518882821460867, \+t("car"): -44.795542126599514, \+r("big"): -8.156512375385109, s("M"): -34.58010203171932, o("emp"): -41.65104859739676, a("old"): -41.69164040436322, r("big"): -11.156517810933313, t("other"): 12.65831745553671}
+
+Weight errors
+Weight errors after epoch 0 is 1.0
+Weight errors after epoch 1 is 0.6915524947030717
+Weight errors after epoch 2 is 0.6444414939882817
+Weight errors after epoch 3 is 0.59665177786901
+Weight errors after epoch 4 is 0.5478611127712756
+Weight errors after epoch 5 is 0.5159833087714543
+Weight errors after epoch 6 is 0.5174634344765298
+Weight errors after epoch 7 is 0.5198358389567563
+Weight errors after epoch 8 is 0.5303350098216615
+Weight errors after epoch 9 is 0.5408810438829783
+Weight errors after epoch 10 is 0.5565238771185846
+Weight errors after epoch 11 is 0.5757855538631621
+Weight errors after epoch 12 is 0.5948809011422068
+Weight errors after epoch 13 is 0.6137507576477352
+Weight errors after epoch 14 is 0.6323341897398362
+Weight errors after epoch 15 is 0.6540278394687591
+Weight errors after epoch 16 is 0.6825643358069171
+Weight errors after epoch 17 is 0.710849211930552
+Weight errors after epoch 18 is 0.7388081775827071
+Weight errors after epoch 19 is 0.7663666020547208
+Weight errors after epoch 20 is 0.793450268021723
+Weight errors after epoch 21 is 0.8199862149182614
+Weight errors after epoch 22 is 0.8459036008298838
+Weight errors after epoch 23 is 0.871134664982095
+Weight errors after epoch 24 is 0.8956156174379547
+Weight errors after epoch 25 is 0.9258672568239602
+Weight errors after epoch 26 is 0.9617636890700236
+Weight errors after epoch 27 is 0.9969934742324487
+Weight errors after epoch 28 is 1.0323170592160684
+Weight errors after epoch 29 is 1.0797994918517573
+Weight errors after epoch 30 is 1.1261977649211306
+Weight errors after epoch 31 is 1.1714109689024421
+Weight errors after epoch 32 is 1.2153568484609643
+Weight errors after epoch 33 is 1.257918164608838
+Weight errors after epoch 34 is 1.2991461233569241
+Weight errors after epoch 35 is 1.7810121779157033
+Weight errors after epoch 36 is 1.4814068248897234
+Weight errors after epoch 37 is 1.4850544479378667
+Weight errors after epoch 38 is 1.4898400405218237
+Weight errors after epoch 39 is 1.494669681287052
+Weight errors after epoch 40 is 1.4995942710322439
+Weight errors after epoch 41 is 1.5046057641863468
+Weight errors after epoch 42 is 1.5097030295245224
+Weight errors after epoch 43 is 1.5148838712465849
+Weight errors after epoch 44 is 1.520146691197532
+Weight errors after epoch 45 is 1.525490179304292
+Weight errors after epoch 46 is 1.5309135796766213
+Weight errors after epoch 47 is 1.536416758752298
+Weight errors after epoch 48 is 1.5420003761718823
+Weight errors after epoch 49 is 1.5476660107006839
+Weight errors after epoch 50 is 1.5534163230076656
+Weight errors after epoch 51 is 1.5592551948879751
+Weight errors after epoch 52 is 1.5651878859517847
+Weight errors after epoch 53 is 1.571221163064433
+Weight errors after epoch 54 is 1.577363437762953
+Weight errors after epoch 55 is 1.5836248598443678
+Weight errors after epoch 56 is 1.590017418135038
+Weight errors after epoch 57 is 1.5965549611996974
+Weight errors after epoch 58 is 1.6032532531113366
+Weight errors after epoch 59 is 1.610129851151127
+Weight errors after epoch 60 is 1.6172041740558785
+Weight errors after epoch 61 is 1.6244970049700422
+Weight errors after epoch 62 is 1.632031040415741
+Weight errors after epoch 63 is 1.6398286996429354
+Weight errors after epoch 64 is 1.657843617051831
+Weight errors after epoch 65 is 1.6818735991447458
+Weight errors after epoch 66 is 1.7059308697579316
+Weight errors after epoch 67 is 1.72983200134428
+Weight errors after epoch 68 is 1.754141492722912
+Weight errors after epoch 69 is 1.7766080829524757
+Weight errors after epoch 70 is 2.3520055426948607
+Weight errors after epoch 71 is 2.0474373519751814
+Weight errors after epoch 72 is 2.017009151425682
+Weight errors after epoch 73 is 1.9882477879784186
+Weight errors after epoch 74 is 1.9589624129950791
+Weight errors after epoch 75 is 1.929306257762079
+Weight errors after epoch 76 is 1.8993165540622376
+Weight errors after epoch 77 is 1.8690489897135651
+Weight errors after epoch 78 is 1.8385611964098914
+Weight errors after epoch 79 is 1.8079158640610937
+Weight errors after epoch 80 is 1.777179744218502
+Weight errors after epoch 81 is 1.7464237441172343
+Weight errors after epoch 82 is 1.7157225272837493
+----------------------
+RESULTS
+Expected: -8; 	 Found: 46.531643664618855; 	 Error: 54.531643664618855; 	 Relative error: 6.816455458077357; 	 For term: a("adult");
+Expected: -17; 	 Found: -23.06863944550937; 	 Error: 6.068639445509369; 	 Relative error: 0.3569787909123158; 	 For term: e("uni");
+Expected: -31; 	 Found: -62.977994686381834; 	 Error: 31.977994686381834; 	 Relative error: 1.0315482156897366; 	 For term: \+t("car");
+Expected: 50; 	 Found: 27.974437235320483; 	 Error: 22.025562764679517; 	 Relative error: 0.44051125529359036; 	 For term: \+r("big");
+Expected: 33; 	 Found: 44.76814140331855; 	 Error: 11.768141403318552; 	 Relative error: 0.3566103455551076; 	 For term: s("M");
+Expected: -49; 	 Found: -60.28676363187541; 	 Error: 11.28676363187541; 	 Relative error: 0.23034211493623286; 	 For term: o("emp");
+Expected: -10; 	 Found: -13.504415955049742; 	 Error: 3.5044159550497422; 	 Relative error: 0.3504415955049742; 	 For term: a("old");
+Expected: -34; 	 Found: -59.16377536906269; 	 Error: 25.16377536906269; 	 Relative error: 0.7401110402665497; 	 For term: r("big");
+Expected: -19; 	 Found: 7.01700958555263; 	 Error: 26.01700958555263; 	 Relative error: 1.369316293976454; 	 For term: t("other");
+Mean relative error: 1.2991461233569241
+Median of relative error: 0.44051125529359036
+Variance of relative error: 3.9317160125723385
+Minimum relative error: 0.23034211493623286
+Maximum relative error: 6.816455458077357
+----------------------------------------------
+MSE of actual solution: 4779.402354475774
+Expected weights: {o("self"): 17, \+s("M"): -37, a("adult"): -8, \+s("F"): 48, o("emp"): -49, \+r("big"): 50, t("train"): -8, r("big"): -34, \+o("emp"): 36, e("uni"): -17, \+t("car"): -31, e("high"): -8, \+t("train"): 29, s("M"): 33, a("young"): -23, a("old"): -10, \+a("old"): -9, \+a("adult"): 3, t("other"): -19}
+Found weights: {a("adult"): 46.531643664618855, e("uni"): -23.06863944550937, \+t("car"): -62.977994686381834, \+r("big"): 27.974437235320483, s("M"): 44.76814140331855, o("emp"): -60.28676363187541, a("old"): -13.504415955049742, r("big"): -59.16377536906269, t("other"): 7.01700958555263}
