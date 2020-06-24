@@ -1,0 +1,67 @@
+Starting compilation
+Compilation took 0.01389455795288086 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(t,-43), n_weight=s(t,0)), 2: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 5: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 8: pos_neg_weight(p_weight=s(1.0,-47), n_weight=s(1.0,-33)), 14: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 15: pos_neg_weight(p_weight=s(t,-43), n_weight=s(t,46)), 18: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 21: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,15)), 27: pos_neg_weight(p_weight=s(0.3,0), n_weight=s(0.7,0)), 30: pos_neg_weight(p_weight=s(0.6,0), n_weight=s(0.4,0)), 33: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,16)), 45: True, 51: pos_neg_weight(p_weight=s(0.0,0), n_weight=s(1.0,0)), 54: pos_neg_weight(p_weight=s(1.0,-5), n_weight=s(1.0,10)), 60: pos_neg_weight(p_weight=s(0.98,0), n_weight=s(0.02,0)), 63: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 66: pos_neg_weight(p_weight=s(1.0,15), n_weight=s(1.0,-18)), 72: True, 78: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 81: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 82: True, 90: True, 96: pos_neg_weight(p_weight=s(0.8,0), n_weight=s(0.2,0)), 99: True, 105: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 108: pos_neg_weight(p_weight=s(1.0,39), n_weight=s(1.0,0)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0, 0]
+key_to_decision_index: {1: 1, 15: 2}
+
+Gradients: {1: -9.677774499999998, 15: -22.112207000000005}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+After epoch 1, expected utility: 45.31147599999999 and learning_rate 1.1
+
+Gradients: {1: -45.31147599999999, 15: -45.31147599999999}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {smoke: 0, asia: 0}
+Final expected utility: 45.31147599999999
+-------------------------------
+
+
+Gradients: {1: -10.760733709462968, 15: -25.289542826599245}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+After epoch 1, expected utility: 45.31147599999999 and learning_rate 1.1
+
+Gradients: {1: -45.31147599999999, 15: -45.31147599999999}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {smoke: 0, asia: 0}
+Final expected utility: 45.31147599999999
+-------------------------------
+
+
+Gradients: {1: -9.672771165815423, 15: -18.845199512164815}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+After epoch 1, expected utility: 45.31147599999999 and learning_rate 1.1
+
+Gradients: {1: -45.31147599999999, 15: -45.31147599999999}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {smoke: 0, asia: 0}
+Final expected utility: 45.31147599999999
+-------------------------------
+
+
+Gradients: {1: -5.785356924823921, 15: -17.314267280722092}
+Updated to decisions: [-1, -6.54822977685376, -100]
+Decisions: {smoke: 0.0014305999159311207, asia: 3.7200759760208555e-44}
+After epoch 1, expected utility: 45.25633214428092 and learning_rate 1.1
+
+Gradients: {1: -45.17225865604915, 15: -45.25633214428092}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+After epoch 2, expected utility: 45.31147599999999 and learning_rate 1.2100000000000002
+
+Gradients: {1: -45.31147599999999, 15: -45.31147599999999}
+Updated to decisions: [-1, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {smoke: 0, asia: 0}
+Final expected utility: 45.31147599999999
+-------------------------------
+

@@ -1,0 +1,10 @@
+Compilation took 0.05011725425720215 seconds.
+start decisions: {1, 49, 15}
+start utilities: {util_node(0): 35, \+util_node(0): -17, util_node(1): 48, \+util_node(1): 4, util_node(2): -48, \+util_node(2): 42, util_node(3): -20, \+util_node(3): -1, util_node(4): -1, \+util_node(4): -32}
+final current_weights {1: pos_neg_weight(p_weight=s(1.0,0,{1}), n_weight=s(1.0,0,{-1})), 2: 0.1, 5: 0.01, 8: True, 14: 0.05, 15: pos_neg_weight(p_weight=s(1.0,0,{15}), n_weight=s(1.0,0,{-15})), 18: 0.01, 21: True, 27: True, 33: 0.0, 42: True, 48: 0.8, 49: pos_neg_weight(p_weight=s(1.0,0,{49}), n_weight=s(1.0,0,{-49})), 50: 0.3, 53: 0.6, 56: 0.3, 59: True, 65: True, 73: True, 79: 0.7, 82: True, 88: 0.9, 91: True, 97: 0.1, 100: True, 106: 0.98, 109: 0.05, 112: True, 156: pos_neg_weight(p_weight=s(1.0,-20,set()), n_weight=s(1.0,-1,set())), 184: pos_neg_weight(p_weight=s(1.0,-1,set()), n_weight=s(1.0,-32,set())), 200: pos_neg_weight(p_weight=s(1.0,35,set()), n_weight=s(1.0,-17,set())), 230: pos_neg_weight(p_weight=s(1.0,48,set()), n_weight=s(1.0,4,set())), 248: pos_neg_weight(p_weight=s(1.0,-48,set()), n_weight=s(1.0,42,set())), 0: pos_neg_weight(p_weight=s(0.0,0,set()), n_weight=s(1.0,0,set()))}
+Fixing weights took 0.0010292530059814453 seconds
+Circuit evaluation took 0.017135143280029297 seconds.
+Best decisions {asia: 0, smoke: 0, dec_2: 1}
+Expected utility 5.107040194999996
+Compile time 0.05011725425720215
+Runtime 0.06828165054321289

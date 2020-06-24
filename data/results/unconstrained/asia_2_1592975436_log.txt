@@ -1,0 +1,472 @@
+Starting compilation
+Compilation took 0.023880720138549805 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 2: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 5: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 8: True, 14: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 15: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 18: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 21: True, 27: True, 33: pos_neg_weight(p_weight=s(0.0,0), n_weight=s(1.0,0)), 42: True, 48: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 49: pos_neg_weight(p_weight=s(0.6,0), n_weight=s(0.4,0)), 52: pos_neg_weight(p_weight=s(0.3,0), n_weight=s(0.7,0)), 55: True, 61: True, 69: True, 75: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 78: True, 84: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 87: True, 93: pos_neg_weight(p_weight=s(0.8,0), n_weight=s(0.2,0)), 96: True, 102: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 105: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 106: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 109: pos_neg_weight(p_weight=s(0.98,0), n_weight=s(0.02,0)), 112: True, 160: pos_neg_weight(p_weight=s(1.0,6), n_weight=s(1.0,-27)), 190: pos_neg_weight(p_weight=s(1.0,11), n_weight=s(1.0,-12)), 204: pos_neg_weight(p_weight=s(1.0,-35), n_weight=s(1.0,15)), 218: pos_neg_weight(p_weight=s(1.0,-13), n_weight=s(1.0,-29)), 224: pos_neg_weight(p_weight=s(1.0,2), n_weight=s(1.0,-37)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0, 0, 0]
+key_to_decision_index: {1: 1, 15: 2, 105: 3}
+
+Gradients: {1: 1.7873587153124966, 15: -7.985014939687504, 105: -0.10689484781250158}
+Updated to decisions: [-1, 1.7873587153124966, -100, -0.10689484781250158]
+Decisions: {smoke: 0.8566031419182552, asia: 3.7200759760208555e-44, dec_2: 0.47330170556404594}
+After epoch 1, expected utility: -52.91646714567934 and learning_rate 1.1
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, -3.6092315338199477, -100, 1.0492106240267205]
+Decisions: {smoke: 0.02635903454581702, asia: 3.7200759760208555e-44, dec_2: 0.7406232885210119}
+Worse eu -64.7794367198247, decreasing learning rate to 0.8800000000000001
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, -2.529913483993459, -100, 0.8179895296588761]
+Decisions: {smoke: 0.07378755914400564, asia: 3.7200759760208555e-44, dec_2: 0.6938094064803506}
+Worse eu -64.13245406890111, decreasing learning rate to 0.7040000000000002
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, -1.6664590441322682, -100, 0.6330126541646006]
+Decisions: {smoke: 0.15889685138556064, asia: 3.7200759760208555e-44, dec_2: 0.6531722581863599}
+Worse eu -62.9496706938825, decreasing learning rate to 0.5632000000000001
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, -0.9756954922433154, -100, 0.48503115376918016]
+Decisions: {smoke: 0.2737467265487748, asia: 3.7200759760208555e-44, dec_2: 0.6189352025815009}
+Worse eu -61.33570777188149, decreasing learning rate to 0.4505600000000001
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, -0.42308465073215284, -100, 0.36664595345284384]
+Decisions: {smoke: 0.3957788564354709, asia: 3.7200759760208555e-44, dec_2: 0.5906482746095836}
+Worse eu -59.60624980861365, decreasing learning rate to 0.3604480000000001
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 0.019004022476776905, -100, 0.27193779319977474]
+Decisions: {smoke: 0.5047508626377484, asia: 3.7200759760208555e-44, dec_2: 0.5675685683800169}
+Worse eu -58.05051908900084, decreasing learning rate to 0.28835840000000007
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 0.37267496104392084, -100, 0.19617126499731946]
+Decisions: {smoke: 0.5921051848482408, asia: 3.7200759760208555e-44, dec_2: 0.5488861422528386}
+Worse eu -56.79497043833052, decreasing learning rate to 0.23068672000000007
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 0.6556117118976359, -100, 0.13555804243535527]
+Decisions: {smoke: 0.6582739325688521, asia: 3.7200759760208555e-44, dec_2: 0.5338377097071397}
+Worse eu -55.83790026912672, decreasing learning rate to 0.18454937600000007
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 0.881961112580608, -100, 0.08706746438578392]
+Decisions: {smoke: 0.7072284469065157, asia: 3.7200759760208555e-44, dec_2: 0.5217531257604222}
+Worse eu -55.125646681537795, decreasing learning rate to 0.14763950080000007
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.0630406331269855, -100, 0.04827500194612683]
+Decisions: {smoke: 0.7432711853229689, asia: 3.7200759760208555e-44, dec_2: 0.5120664072050345}
+Worse eu -54.59842178423786, decreasing learning rate to 0.11811160064000006
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.2079042495640877, -100, 0.017241031994401163]
+Decisions: {smoke: 0.7699279201095498, asia: 3.7200759760208555e-44, dec_2: 0.5043101512319478}
+Worse eu -54.20660390078136, decreasing learning rate to 0.09448928051200006
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.3237951427137695, -100, -0.007586143966979375]
+Decisions: {smoke: 0.7898124264075567, asia: 3.7200759760208555e-44, dec_2: 0.49810347310360703}
+Worse eu -53.913080144413655, decreasing learning rate to 0.07559142440960005
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.416507857233515, -100, -0.02744788473608381]
+Decisions: {smoke: 0.8047903747828226, asia: 3.7200759760208555e-44, dec_2: 0.4931384595931588}
+Worse eu -53.69116560064414, decreasing learning rate to 0.06047313952768005
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.4906780288493113, -100, -0.04333727735136736]
+Decisions: {smoke: 0.8161800191897451, asia: 3.7200759760208555e-44, dec_2: 0.48916737602271576}
+Worse eu -53.52188197401771, decreasing learning rate to 0.048378511622144044
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.5500141661419482, -100, -0.0560487914435942]
+Decisions: {smoke: 0.8249157778575378, asia: 3.7200759760208555e-44, dec_2: 0.4859914692252269}
+Worse eu -53.39169642082197, decreasing learning rate to 0.03870280929771524
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.5974830759760579, -100, -0.06621800271737567]
+Decisions: {smoke: 0.8316663162625402, asia: 3.7200759760208555e-44, dec_2: 0.4834515457169286}
+Worse eu -53.290871602810164, decreasing learning rate to 0.03096224743817219
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.6354582038433456, -100, -0.07435337173640086]
+Decisions: {smoke: 0.8369159866654877, asia: 3.7200759760208555e-44, dec_2: 0.4814202160207716}
+Worse eu -53.21231873151427, decreasing learning rate to 0.024769797950537756
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.6658383061371758, -100, -0.080861666951621]
+Decisions: {smoke: 0.8410201702575393, asia: 3.7200759760208555e-44, dec_2: 0.4797955911236657}
+Worse eu -53.1508129590943, decreasing learning rate to 0.019815838360430205
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.69014238797224, -100, -0.08606830312379711]
+Decisions: {smoke: 0.8442428843619358, asia: 3.7200759760208555e-44, dec_2: 0.4784961971517453}
+Worse eu -53.10245697925717, decreasing learning rate to 0.015852670688344166
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.7095856534402913, -100, -0.090233612061538]
+Decisions: {smoke: 0.8467825338597458, asia: 3.7200759760208555e-44, dec_2: 0.4774568906058634}
+Worse eu -53.06431163471354, decreasing learning rate to 0.012682136550675334
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.7251402658147323, -100, -0.09356585921173072]
+Decisions: {smoke: 0.8487897508872165, asia: 3.7200759760208555e-44, dec_2: 0.47662558545514294}
+Worse eu -53.03413861839354, decreasing learning rate to 0.010145709240540268
+
+Gradients: {1: -4.905991135574949, 15: 52.91646714567934, 105: 1.0510049743992926}
+Updated to decisions: [-1, 1.7375839557142851, -100, -0.09623165693188489]
+Decisions: {smoke: 0.8503799228646718, asia: 3.7200759760208555e-44, dec_2: 0.4759606343468881}
+Worse eu -53.01021884009251, decreasing learning rate to 0.008116567392432215
+Final decisions: {smoke: 1, asia: 0, dec_2: 0}
+Final expected utility: -49.9152168
+-------------------------------
+
+
+Gradients: {1: 0.9275255399731144, 15: 15.162738024249677, 105: 32.92423785229386}
+Updated to decisions: [-1, 1.0383916808174165, 100, 100]
+Decisions: {smoke: 0.7385395606232197, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.8
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -1.7722873794137775, 100, 100]
+Decisions: {smoke: 0.14525810155292612, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.6400000000000001
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -1.3956566753621618, 100, 100]
+Decisions: {smoke: 0.19850623615823235, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.5120000000000001
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -1.094352112120869, 100, 100]
+Decisions: {smoke: 0.2507996335382334, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.40960000000000013
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.8533084615278349, 100, 100]
+Decisions: {smoke: 0.2987392930772562, asia: 1.0, dec_2: 1.0}
+Worse eu -90.00000000000001, decreasing learning rate to 0.32768000000000014
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.6604735410534076, 100, 100]
+Decisions: {smoke: 0.3406332451433624, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.2621440000000001
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.5062056046738657, 100, 100]
+Decisions: {smoke: 0.3760834407371969, asia: 1.0, dec_2: 1.0}
+Worse eu -90.00000000000001, decreasing learning rate to 0.2097152000000001
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.38279125557023214, 100, 100]
+Decisions: {smoke: 0.40545385695198227, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.1677721600000001
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.28405977628732526, 100, 100]
+Decisions: {smoke: 0.4294587501209803, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.13421772800000006
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.20507459286099977, 100, 100]
+Decisions: {smoke: 0.44891027710637743, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.10737418240000006
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.14188644611993945, 100, 100]
+Decisions: {smoke: 0.46458777775324295, asia: 1.0, dec_2: 1.0}
+Worse eu -89.99999999999999, decreasing learning rate to 0.08589934592000005
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.09133592872709112, 100, 100]
+Decisions: {smoke: 0.4771818784895457, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.06871947673600004
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.05089551481281246, 100, 100]
+Decisions: {smoke: 0.48727886719741526, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.054975581388800036
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, -0.018543183681389547, 100, 100]
+Decisions: {smoke: 0.49536433690982323, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.043980465111040035
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.007338681223748769, 100, 100]
+Decisions: {smoke: 0.5018346620719442, asia: 1.0, dec_2: 1.0}
+Worse eu -89.99999999999999, decreasing learning rate to 0.03518437208883203
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.02804417314785944, 100, 100]
+Decisions: {smoke: 0.5070105838218666, asia: 1.0, dec_2: 1.0}
+Worse eu -90.00000000000001, decreasing learning rate to 0.028147497671065627
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.044608566687147966, 100, 100]
+Decisions: {smoke: 0.5111502927133116, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.022517998136852502
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.0578600815185788, 100, 100]
+Decisions: {smoke: 0.5144609862438001, asia: 1.0, dec_2: 1.0}
+Worse eu -89.99999999999999, decreasing learning rate to 0.018014398509482003
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.06846129338372346, 100, 100]
+Decisions: {smoke: 0.517108641590754, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.014411518807585602
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.07694226287583919, 100, 100]
+Decisions: {smoke: 0.5192260816086272, asia: 1.0, dec_2: 1.0}
+Worse eu -90.00000000000001, decreasing learning rate to 0.011529215046068483
+
+Gradients: {1: -2.3539419003225994, 15: 0.0, 105: 0.0}
+Updated to decisions: [-1, 0.08372703846953178, 100, 100]
+Decisions: {smoke: 0.5209195401687017, asia: 1.0, dec_2: 1.0}
+Worse eu -90.0, decreasing learning rate to 0.009223372036854787
+Final decisions: {smoke: 1, asia: 1, dec_2: 1}
+Final expected utility: -90.0
+-------------------------------
+
+
+Gradients: {1: 2.2047128833345404, 15: -8.801203410274685, 105: 12.273806361655126}
+Updated to decisions: [-1, 2.182745454107924, -100, 100]
+Decisions: {smoke: 0.898689310755226, asia: 3.7200759760208555e-44, dec_2: 1.0}
+After epoch 1, expected utility: -53.239392288602 and learning_rate 1.1
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, -2.281051060986506, -100, 100]
+Decisions: {smoke: 0.09270451012042218, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -63.84893399656776, decreasing learning rate to 0.8800000000000001
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, -1.38829175796762, -100, 100]
+Decisions: {smoke: 0.19968060799632475, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -62.44075933710035, decreasing learning rate to 0.7040000000000002
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, -0.6740843155525118, -100, 100]
+Decisions: {smoke: 0.3375828983502444, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -60.62548924766248, decreasing learning rate to 0.5632000000000001
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, -0.10271836162042458, -100, 100]
+Decisions: {smoke: 0.4743429647092956, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -58.82525476820612, decreasing learning rate to 0.4505600000000001
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 0.354374401525245, -100, 100]
+Decisions: {smoke: 0.5876779564239796, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -57.33337511908392, decreasing learning rate to 0.3604480000000001
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 0.7200486120417808, -100, 100]
+Decisions: {smoke: 0.6726177216809588, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -56.21527465186795, decreasing learning rate to 0.28835840000000007
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.0125879804550095, -100, 100]
+Decisions: {smoke: 0.7335263156537052, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -55.41350733861533, decreasing learning rate to 0.23068672000000007
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.2466194751855924, -100, 100]
+Decisions: {smoke: 0.7767141276267883, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -54.84500667701065, decreasing learning rate to 0.18454937600000007
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.4338446709700585, -100, 100]
+Decisions: {smoke: 0.8074996532981911, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -54.439762907704896, decreasing learning rate to 0.14763950080000007
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.5836248275976317, -100, 100]
+Decisions: {smoke: 0.8297172695253232, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -54.14730239749715, decreasing learning rate to 0.11811160064000006
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.7034489528996901, -100, 100]
+Decisions: {smoke: 0.8459846513599061, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.93316750820708, decreasing learning rate to 0.09448928051200006
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.7993082531413367, -100, 100]
+Decisions: {smoke: 0.8580647083470769, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.77415226581164, decreasing learning rate to 0.07559142440960005
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.8759956933346542, -100, 100]
+Decisions: {smoke: 0.8671505061162539, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.65455180894657, decreasing learning rate to 0.06047313952768005
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.937345645489308, -100, 100]
+Decisions: {smoke: 0.8740602449660179, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.56359579779105, decreasing learning rate to 0.048378511622144044
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 1.9864256072130313, -100, 100]
+Decisions: {smoke: 0.879364470532072, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.49377388262938, decreasing learning rate to 0.03870280929771524
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.0256895765920095, -100, 100]
+Decisions: {smoke: 0.8834680430824011, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.43975670502245, decreasing learning rate to 0.03096224743817219
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.0571007520951925, -100, 100]
+Decisions: {smoke: 0.8866631462851563, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.397698119470725, decreasing learning rate to 0.024769797950537756
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.0822296924977386, -100, 100]
+Decisions: {smoke: 0.8891639633729761, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.364778735412465, decreasing learning rate to 0.019815838360430205
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.102332844819776, -100, 100]
+Decisions: {smoke: 0.8911297122856455, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.33890269524405, decreasing learning rate to 0.015852670688344166
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.1184153666774055, -100, 100]
+Decisions: {smoke: 0.8926802125129125, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.31849276094202, decreasing learning rate to 0.012682136550675334
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.131281384163509, -100, 100]
+Decisions: {smoke: 0.893906593071099, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.30234936013387, decreasing learning rate to 0.010145709240540268
+
+Gradients: {1: -4.057996831904027, 15: 53.239392288602, 105: 0.0}
+Updated to decisions: [-1, 2.141574198152392, -100, 100]
+Decisions: {smoke: 0.8948787885457765, asia: 3.7200759760208555e-44, dec_2: 1.0}
+Worse eu -53.28955191230512, decreasing learning rate to 0.008116567392432215
+Final decisions: {smoke: 1, asia: 0, dec_2: 1}
+Final expected utility: -51.90579396
+-------------------------------
+
+
+Gradients: {1: -9.906574144062676, 15: -13.10140211153596, 105: 1.4933625949627825}
+Updated to decisions: [-1, -100, -100, 1.4187693757514181]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 0.8051454208555903}
+After epoch 1, expected utility: -65.12385517043491 and learning_rate 1.1
+
+Gradients: {1: 65.12385517043491, 15: 65.12385517043491, 105: -7.727261261043852}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.8800000000000001
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.7040000000000002
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.5632000000000001
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.4505600000000001
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.3604480000000001
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.28835840000000007
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.23068672000000007
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.18454937600000007
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.14763950080000007
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.11811160064000006
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.09448928051200006
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.07559142440960005
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.06047313952768005
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.048378511622144044
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.03870280929771524
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.03096224743817219
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.024769797950537756
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.019815838360430205
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.015852670688344166
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.012682136550675334
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.010145709240540268
+
+Gradients: {1: 65.3495049, 15: 65.3495049, 105: 65.3495049}
+Updated to decisions: [-1, -100, -100, -100]
+Decisions: {smoke: 3.7200759760208555e-44, asia: 3.7200759760208555e-44, dec_2: 3.7200759760208555e-44}
+Worse eu -65.3495049, decreasing learning rate to 0.008116567392432215
+Final decisions: {smoke: 0, asia: 0, dec_2: 0}
+Final expected utility: -65.3495049
+-------------------------------
+

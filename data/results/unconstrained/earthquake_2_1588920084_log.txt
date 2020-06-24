@@ -1,0 +1,62 @@
+Starting compilation
+Compilation took 0.012298822402954102 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 2: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 3: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 4: True, 10: pos_neg_weight(p_weight=s(0.94,0), n_weight=s(0.06,0)), 13: True, 19: pos_neg_weight(p_weight=s(0.29,0), n_weight=s(0.71,0)), 22: True, 28: pos_neg_weight(p_weight=s(0.95,0), n_weight=s(0.05,0)), 31: True, 37: pos_neg_weight(p_weight=s(0.001,0), n_weight=s(0.999,0)), 40: True, 48: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 51: True, 61: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 64: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 67: True, 75: pos_neg_weight(p_weight=s(1.0,47), n_weight=s(1.0,-73)), 83: pos_neg_weight(p_weight=s(1.0,33), n_weight=s(1.0,-25)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0, 0]
+key_to_decision_index: {2: 1, 3: 2}
+
+Gradients: {2: -21.263714999999998, 3: -21.263714999999998}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+After epoch 1, expected utility: 72.10972 and learning_rate 1.1
+
+Gradients: {2: -72.10972, 3: -72.10972}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {burglary: 0, earthquake: 0}
+Final expected utility: 72.10972
+-------------------------------
+
+
+Gradients: {2: -15.5940077230163, 3: -15.907589821176513}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+After epoch 1, expected utility: 72.10972 and learning_rate 1.1
+
+Gradients: {2: -72.10972, 3: -72.10972}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {burglary: 0, earthquake: 0}
+Final expected utility: 72.10972
+-------------------------------
+
+
+Gradients: {2: -31.508418576733796, 3: -38.99527951329286}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+After epoch 1, expected utility: 72.10972 and learning_rate 1.1
+
+Gradients: {2: -72.10972, 3: -72.10972}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {burglary: 0, earthquake: 0}
+Final expected utility: 72.10972
+-------------------------------
+
+
+Gradients: {2: -31.36358963998549, 3: -29.052615536470647}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+After epoch 1, expected utility: 72.10972 and learning_rate 1.1
+
+Gradients: {2: -72.10972, 3: -72.10972}
+Updated to decisions: [-1, -100, -100]
+Decisions: {burglary: 3.7200759760208555e-44, earthquake: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {burglary: 0, earthquake: 0}
+Final expected utility: 72.10972
+-------------------------------
+

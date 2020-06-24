@@ -1,0 +1,10 @@
+Compilation took 0.013564586639404297 seconds.
+start decisions: {1, 27}
+start utilities: {\+tub: 15, lung: -47, \+lung: -33, dysp: 39, xray: 15, \+xray: -18, \+bronc: 16, asia: -43, \+asia: 46, smoke: -43, either: -5, \+either: 10}
+final current_weights {1: pos_neg_weight(p_weight=s(1.0,-43,{1}), n_weight=s(1.0,0,{-1})), 2: 0.1, 5: 0.01, 8: pos_neg_weight(p_weight=s(1.0,-47,set()), n_weight=s(1.0,-33,set())), 14: 0.6, 17: 0.3, 20: pos_neg_weight(p_weight=s(1.0,0,set()), n_weight=s(1.0,16,set())), 26: 0.7, 27: pos_neg_weight(p_weight=s(1.0,-43,{27}), n_weight=s(1.0,46,{-27})), 28: 0.01, 31: 0.05, 34: pos_neg_weight(p_weight=s(1.0,0,set()), n_weight=s(1.0,15,set())), 46: True, 52: 0.0, 55: pos_neg_weight(p_weight=s(1.0,-5,set()), n_weight=s(1.0,10,set())), 61: True, 69: True, 75: 0.9, 78: True, 84: 0.1, 87: True, 93: 0.8, 96: pos_neg_weight(p_weight=s(1.0,39,set()), n_weight=s(1.0,0,set())), 102: 0.05, 105: 0.98, 108: pos_neg_weight(p_weight=s(1.0,15,set()), n_weight=s(1.0,-18,set())), 0: pos_neg_weight(p_weight=s(0.0,0,set()), n_weight=s(1.0,0,set()))}
+Fixing weights took 0.0008635520935058594 seconds
+Circuit evaluation took 0.009785652160644531 seconds.
+Best decisions {asia: 0, smoke: 0}
+Expected utility 45.311476
+Compile time 0.013564586639404297
+Runtime 0.024213790893554688

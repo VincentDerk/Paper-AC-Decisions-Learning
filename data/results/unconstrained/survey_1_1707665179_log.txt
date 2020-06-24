@@ -1,0 +1,352 @@
+Starting compilation
+Compilation took 0.48021984100341797 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(0.3,37), n_weight=s(0.7,0)), 2: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 3: pos_neg_weight(p_weight=s(0.6,0), n_weight=s(0.4,0)), 4: pos_neg_weight(p_weight=s(1.0,24), n_weight=s(1.0,-2)), 10: True, 16: pos_neg_weight(p_weight=s(0.25,0), n_weight=s(0.75,0)), 19: pos_neg_weight(p_weight=s(0.4,0), n_weight=s(0.6,0)), 20: pos_neg_weight(p_weight=s(1.0,-23), n_weight=s(1.0,3)), 26: True, 32: pos_neg_weight(p_weight=s(0.36,0), n_weight=s(0.64,0)), 35: pos_neg_weight(p_weight=s(0.28,0), n_weight=s(0.72,0)), 36: pos_neg_weight(p_weight=s(0.5,0), n_weight=s(0.5,35)), 37: True, 38: True, 46: pos_neg_weight(p_weight=s(0.3,0), n_weight=s(0.7,0)), 47: True, 55: pos_neg_weight(p_weight=s(0.12,0), n_weight=s(0.88,0)), 56: pos_neg_weight(p_weight=s(0.2,-48), n_weight=s(0.8,0)), 57: True, 65: True, 71: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 74: pos_neg_weight(p_weight=s(1.0,-41), n_weight=s(1.0,39)), 80: pos_neg_weight(p_weight=s(0.92,0), n_weight=s(0.08,0)), 83: pos_neg_weight(p_weight=s(0.75,0), n_weight=s(0.25,0)), 84: True, 87: pos_neg_weight(p_weight=s(0.64,0), n_weight=s(0.36,0)), 88: True, 91: pos_neg_weight(p_weight=s(0.72,0), n_weight=s(0.28,0)), 92: True, 95: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 96: True, 99: pos_neg_weight(p_weight=s(0.88,0), n_weight=s(0.12,0)), 100: True, 103: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 104: True, 107: pos_neg_weight(p_weight=s(1.0,-16), n_weight=s(1.0,0)), 113: pos_neg_weight(p_weight=s(0.96,0), n_weight=s(0.04,0)), 116: pos_neg_weight(p_weight=s(1.0,-13), n_weight=s(1.0,11)), 122: pos_neg_weight(p_weight=s(0.2,0), n_weight=s(0.8,0)), 125: pos_neg_weight(p_weight=s(0.25,0), n_weight=s(0.75,0)), 128: pos_neg_weight(p_weight=s(1.0,19), n_weight=s(1.0,0)), 134: pos_neg_weight(p_weight=s(0.04,0), n_weight=s(0.96,0)), 135: True, 138: pos_neg_weight(p_weight=s(0.08,0), n_weight=s(0.92,0)), 139: True, 142: pos_neg_weight(p_weight=s(1.0,-42), n_weight=s(1.0,0)), 148: True, 154: pos_neg_weight(p_weight=s(0.56,0), n_weight=s(0.44,0)), 157: pos_neg_weight(p_weight=s(0.8,0), n_weight=s(0.2,0)), 158: True, 161: pos_neg_weight(p_weight=s(0.75,0), n_weight=s(0.25,0)), 162: True, 165: True, 171: True, 177: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 180: True, 186: pos_neg_weight(p_weight=s(0.48,0), n_weight=s(0.52,0)), 189: True, 195: pos_neg_weight(p_weight=s(0.58,0), n_weight=s(0.42,0)), 198: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,42)), 204: pos_neg_weight(p_weight=s(0.21,0), n_weight=s(0.79,0)), 205: True, 208: pos_neg_weight(p_weight=s(0.24,0), n_weight=s(0.76,0)), 209: True, 212: pos_neg_weight(p_weight=s(0.36,0), n_weight=s(0.64,0)), 213: True, 216: pos_neg_weight(p_weight=s(0.42,0), n_weight=s(0.58,0)), 217: True, 220: pos_neg_weight(p_weight=s(1.0,-32), n_weight=s(1.0,0)), 226: pos_neg_weight(p_weight=s(0.09,0), n_weight=s(0.91,0)), 229: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 232: pos_neg_weight(p_weight=s(0.18,0), n_weight=s(0.82,0)), 235: pos_neg_weight(p_weight=s(0.08,0), n_weight=s(0.92,0)), 238: pos_neg_weight(p_weight=s(1.0,-40), n_weight=s(1.0,-44)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0]
+key_to_decision_index: {2: 1}
+
+Gradients: {2: 2.575404555999997}
+Updated to decisions: [-1, 2.575404555999997]
+Decisions: {dec_0: 0.9292617859756853}
+After epoch 1, expected utility: 32.699688053273896 and learning_rate 1.1
+
+Gradients: {2: 2.081669498868392}
+Updated to decisions: [-1, 4.865241004755228]
+Decisions: {dec_0: 0.9923490190044878}
+After epoch 2, expected utility: 33.34958864274512 and learning_rate 1.2100000000000002
+
+Gradients: {2: 0.2524494997484373}
+Updated to decisions: [-1, 5.170704899450837]
+Decisions: {dec_0: 0.9943515233467769}
+After epoch 3, expected utility: 33.37021767797134 and learning_rate 1.3310000000000004
+
+Gradients: {2: 0.18701516178659014}
+Updated to decisions: [-1, 5.419622079788788]
+Decisions: {dec_0: 0.9955907078891865}
+After epoch 4, expected utility: 33.3829832840363 and learning_rate 1.4641000000000006
+
+Gradients: {2: 0.14629606942689405}
+Updated to decisions: [-1, 5.6338141550367045]
+Decisions: {dec_0: 0.9964378204711025}
+After epoch 5, expected utility: 33.39170991444793 and learning_rate 1.6105100000000008
+
+Gradients: {2: 0.11836034817969249}
+Updated to decisions: [-1, 5.8244346793835815]
+Decisions: {dec_0: 0.9970542292973068}
+After epoch 6, expected utility: 33.39805992284541 and learning_rate 1.771561000000001
+
+Gradients: {2: 0.09798165803543422}
+Updated to decisions: [-1, 5.998015163474493]
+Decisions: {dec_0: 0.9975224763879909}
+After epoch 7, expected utility: 33.40288362560817 and learning_rate 1.9487171000000014
+
+Gradients: {2: 0.08247252274266482}
+Updated to decisions: [-1, 6.158730778823263]
+Decisions: {dec_0: 0.9978895276234011}
+After epoch 8, expected utility: 33.406664847303986 and learning_rate 2.1435888100000016
+
+Gradients: {2: 0.07029782559612573}
+Updated to decisions: [-1, 6.30942041113845]
+Decisions: {dec_0: 0.9981842158134298}
+After epoch 9, expected utility: 33.409700612532774 and learning_rate 2.357947691000002
+
+Gradients: {2: 0.06051230467077192}
+Updated to decisions: [-1, 6.452105260213985]
+Decisions: {dec_0: 0.9984252853787853}
+After epoch 10, expected utility: 33.412184019160506 and learning_rate 2.5937424601000023
+
+Gradients: {2: 0.05249995850076954}
+Updated to decisions: [-1, 6.588276631730919]
+Decisions: {dec_0: 0.9986254819182926}
+After epoch 11, expected utility: 33.414246367480274 and learning_rate 2.853116706110003
+
+Gradients: {2: 0.04584109893994537}
+Updated to decisions: [-1, 6.719066636942919]
+Decisions: {dec_0: 0.9987937918173921}
+After epoch 12, expected utility: 33.4159802318041 and learning_rate 3.1384283767210035
+
+Gradients: {2: 0.040239332692069724}
+Updated to decisions: [-1, 6.845354900524027]
+Decisions: {dec_0: 0.9989367433004952}
+After epoch 13, expected utility: 33.41745286340759 and learning_rate 3.4522712143931042
+
+Gradients: {2: 0.035479040284981916}
+Updated to decisions: [-1, 6.967838170014164]
+Decisions: {dec_0: 0.9990591994661511}
+After epoch 14, expected utility: 33.41871436007536 and learning_rate 3.797498335832415
+
+Gradients: {2: 0.03139940500947824}
+Updated to decisions: [-1, 100]
+Decisions: {dec_0: 1.0}
+After epoch 15, expected utility: 33.42840612799999 and learning_rate 4.177248169415656
+
+Gradients: {2: 0.0}
+Updated to decisions: [-1, 100]
+Decisions: {dec_0: 1.0}
+Result converged.
+Final decisions: {dec_0: 1}
+Final expected utility: 33.42840612799999
+-------------------------------
+
+
+Gradients: {2: 4.927019458142415}
+Updated to decisions: [-1, 5.868627474761278]
+Decisions: {dec_0: 0.9971812175355959}
+After epoch 1, expected utility: 33.39936810719521 and learning_rate 1.1
+
+Gradients: {2: 0.09377804375663432}
+Updated to decisions: [-1, 5.971783322893576]
+Decisions: {dec_0: 0.9974567939472295}
+After epoch 2, expected utility: 33.4022069901794 and learning_rate 1.2100000000000002
+
+Gradients: {2: 0.08464953162786686}
+Updated to decisions: [-1, 6.074209256163295]
+Decisions: {dec_0: 0.9977038192440962}
+After epoch 3, expected utility: 33.404751750479384 and learning_rate 1.3310000000000004
+
+Gradients: {2: 0.07645947864148858}
+Updated to decisions: [-1, 6.175976822235116]
+Decisions: {dec_0: 0.9979255380059739}
+After epoch 4, expected utility: 33.40703581251732 and learning_rate 1.4641000000000006
+
+Gradients: {2: 0.06910257883191354}
+Updated to decisions: [-1, 6.2771499079029205]
+Decisions: {dec_0: 0.9981247754989587}
+After epoch 5, expected utility: 33.40908828110599 and learning_rate 1.6105100000000008
+
+Gradients: {2: 0.06248689173248983}
+Updated to decisions: [-1, 6.377785671907013]
+Decisions: {dec_0: 0.9983040006266771}
+After epoch 6, expected utility: 33.41093458994789 and learning_rate 1.771561000000001
+
+Gradients: {2: 0.05653187969949258}
+Updated to decisions: [-1, 6.477935345239326]
+Decisions: {dec_0: 0.9984653779442831}
+After epoch 7, expected utility: 33.41259703746388 and learning_rate 1.9487171000000014
+
+Gradients: {2: 0.051166778181719635}
+Updated to decisions: [-1, 6.57764492083395]
+Decisions: {dec_0: 0.9986108108894348}
+After epoch 8, expected utility: 33.41409523214201 and learning_rate 2.1435888100000016
+
+Gradients: {2: 0.04632923493981726}
+Updated to decisions: [-1, 6.676955750426803]
+Decisions: {dec_0: 0.998741977914085}
+After epoch 9, expected utility: 33.41544646475357 and learning_rate 2.357947691000002
+
+Gradients: {2: 0.04196416784917543}
+Updated to decisions: [-1, 6.7759050631115025]
+Decisions: {dec_0: 0.9988603628425183}
+After epoch 10, expected utility: 33.41666602108976 and learning_rate 2.5937424601000023
+
+Gradients: {2: 0.03802280138828107}
+Updated to decisions: [-1, 6.874526417524237]
+Decisions: {dec_0: 0.9989672805059032}
+After epoch 11, expected utility: 33.417767446039335 and learning_rate 2.853116706110003
+
+Gradients: {2: 0.03446185001023535}
+Updated to decisions: [-1, 6.9728500975118965]
+Decisions: {dec_0: 0.9990638984908662}
+After epoch 12, expected utility: 33.418762767633964 and learning_rate 3.1384283767210035
+
+Gradients: {2: 0.031242822897599082}
+Updated to decisions: [-1, 100]
+Decisions: {dec_0: 1.0}
+After epoch 13, expected utility: 33.42840612799999 and learning_rate 3.4522712143931042
+
+Gradients: {2: 0.0}
+Updated to decisions: [-1, 100]
+Decisions: {dec_0: 1.0}
+Result converged.
+Final decisions: {dec_0: 1}
+Final expected utility: 33.42840612799999
+-------------------------------
+
+
+Gradients: {2: 4.4351046742533455}
+Updated to decisions: [-1, 4.882444942173614]
+Decisions: {dec_0: 0.9924785386568108}
+After epoch 1, expected utility: 33.350922904755926 and learning_rate 1.1
+
+Gradients: {2: 0.248231002486743}
+Updated to decisions: [-1, 5.155499044909032]
+Decisions: {dec_0: 0.9942654733969121}
+After epoch 2, expected utility: 33.369331224239595 and learning_rate 1.2100000000000002
+
+Gradients: {2: 0.1898362782574699}
+Updated to decisions: [-1, 5.38520094160057]
+Decisions: {dec_0: 0.9954369973056951}
+After epoch 3, expected utility: 33.38139981628822 and learning_rate 1.3310000000000004
+
+Gradients: {2: 0.15135637189606005}
+Updated to decisions: [-1, 5.586656272594226]
+Decisions: {dec_0: 0.9962664539218424}
+After epoch 4, expected utility: 33.389944561681105 and learning_rate 1.4641000000000006
+
+Gradients: {2: 0.1240181510314707}
+Updated to decisions: [-1, 5.768231247519402]
+Decisions: {dec_0: 0.9968844564714184}
+After epoch 5, expected utility: 33.396310988008295 and learning_rate 1.6105100000000008
+
+Gradients: {2: 0.10359869508732769}
+Updated to decisions: [-1, 5.935077981944494]
+Decisions: {dec_0: 0.9973619611732093}
+After epoch 6, expected utility: 33.40123005914633 and learning_rate 1.771561000000001
+
+Gradients: {2: 0.08779185161426989}
+Updated to decisions: [-1, 6.090606602382122]
+Decisions: {dec_0: 0.9977410791470818}
+After epoch 7, expected utility: 33.40513558777502 and learning_rate 1.9487171000000014
+
+Gradients: {2: 0.07522353816926336}
+Updated to decisions: [-1, 6.237195997535069]
+Decisions: {dec_0: 0.9980484852614667}
+After epoch 8, expected utility: 33.40830236820512 and learning_rate 2.1435888100000016
+
+Gradients: {2: 0.06502064189070592}
+Updated to decisions: [-1, 6.3765735179110035]
+Decisions: {dec_0: 0.9983019470607701}
+After epoch 9, expected utility: 33.41091343489593 and learning_rate 2.357947691000002
+
+Gradients: {2: 0.05660013295002308}
+Updated to decisions: [-1, 6.510033670710803]
+Decisions: {dec_0: 0.9985137825243584}
+After epoch 10, expected utility: 33.41309568296811 and learning_rate 2.5937424601000023
+
+Gradients: {2: 0.0495569598606139}
+Updated to decisions: [-1, 6.638571661694749]
+Decisions: {dec_0: 0.9986928155130179}
+After epoch 11, expected utility: 33.41494001246676 and learning_rate 2.853116706110003
+
+Gradients: {2: 0.043600456285799394}
+Updated to decisions: [-1, 6.762968851917782]
+Decisions: {dec_0: 0.9988455416167025}
+After epoch 12, expected utility: 33.41651333847979 and learning_rate 3.1384283767210035
+
+Gradients: {2: 0.03851632839359428}
+Updated to decisions: [-1, 6.883849589915344]
+Decisions: {dec_0: 0.9989768541788553}
+After epoch 13, expected utility: 33.41786607036311 and learning_rate 3.4522712143931042
+
+Gradients: {2: 0.0341429305122881}
+Updated to decisions: [-1, 100]
+Decisions: {dec_0: 1.0}
+After epoch 14, expected utility: 33.42840612799999 and learning_rate 3.797498335832415
+
+Gradients: {2: 0.0}
+Updated to decisions: [-1, 100]
+Decisions: {dec_0: 1.0}
+Result converged.
+Final decisions: {dec_0: 1}
+Final expected utility: 33.42840612799999
+-------------------------------
+
+
+Gradients: {2: -0.26506842566592326}
+Updated to decisions: [-1, -0.6659590166881928]
+Decisions: {dec_0: 0.33940227424680963}
+Worse eu 26.62318055764798, decreasing learning rate to 0.8
+
+Gradients: {2: -0.26506842566592326}
+Updated to decisions: [-1, -0.6129453315550082]
+Decisions: {dec_0: 0.35138762108831056}
+Worse eu 26.746649025091337, decreasing learning rate to 0.6400000000000001
+
+Gradients: {2: -0.26506842566592326}
+Updated to decisions: [-1, -0.5705343834484604]
+Decisions: {dec_0: 0.36111352780500255}
+Worse eu 26.84684160296897, decreasing learning rate to 0.5120000000000001
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.5366056249632213]
+Decisions: {dec_0: 0.36897755309917457}
+Worse eu 26.92785378925339, decreasing learning rate to 0.40960000000000013
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.5094626181750309]
+Decisions: {dec_0: 0.37531950882245524}
+Worse eu 26.993186195908127, decreasing learning rate to 0.32768000000000014
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4877482127444786]
+Decisions: {dec_0: 0.3804241744702848}
+Worse eu 27.045772512573233, decreasing learning rate to 0.2621440000000001
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.47037668840003677]
+Decisions: {dec_0: 0.38452709039237215}
+Worse eu 27.088039186007773, decreasing learning rate to 0.2097152000000001
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4564794689244833]
+Decisions: {dec_0: 0.3878213232455606}
+Worse eu 27.12197511520228, decreasing learning rate to 0.1677721600000001
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4453616933440405]
+Decisions: {dec_0: 0.3904641292614052}
+Worse eu 27.149200293817575, decreasing learning rate to 0.13421772800000006
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4364674728796863]
+Decisions: {dec_0: 0.39258302090150343}
+Worse eu 27.171028306551904, decreasing learning rate to 0.10737418240000006
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.42935209650820294]
+Decisions: {dec_0: 0.3942810555475765}
+Worse eu 27.188520811206878, decreasing learning rate to 0.08589934592000005
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4236597954110162]
+Decisions: {dec_0: 0.3956413257618413}
+Worse eu 27.202533795635695, decreasing learning rate to 0.06871947673600004
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4191059545332669]
+Decisions: {dec_0: 0.39673070714383846}
+Worse eu 27.21375618673336, decreasing learning rate to 0.054975581388800036
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4154628818310674]
+Decisions: {dec_0: 0.39760295078854885}
+Worse eu 27.2227417077595, decreasing learning rate to 0.043980465111040035
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4125484236693078]
+Decisions: {dec_0: 0.39830121467138885}
+Worse eu 27.229934955700134, decreasing learning rate to 0.03518437208883203
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.41021685713990014]
+Decisions: {dec_0: 0.39886012401762516}
+Worse eu 27.23569262640685, decreasing learning rate to 0.028147497671065627
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.408351603916374]
+Decisions: {dec_0: 0.3993074413936394}
+Worse eu 27.240300719239542, decreasing learning rate to 0.022517998136852502
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.40685940133755305]
+Decisions: {dec_0: 0.39966541632992536}
+Worse eu 27.24398844036693, decreasing learning rate to 0.018014398509482003
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.40566563927449634]
+Decisions: {dec_0: 0.3999518734853282}
+Worse eu 27.246939412619387, decreasing learning rate to 0.014411518807585602
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.40471062962405097]
+Decisions: {dec_0: 0.400181088490334}
+Worse eu 27.249300698092185, decreasing learning rate to 0.011529215046068483
+
+Gradients: {2: -0.2650684256659215}
+Updated to decisions: [-1, -0.4039466219036947]
+Decisions: {dec_0: 0.4003644919666379}
+Worse eu 27.251190050686006, decreasing learning rate to 0.009223372036854787
+Final decisions: {dec_0: 0}
+Final expected utility: 23.126787904
+-------------------------------
+

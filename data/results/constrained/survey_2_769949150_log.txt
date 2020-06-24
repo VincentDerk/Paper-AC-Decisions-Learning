@@ -1,0 +1,10 @@
+Compilation took 8.146231889724731 seconds.
+start decisions: {178, 2, 243, 74}
+start utilities: {util_node(0): 18, \+util_node(0): 7, util_node(1): -3, \+util_node(1): -27, util_node(2): 33, \+util_node(2): -48, util_node(3): 2, \+util_node(3): 20, util_node(4): -38, \+util_node(4): 11}
+final current_weights {1: 0.3, 2: pos_neg_weight(p_weight=s(1.0,0,{2}), n_weight=s(1.0,0,{-2})), 3: 0.6, 4: True, 10: True, 16: 0.25, 19: 0.4, 20: True, 26: True, 32: 0.36, 35: 0.28, 36: 0.5, 37: True, 38: True, 46: 0.3, 47: True, 55: 0.12, 56: 0.2, 57: True, 65: True, 71: 0.1, 74: pos_neg_weight(p_weight=s(1.0,0,{74}), n_weight=s(1.0,0,{-74})), 75: 0.3, 78: True, 84: 0.2, 87: 0.75, 88: True, 91: 0.64, 92: True, 95: 0.72, 96: True, 99: 0.7, 100: True, 103: 0.88, 104: True, 107: 0.9, 108: True, 111: True, 117: 0.25, 120: True, 126: 0.8, 127: True, 130: 0.75, 131: True, 134: True, 140: 0.08, 143: 0.04, 146: True, 152: True, 158: 0.56, 161: 0.7, 162: True, 170: 0.96, 171: True, 174: 0.92, 175: True, 178: pos_neg_weight(p_weight=s(1.0,0,{178}), n_weight=s(1.0,0,{-178})), 179: 0.96, 182: True, 188: True, 194: 0.48, 197: True, 203: 0.58, 206: True, 230: 0.24, 231: True, 234: 0.36, 235: True, 238: 0.21, 239: True, 242: 0.36, 243: pos_neg_weight(p_weight=s(1.0,0,{243}), n_weight=s(1.0,0,{-243})), 246: 0.42, 247: True, 250: True, 260: 0.09, 263: 0.1, 266: 0.18, 269: 0.08, 272: True, 350: pos_neg_weight(p_weight=s(1.0,-38,set()), n_weight=s(1.0,11,set())), 422: pos_neg_weight(p_weight=s(1.0,18,set()), n_weight=s(1.0,7,set())), 498: pos_neg_weight(p_weight=s(1.0,33,set()), n_weight=s(1.0,-48,set())), 546: pos_neg_weight(p_weight=s(1.0,-3,set()), n_weight=s(1.0,-27,set())), 588: pos_neg_weight(p_weight=s(1.0,2,set()), n_weight=s(1.0,20,set())), 0: pos_neg_weight(p_weight=s(0.0,0,set()), n_weight=s(1.0,0,set()))}
+Fixing weights took 0.0012416839599609375 seconds
+Circuit evaluation took 1.0814883708953857 seconds.
+Best decisions {dec_2: 0, dec_1: 0, dec_3: 0, dec_0: 0}
+Expected utility -35.98505728
+Compile time 8.146231889724731
+Runtime 9.228961944580078

@@ -1,0 +1,377 @@
+Starting compilation
+Compilation took 3.2296178340911865 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(0.3,0), n_weight=s(0.7,0)), 2: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 3: pos_neg_weight(p_weight=s(0.6,0), n_weight=s(0.4,0)), 4: True, 10: True, 16: pos_neg_weight(p_weight=s(0.75,0), n_weight=s(0.25,0)), 19: pos_neg_weight(p_weight=s(0.4,0), n_weight=s(0.6,0)), 20: True, 26: True, 32: pos_neg_weight(p_weight=s(0.64,0), n_weight=s(0.36,0)), 35: pos_neg_weight(p_weight=s(0.72,0), n_weight=s(0.28,0)), 36: pos_neg_weight(p_weight=s(0.5,0), n_weight=s(0.5,0)), 37: True, 38: True, 46: True, 52: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 55: pos_neg_weight(p_weight=s(0.2,0), n_weight=s(0.8,0)), 56: True, 62: pos_neg_weight(p_weight=s(0.88,0), n_weight=s(0.12,0)), 65: True, 71: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 74: True, 80: pos_neg_weight(p_weight=s(0.04,0), n_weight=s(0.96,0)), 83: pos_neg_weight(p_weight=s(0.25,0), n_weight=s(0.75,0)), 84: True, 87: pos_neg_weight(p_weight=s(0.36,0), n_weight=s(0.64,0)), 88: True, 91: pos_neg_weight(p_weight=s(0.28,0), n_weight=s(0.72,0)), 92: True, 95: pos_neg_weight(p_weight=s(0.3,0), n_weight=s(0.7,0)), 96: True, 99: pos_neg_weight(p_weight=s(0.12,0), n_weight=s(0.88,0)), 100: True, 103: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 104: True, 107: True, 113: pos_neg_weight(p_weight=s(0.08,0), n_weight=s(0.92,0)), 116: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 117: pos_neg_weight(p_weight=s(0.08,0), n_weight=s(0.92,0)), 120: True, 126: pos_neg_weight(p_weight=s(0.8,0), n_weight=s(0.2,0)), 129: pos_neg_weight(p_weight=s(0.75,0), n_weight=s(0.25,0)), 132: True, 138: True, 144: pos_neg_weight(p_weight=s(0.09,0), n_weight=s(0.91,0)), 147: pos_neg_weight(p_weight=s(0.2,0), n_weight=s(0.8,0)), 148: True, 151: pos_neg_weight(p_weight=s(0.25,0), n_weight=s(0.75,0)), 152: True, 155: True, 161: True, 167: pos_neg_weight(p_weight=s(0.08,0), n_weight=s(0.92,0)), 170: pos_neg_weight(p_weight=s(0.92,0), n_weight=s(0.08,0)), 171: True, 174: pos_neg_weight(p_weight=s(0.96,0), n_weight=s(0.04,0)), 175: True, 178: True, 184: True, 190: pos_neg_weight(p_weight=s(0.1,0), n_weight=s(0.9,0)), 193: True, 199: pos_neg_weight(p_weight=s(0.18,0), n_weight=s(0.82,0)), 202: True, 208: pos_neg_weight(p_weight=s(0.36,0), n_weight=s(0.64,0)), 209: True, 212: pos_neg_weight(p_weight=s(0.42,0), n_weight=s(0.58,0)), 213: True, 216: pos_neg_weight(p_weight=s(0.21,0), n_weight=s(0.79,0)), 217: True, 220: pos_neg_weight(p_weight=s(0.24,0), n_weight=s(0.76,0)), 221: True, 224: True, 238: pos_neg_weight(p_weight=s(0.58,0), n_weight=s(0.42,0)), 241: pos_neg_weight(p_weight=s(0.56,0), n_weight=s(0.44,0)), 244: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 247: pos_neg_weight(p_weight=s(0.48,0), n_weight=s(0.52,0)), 250: True, 340: pos_neg_weight(p_weight=s(1.0,4), n_weight=s(1.0,37)), 428: pos_neg_weight(p_weight=s(1.0,35), n_weight=s(1.0,-17)), 512: pos_neg_weight(p_weight=s(1.0,-18), n_weight=s(1.0,-49)), 542: pos_neg_weight(p_weight=s(1.0,-24), n_weight=s(1.0,-14)), 600: pos_neg_weight(p_weight=s(1.0,15), n_weight=s(1.0,9)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0, 0]
+key_to_decision_index: {2: 1, 116: 2}
+
+Gradients: {2: 0.9177287039999991, 116: -0.08652615839999989}
+Updated to decisions: [-1, 0.9177287039999991, -0.08652615839999989]
+Decisions: {dec_0: 0.714579087535195, dec_1: 0.478381946178041}
+After epoch 1, expected utility: -29.050141688687855 and learning_rate 1.1
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, -2.525503355603366, 0.5162448977050362]
+Decisions: {dec_0: 0.07408952745705637, dec_1: 0.6262692794014617}
+Worse eu -31.437476207821092, decreasing learning rate to 0.8800000000000001
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, -1.836856943682693, 0.39569068648402905]
+Decisions: {dec_0: 0.13742344052925823, dec_1: 0.597651862336378}
+Worse eu -31.200698704250943, decreasing learning rate to 0.7040000000000002
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, -1.2859398141461549, 0.2992473175072233]
+Decisions: {dec_0: 0.21654083222073445, dec_1: 0.5742585070185636}
+Worse eu -30.906560900513867, decreasing learning rate to 0.5632000000000001
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, -0.8452061105169242, 0.22209262232577864]
+Decisions: {dec_0: 0.30043945115690696, dec_1: 0.555296051789208}
+Worse eu -30.595076707294414, decreasing learning rate to 0.4505600000000001
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, -0.49261914761353953, 0.16036886618062296]
+Decisions: {dec_0: 0.3792767577981911, dec_1: 0.5400065120737629}
+Worse eu -30.30227811814884, decreasing learning rate to 0.3604480000000001
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, -0.2105495772908319, 0.11098986126449839]
+Decisions: {dec_0: 0.4475562037207449, dec_1: 0.5277190158560342}
+Worse eu -30.048410087586827, decreasing learning rate to 0.28835840000000007
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.015106078967334402, 0.07148665733159873]
+Decisions: {dec_0: 0.5037764479286626, dec_1: 0.5178640573602991}
+Worse eu -29.83908484865415, decreasing learning rate to 0.23068672000000007
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.19563060397386733, 0.03988409418527902]
+Decisions: {dec_0: 0.548752265563163, dec_1: 0.5099697019802415}
+Worse eu -29.671378228868424, decreasing learning rate to 0.18454937600000007
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.34005022397909357, 0.014602043668223236]
+Decisions: {dec_0: 0.5842027228888108, dec_1: 0.5036504460550415}
+Worse eu -29.539000839811774, decreasing learning rate to 0.14763950080000007
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.45558591998327463, -0.005623596745421372]
+Decisions: {dec_0: 0.6119665127360243, dec_1: 0.4985941045187443}
+Worse eu -29.435190125152673, decreasing learning rate to 0.11811160064000006
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.5480144767866195, -0.021804109076337078]
+Decisions: {dec_0: 0.6336748118818784, dec_1: 0.49454918868088854}
+Worse eu -29.353926101504033, decreasing learning rate to 0.09448928051200006
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.6219573222292953, -0.03474851894106963]
+Decisions: {dec_0: 0.6506635799635825, dec_1: 0.49131374427236}
+Worse eu -29.29026453094305, decreasing learning rate to 0.07559142440960005
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.6811115985834362, -0.04510404683285568]
+Decisions: {dec_0: 0.663986749516942, dec_1: 0.48872589953936574}
+Worse eu -29.24029542340742, decreasing learning rate to 0.06047313952768005
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.7284350196667486, -0.05338846914628452]
+Decisions: {dec_0: 0.6744617545154139, dec_1: 0.48665605211593416}
+Worse eu -29.200979595037918, decreasing learning rate to 0.048378511622144044
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.7662937565333987, -0.06001600699702759]
+Decisions: {dec_0: 0.6827186140766357, dec_1: 0.48500050023170727}
+Worse eu -29.169970130231775, decreasing learning rate to 0.03870280929771524
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.7965807460267188, -0.06531803727762205]
+Decisions: {dec_0: 0.6892425948488187, dec_1: 0.4836762939521407}
+Worse eu -29.145456243617694, decreasing learning rate to 0.03096224743817219
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.8208103376213749, -0.06955966150209761]
+Decisions: {dec_0: 0.6944083252141112, dec_1: 0.48261709305962447}
+Worse eu -29.126037905545882, decreasing learning rate to 0.024769797950537756
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.8401940108970997, -0.07295296088167806]
+Decisions: {dec_0: 0.698506075366459, dec_1: 0.4817698443408556}
+Worse eu -29.110628937805497, decreasing learning rate to 0.019815838360430205
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.8557009495176795, -0.07566760038534243]
+Decisions: {dec_0: 0.7017616776442746, dec_1: 0.48109212059995493}
+Worse eu -29.098383350397096, decreasing learning rate to 0.015852670688344166
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.8681065004141435, -0.07783931198827392]
+Decisions: {dec_0: 0.7043515474318216, dec_1: 0.48054999157750766}
+Worse eu -29.08863965542448, decreasing learning rate to 0.012682136550675334
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.8780309411313145, -0.07957668127061912]
+Decisions: {dec_0: 0.7064140176114512, dec_1: 0.4801163212722385}
+Worse eu -29.080878752513303, decreasing learning rate to 0.010145709240540268
+
+Gradients: {2: -3.130210963275786, 116: 0.5479736873682146}
+Updated to decisions: [-1, 0.8859704937050514, -0.08096657669649526]
+Decisions: {dec_0: 0.7080579245221379, dec_1: 0.4797694065690337}
+Worse eu -29.07469196220305, decreasing learning rate to 0.008116567392432215
+Final decisions: {dec_0: 1, dec_1: 0}
+Final expected utility: -27.76175728
+-------------------------------
+
+
+Gradients: {2: 4.951603506922426, 116: 12.015614518025878}
+Updated to decisions: [-1, 4.521816505981079, 100]
+Decisions: {dec_0: 0.9892476089058433, dec_1: 1.0}
+After epoch 1, expected utility: -28.298643179717686 and learning_rate 1.1
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.19519357047708, 100]
+Decisions: {dec_0: 0.9851558436636664, dec_1: 1.0}
+Worse eu -28.313037846299988, decreasing learning rate to 0.8800000000000001
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.260518157577881, 100]
+Decisions: {dec_0: 0.9860814730948794, dec_1: 1.0}
+Worse eu -28.30978151895653, decreasing learning rate to 0.7040000000000002
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.31277782725852, 100]
+Decisions: {dec_0: 0.9867808028416433, dec_1: 1.0}
+Worse eu -28.30732130485822, decreasing learning rate to 0.5632000000000001
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.354585563003032, 100]
+Decisions: {dec_0: 0.9873152081311921, dec_1: 1.0}
+Worse eu -28.305441288408705, decreasing learning rate to 0.4505600000000001
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.388031751598641, 100]
+Decisions: {dec_0: 0.9877273289415586, dec_1: 1.0}
+Worse eu -28.30399146386948, decreasing learning rate to 0.3604480000000001
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.4147887024751284, 100]
+Decisions: {dec_0: 0.9880474809921129, dec_1: 1.0}
+Worse eu -28.302865181751464, decreasing learning rate to 0.28835840000000007
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.4361942631763185, 100]
+Decisions: {dec_0: 0.9882976502539008, dec_1: 1.0}
+Worse eu -28.301985096287268, decreasing learning rate to 0.23068672000000007
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.45331871173727, 100]
+Decisions: {dec_0: 0.9884940543360402, dec_1: 1.0}
+Worse eu -28.301294154576173, decreasing learning rate to 0.18454937600000007
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.467018270586032, 100]
+Decisions: {dec_0: 0.9886488288796413, dec_1: 1.0}
+Worse eu -28.30074966391782, decreasing learning rate to 0.14763950080000007
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.477977917665042, 100]
+Decisions: {dec_0: 0.9887711651819036, dec_1: 1.0}
+Worse eu -28.300319289695995, decreasing learning rate to 0.11811160064000006
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.486745635328249, 100]
+Decisions: {dec_0: 0.9888680949379643, dec_1: 1.0}
+Worse eu -28.29997829468826, decreasing learning rate to 0.09448928051200006
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.4937598094588145, 100]
+Decisions: {dec_0: 0.9889450426970534, dec_1: 1.0}
+Worse eu -28.299707595547236, decreasing learning rate to 0.07559142440960005
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.4993711487632675, 100]
+Decisions: {dec_0: 0.9890062220256519, dec_1: 1.0}
+Worse eu -28.29949236911444, decreasing learning rate to 0.06047313952768005
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.50386022020683, 100]
+Decisions: {dec_0: 0.9890549243247918, dec_1: 1.0}
+Worse eu -28.29932103637259, decreasing learning rate to 0.048378511622144044
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.50745147736168, 100]
+Decisions: {dec_0: 0.9890937324912676, dec_1: 1.0}
+Worse eu -28.29918451079402, decreasing learning rate to 0.03870280929771524
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.51032448308556, 100]
+Decisions: {dec_0: 0.9891246810165808, dec_1: 1.0}
+Worse eu -28.29907563511892, decreasing learning rate to 0.03096224743817219
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.512622887664663, 100]
+Decisions: {dec_0: 0.9891493772867541, dec_1: 1.0}
+Worse eu -28.29898875462751, decreasing learning rate to 0.024769797950537756
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.514461611327946, 100]
+Decisions: {dec_0: 0.9891690943602061, dec_1: 1.0}
+Worse eu -28.298919390751156, decreasing learning rate to 0.019815838360430205
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.515932590258573, 100]
+Decisions: {dec_0: 0.9891848425013133, dec_1: 1.0}
+Worse eu -28.29886398942017, decreasing learning rate to 0.015852670688344166
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.517109373403074, 100]
+Decisions: {dec_0: 0.989197424706245, dec_1: 1.0}
+Worse eu -28.29881972572609, decreasing learning rate to 0.012682136550675334
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.518050799918675, 100]
+Decisions: {dec_0: 0.9892074800450373, dec_1: 1.0}
+Worse eu -28.29878435144611, decreasing learning rate to 0.010145709240540268
+
+Gradients: {2: -0.29692994136727074, 116: 0.0}
+Updated to decisions: [-1, 4.518803941131155, 100]
+Decisions: {dec_0: 0.9892155176500792, dec_1: 1.0}
+Worse eu -28.298756075472834, decreasing learning rate to 0.008116567392432215
+Final decisions: {dec_0: 1, dec_1: 1}
+Final expected utility: -28.26081669760001
+-------------------------------
+
+
+Gradients: {2: 17.000605841953522, 116: -3.713981077673896}
+Updated to decisions: [-1, 100, -2.8992760448982087]
+Decisions: {dec_0: 1.0, dec_1: 0.05218936236815685}
+After epoch 1, expected utility: -27.787802872788372 and learning_rate 1.1
+
+Gradients: {2: 0.0, 116: 23.541696795119258}
+Updated to decisions: [-1, 100, 100]
+Decisions: {dec_0: 1.0, dec_1: 1.0}
+Worse eu -28.26081669760001, decreasing learning rate to 0.8800000000000001
+
+Gradients: {2: 0.0, 116: 0.0}
+Updated to decisions: [-1, 100, 100]
+Decisions: {dec_0: 1.0, dec_1: 1.0}
+Worse eu -28.26081669760001, decreasing learning rate to 0.7040000000000002
+
+Gradients: {2: 0.0, 116: 0.0}
+Updated to decisions: [-1, 100, 100]
+Decisions: {dec_0: 1.0, dec_1: 1.0}
+Result converged.
+Final decisions: {dec_0: 1, dec_1: 1}
+Final expected utility: -28.26081669760001
+-------------------------------
+
+
+Gradients: {2: -2.143218299018484, 116: 7.8172671670908915}
+Updated to decisions: [-1, -1.6192726747532906, 6.99469739626239]
+Decisions: {dec_0: 0.1653052016576043, dec_1: 0.9990841094675393}
+Worse eu -31.197016417810225, decreasing learning rate to 0.8
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, -1.1906290149495933, 5.431243962844213]
+Decisions: {dec_0: 0.23314645582406412, dec_1: 0.9956414334804696}
+Worse eu -30.957424099429385, decreasing learning rate to 0.6400000000000001
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, -0.8477140871066362, 4.18048121610967]
+Decisions: {dec_0: 0.2999125996658518, dec_1: 0.9849391502251456}
+Worse eu -30.71940541527484, decreasing learning rate to 0.5120000000000001
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, -0.5733821448322702, 3.1798710187220367]
+Decisions: {dec_0: 0.3604567794140505, dec_1: 0.9600697217335181}
+Worse eu -30.498588660028116, decreasing learning rate to 0.40960000000000013
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, -0.3539165910127777, 2.379382860811929]
+Decisions: {dec_0: 0.41243298127168604, dec_1: 0.9152415723111434}
+Worse eu -30.30078917496206, decreasing learning rate to 0.32768000000000014
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, -0.17834414795718356, 1.7389923344838434]
+Decisions: {dec_0: 0.4555317659840634, dec_1: 0.8505590279896063}
+Worse eu -30.126544854835714, decreasing learning rate to 0.2621440000000001
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, -0.037886193512708166, 1.2266799134213744]
+Decisions: {dec_0: 0.4905295843855918, dec_1: 0.7732369532485281}
+Worse eu -29.975286469133025, decreasing learning rate to 0.2097152000000001
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.07448017004287205, 0.8168299765713993]
+Decisions: {dec_0: 0.5186114397093894, dec_1: 0.6935630180975018}
+Worse eu -29.84651847955183, decreasing learning rate to 0.1677721600000001
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.16437326088733623, 0.4889500270914193]
+Decisions: {dec_0: 0.5410010409782486, dec_1: 0.6198590543842443}
+Worse eu -29.739220187564815, decreasing learning rate to 0.13421772800000006
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.23628773356290766, 0.2266460675074351]
+Decisions: {dec_0: 0.5587986177733383, dec_1: 0.5564202052375699}
+Worse eu -29.651441807720307, decreasing learning rate to 0.10737418240000006
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.2938193117033647, 0.016802899840247965]
+Decisions: {dec_0: 0.5729309054962263, dec_1: 0.5042006261276903}
+Worse eu -29.58056882850503, decreasing learning rate to 0.08589934592000005
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.33984457421573044, -0.1510716342935018]
+Decisions: {dec_0: 0.5841527676601952, dec_1: 0.462303758146317}
+Worse eu -29.523809491703002, decreasing learning rate to 0.06871947673600004
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.376664784225623, -0.28537126160050164]
+Decisions: {dec_0: 0.5930684382595768, dec_1: 0.4291374346048783}
+Worse eu -29.478554731166646, decreasing learning rate to 0.054975581388800036
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.406120952233537, -0.39281096344610156]
+Decisions: {dec_0: 0.6001573922619687, dec_1: 0.403040802017561}
+Worse eu -29.44254637091294, decreasing learning rate to 0.043980465111040035
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.42968588663986823, -0.47876272492258143]
+Decisions: {dec_0: 0.605798658567843, dec_1: 0.382544332256413}
+Worse eu -29.413913150929677, decreasing learning rate to 0.03518437208883203
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.4485378341649332, -0.5475241341037653]
+Decisions: {dec_0: 0.6102915347346922, dec_1: 0.36643901933629136}
+Worse eu -29.391141248174257, decreasing learning rate to 0.028147497671065627
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.4636193921849852, -0.6025332614487124]
+Decisions: {dec_0: 0.6138724445648951, dec_1: 0.35376433756165826}
+Worse eu -29.373021441454465, decreasing learning rate to 0.022517998136852502
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.47568463860102683, -0.6465405633246701]
+Decisions: {dec_0: 0.6167283485510062, dec_1: 0.3437695363675554}
+Worse eu -29.358593758101545, decreasing learning rate to 0.018014398509482003
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.4853368357338601, -0.6817464048254364]
+Decisions: {dec_0: 0.6190072964016181, dec_1: 0.335871634659322}
+Worse eu -29.347097991093452, decreasing learning rate to 0.014411518807585602
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.4930585934401267, -0.7099110780260494]
+Decisions: {dec_0: 0.620826693640603, dec_1: 0.32961848899452195}
+Worse eu -29.33793241800072, decreasing learning rate to 0.011529215046068483
+
+Gradients: {2: -2.143218299018483, 116: 7.8172671670908915}
+Updated to decisions: [-1, 0.49923599960514, -0.7324428165865396]
+Decisions: {dec_0: 0.6222797714822493, dec_1: 0.3246588972076485}
+Worse eu -29.330620497740274, decreasing learning rate to 0.009223372036854787
+Final decisions: {dec_0: 1, dec_1: 0}
+Final expected utility: -27.76175728
+-------------------------------
+

@@ -1,0 +1,10 @@
+Compilation took 0.009845733642578125 seconds.
+start decisions: {2, 3}
+start utilities: {maryCalls: 23, burglary: -46, earthquake: 22, \+earthquake: 5, alarm: 21, \+alarm: -45, johnCalls: 27, \+johnCalls: 15}
+final current_weights {1: 0.7, 2: pos_neg_weight(p_weight=s(1.0,-46,{2}), n_weight=s(1.0,0,{-2})), 3: pos_neg_weight(p_weight=s(1.0,22,{3}), n_weight=s(1.0,5,{-3})), 4: True, 10: 0.94, 13: True, 19: 0.29, 22: True, 28: 0.95, 31: True, 37: 0.001, 40: pos_neg_weight(p_weight=s(1.0,21,set()), n_weight=s(1.0,-45,set())), 48: 0.01, 51: pos_neg_weight(p_weight=s(1.0,23,set()), n_weight=s(1.0,0,set())), 57: 0.05, 60: 0.9, 63: pos_neg_weight(p_weight=s(1.0,27,set()), n_weight=s(1.0,15,set())), 0: pos_neg_weight(p_weight=s(0.0,0,set()), n_weight=s(1.0,0,set()))}
+Fixing weights took 0.0011186599731445312 seconds
+Circuit evaluation took 0.00744938850402832 seconds.
+Best decisions {burglary: 1, earthquake: 1}
+Expected utility 34.296499999999995
+Compile time 0.009845733642578125
+Runtime 0.018413782119750977

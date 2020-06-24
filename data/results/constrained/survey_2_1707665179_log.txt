@@ -1,0 +1,10 @@
+Compilation took 6.5810980796813965 seconds.
+start decisions: {2, 74}
+start utilities: {util_node(0): 26, \+util_node(0): 15, util_node(1): -20, \+util_node(1): 9, util_node(2): -17, \+util_node(2): -21, util_node(3): -5, \+util_node(3): 40, util_node(4): 20, \+util_node(4): -20}
+final current_weights {1: 0.3, 2: pos_neg_weight(p_weight=s(1.0,0,{2}), n_weight=s(1.0,0,{-2})), 3: 0.6, 4: True, 10: True, 16: 0.25, 19: 0.4, 20: True, 26: True, 32: 0.36, 35: 0.28, 36: 0.5, 37: True, 38: True, 46: 0.3, 47: True, 55: 0.12, 56: 0.2, 57: True, 65: True, 71: 0.1, 74: pos_neg_weight(p_weight=s(1.0,0,{74}), n_weight=s(1.0,0,{-74})), 75: 0.28, 78: True, 84: 0.2, 87: 0.75, 88: True, 91: 0.64, 92: True, 95: 0.72, 96: True, 99: 0.7, 100: True, 103: 0.88, 104: True, 107: 0.9, 108: True, 111: True, 117: 0.25, 120: True, 126: 0.18, 127: 0.96, 130: 0.92, 133: True, 139: 0.75, 140: True, 143: 0.8, 144: True, 147: True, 153: True, 161: 0.04, 162: True, 165: 0.08, 166: True, 169: True, 175: True, 181: 0.08, 184: True, 190: 0.09, 193: True, 199: 0.1, 202: True, 208: 0.58, 209: True, 212: 0.56, 213: True, 216: 0.7, 217: True, 220: 0.48, 221: True, 224: True, 248: 0.36, 251: 0.42, 254: 0.21, 257: 0.24, 260: True, 362: pos_neg_weight(p_weight=s(1.0,20,set()), n_weight=s(1.0,-20,set())), 444: pos_neg_weight(p_weight=s(1.0,26,set()), n_weight=s(1.0,15,set())), 502: pos_neg_weight(p_weight=s(1.0,-17,set()), n_weight=s(1.0,-21,set())), 584: pos_neg_weight(p_weight=s(1.0,-20,set()), n_weight=s(1.0,9,set())), 620: pos_neg_weight(p_weight=s(1.0,-5,set()), n_weight=s(1.0,40,set())), 0: pos_neg_weight(p_weight=s(0.0,0,set()), n_weight=s(1.0,0,set()))}
+Fixing weights took 0.0011606216430664062 seconds
+Circuit evaluation took 0.9170584678649902 seconds.
+Best decisions {dec_1: 1, dec_0: 0}
+Expected utility 22.0634983424
+Compile time 6.5810980796813965
+Runtime 7.499317169189453

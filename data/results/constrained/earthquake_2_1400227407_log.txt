@@ -1,0 +1,10 @@
+Compilation took 0.017154216766357422 seconds.
+start decisions: {41, 2, 3, 44}
+start utilities: {util_node(0): 40, \+util_node(0): 47, util_node(1): 16, \+util_node(1): -44, util_node(2): 38, \+util_node(2): -3, util_node(3): 19, \+util_node(3): -21, util_node(4): 31, \+util_node(4): 37}
+final current_weights {1: 0.7, 2: pos_neg_weight(p_weight=s(1.0,0,{2}), n_weight=s(1.0,0,{-2})), 3: pos_neg_weight(p_weight=s(1.0,0,{3}), n_weight=s(1.0,0,{-3})), 4: True, 10: 0.95, 13: True, 19: 0.94, 22: True, 28: 0.29, 31: True, 37: 0.001, 40: 0.95, 41: pos_neg_weight(p_weight=s(1.0,0,{41}), n_weight=s(1.0,0,{-41})), 44: pos_neg_weight(p_weight=s(1.0,0,{44}), n_weight=s(1.0,0,{-44})), 45: 0.94, 48: True, 56: 0.01, 59: True, 71: 0.05, 74: 0.9, 77: True, 83: pos_neg_weight(p_weight=s(1.0,88,set()), n_weight=s(1.0,13,set())), 91: pos_neg_weight(p_weight=s(1.0,56,set()), n_weight=s(1.0,3,set())), 0: pos_neg_weight(p_weight=s(0.0,0,set()), n_weight=s(1.0,0,set()))}
+Fixing weights took 0.0014944076538085938 seconds
+Circuit evaluation took 0.016942262649536133 seconds.
+Best decisions {dec_3: 0, earthquake: 0, burglary: 0, dec_2: 0}
+Expected utility 138.88449249999996
+Compile time 0.017154216766357422
+Runtime 0.03559088706970215

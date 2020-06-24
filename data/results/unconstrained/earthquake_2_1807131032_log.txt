@@ -1,0 +1,382 @@
+Starting compilation
+Compilation took 0.01570868492126465 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 2: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 3: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 4: True, 10: pos_neg_weight(p_weight=s(0.94,0), n_weight=s(0.06,0)), 13: True, 19: pos_neg_weight(p_weight=s(0.29,0), n_weight=s(0.71,0)), 22: True, 28: pos_neg_weight(p_weight=s(0.95,0), n_weight=s(0.05,0)), 31: True, 37: pos_neg_weight(p_weight=s(0.001,0), n_weight=s(0.999,0)), 40: True, 48: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 51: True, 57: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 60: pos_neg_weight(p_weight=s(t,0), n_weight=s(t,0)), 61: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 64: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 67: True, 87: pos_neg_weight(p_weight=s(1.0,-3), n_weight=s(1.0,-44)), 93: pos_neg_weight(p_weight=s(1.0,-33), n_weight=s(1.0,-1)), 107: pos_neg_weight(p_weight=s(1.0,-42), n_weight=s(1.0,25)), 113: pos_neg_weight(p_weight=s(1.0,38), n_weight=s(1.0,42)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0, 0, 0]
+key_to_decision_index: {2: 1, 3: 2, 60: 3}
+
+Gradients: {2: 10.8724669003125, 3: 4.4912471315625, 60: 0.06148853718750047}
+Updated to decisions: [-1, 100, 4.4912471315625, 0.06148853718750047]
+Decisions: {burglary: 1.0, earthquake: 0.988917538453607, dec_2: 0.5153672928287325}
+After epoch 1, expected utility: 21.78951905242437 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.2407426790556016, 60: 0.3243366728371271}
+Updated to decisions: [-1, 100, 4.756064078523662, 0.41825887730834027]
+Decisions: {burglary: 1.0, earthquake: 0.9914739296017964, dec_2: 0.6030665395205348}
+After epoch 2, expected utility: 21.838009960090297 and learning_rate 1.2100000000000002
+
+Gradients: {2: 0.0, 3: 0.1857561566814125, 60: 1.7866787650423541}
+Updated to decisions: [-1, 100, 4.980829028108171, 2.5801401830095894]
+Decisions: {burglary: 1.0, earthquake: 0.9931784865241043, dec_2: 0.9295724470928152}
+After epoch 3, expected utility: 21.870214592981785 and learning_rate 1.3310000000000004
+
+Gradients: {2: 0.0, 3: 0.14891117534417342, 60: 1.3233062990175157}
+Updated to decisions: [-1, 100, 5.179029802491265, 4.341460867001903]
+Decisions: {burglary: 1.0, earthquake: 0.994398088852866, dec_2: 0.9871497802297617}
+After epoch 4, expected utility: 21.893392424579496 and learning_rate 1.4641000000000006
+
+Gradients: {2: 0.0, 3: 0.12245846942804907, 60: 0.2741043251524346}
+Updated to decisions: [-1, 100, 5.358321247580872, 4.7427770094575825]
+Decisions: {burglary: 1.0, earthquake: 0.9953132645277187, dec_2: 0.991360872375694}
+After epoch 5, expected utility: 21.910807138577436 and learning_rate 1.6105100000000008
+
+Gradients: {2: 0.0, 3: 0.10255972220465717, 60: 0.18601959748020927}
+Updated to decisions: [-1, 100, 5.5234947057886945, 5.042363431395435]
+Decisions: {burglary: 1.0, earthquake: 0.9960239985779077, dec_2: 0.9935829779946526}
+After epoch 6, expected utility: 21.924332339871505 and learning_rate 1.771561000000001
+
+Gradients: {2: 0.0, 3: 0.08707730816873505, 60: 0.13888328882347403}
+Updated to decisions: [-1, 100, 5.677757468925407, 5.288403649426837]
+Decisions: {burglary: 1.0, earthquake: 0.9965904428082255, dec_2: 0.994975557402082}
+After epoch 7, expected utility: 21.93511200811751 and learning_rate 1.9487171000000014
+
+Gradients: {2: 0.0, 3: 0.07471999400768642, 60: 0.10910419241998681}
+Updated to decisions: [-1, 100, 5.823365598960083, 5.501016854877356]
+Decisions: {burglary: 1.0, earthquake: 0.997051087639382, dec_2: 0.9959339821003208}
+After epoch 8, expected utility: 21.943878406141746 and learning_rate 2.1435888100000016
+
+Gradients: {2: 0.0, 3: 0.06465894189455568, 60: 0.08849862009293788}
+Updated to decisions: [-1, 100, 5.961967783271693, 5.6907215066090195]
+Decisions: {burglary: 1.0, earthquake: 0.9974317725194419, dec_2: 0.9966342113413504}
+After epoch 9, expected utility: 21.951123182829484 and learning_rate 2.357947691000002
+
+Gradients: {2: 0.0, 3: 0.05633631649205379, 60: 0.07338548868379055}
+Updated to decisions: [-1, 100, 6.094805870663577, 5.86376065020387]
+Decisions: {burglary: 1.0, earthquake: 0.9977505237795037, dec_2: 0.997167504531195}
+After epoch 10, expected utility: 21.957189349848782 and learning_rate 2.5937424601000023
+
+Gradients: {2: 0.0, 3: 0.04936213208668865, 60: 0.06184131001468947}
+Updated to decisions: [-1, 100, 6.222838528577886, 6.024161081777178]
+Decisions: {burglary: 1.0, earthquake: 0.9980203202118723, dec_2: 0.9975862596927078}
+After epoch 11, expected utility: 21.9623238825546 and learning_rate 2.853116706110003
+
+Gradients: {2: 0.0, 3: 0.043455100176217155, 60: 0.052755433281092244}
+Updated to decisions: [-1, 100, 6.346821000856335, 6.174678489809534]
+Decisions: {burglary: 1.0, earthquake: 0.9982507563355895, dec_2: 0.9979228485136296}
+After epoch 12, expected utility: 21.966709361382303 and learning_rate 3.1384283767210035
+
+Gradients: {2: 0.0, 3: 0.038406960506228896, 60: 0.04543862848101973}
+Updated to decisions: [-1, 100, 6.467358495572687, 6.31728437083365]
+Decisions: {burglary: 1.0, earthquake: 0.99844908564239, dec_2: 0.9981984134438129}
+After epoch 13, expected utility: 21.970483820423226 and learning_rate 3.4522712143931042
+
+Gradients: {2: 0.0, 3: 0.03406005817894346, 60: 0.039439107648526456}
+Updated to decisions: [-1, 100, 6.584943053984408, 6.453438866890009]
+Decisions: {burglary: 1.0, earthquake: 0.9986208985392522, dec_2: 0.9984273807286409}
+After epoch 14, expected utility: 21.973753646715398 and learning_rate 3.797498335832415
+
+Gradients: {2: 0.0, 3: 0.03029274400368858, 60: 0.034447659936749336}
+Updated to decisions: [-1, 100, 6.699979698926213, 6.584253798173135]
+Decisions: {burglary: 1.0, earthquake: 0.9987705764510415, dec_2: 0.9986199489701582}
+After epoch 15, expected utility: 21.97660222091139 and learning_rate 4.177248169415656
+
+Gradients: {2: 0.0, 3: 0.027009578638131512, 60: 0.030245121474459073}
+Updated to decisions: [-1, 100, 6.812805411849036, 6.710595176486073]
+Decisions: {burglary: 1.0, earthquake: 0.9989016040727989, dec_2: 0.9987835425508195}
+After epoch 16, expected utility: 21.97909585901446 and learning_rate 4.594972986357222
+
+Gradients: {2: 0.0, 3: 0.024134586582776407, 60: 0.026671586662918623}
+Updated to decisions: [-1, 100, 6.9237031852337925, 6.83315039670547]
+Decisions: {burglary: 1.0, earthquake: 0.9990167890668765, dec_2: 0.9989237013231095}
+After epoch 17, expected utility: 21.98128799301889 and learning_rate 5.054470284992944
+
+Gradients: {2: 0.0, 3: 0.02160650341404446, 60: 0.02360750392206998}
+Updated to decisions: [-1, 100, 100, 6.9524738237824275]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9990446469820083}
+After epoch 18, expected utility: 22.000000000000004 and learning_rate 5.559917313492239
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.020977607622701056}
+Updated to decisions: [-1, 100, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 1.0}
+Worse eu 22.0, decreasing learning rate to 4.447933850793791
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.0}
+Updated to decisions: [-1, 100, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 1.0}
+Worse eu 22.0, decreasing learning rate to 3.558347080635033
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.0}
+Updated to decisions: [-1, 100, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 1.0}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1, dec_2: 1}
+Final expected utility: 22.0
+-------------------------------
+
+
+Gradients: {2: 24.18623162270297, 3: 15.230184304739229, 60: -2.3315397825043114}
+Updated to decisions: [-1, 100, 100, -1.856388862344711]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.13512451494916916}
+After epoch 1, expected utility: 22.0 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.0, 60: -13.88516193312576}
+Updated to decisions: [-1, 100, 100, -100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 3.7200759760208555e-44}
+After epoch 2, expected utility: 22.0 and learning_rate 1.2100000000000002
+
+Gradients: {2: 0.0, 3: 0.0, 60: -22.0}
+Updated to decisions: [-1, 100, 100, -100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 3.7200759760208555e-44}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1, dec_2: 0}
+Final expected utility: 22.0
+-------------------------------
+
+
+Gradients: {2: 16.062635204440006, 3: 14.643456425932518, 60: 1.108484503959514}
+Updated to decisions: [-1, 100, 100, 0.9263770459203151]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.7163396889462122}
+After epoch 1, expected utility: 22.0 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.0, 60: 2.7001472722295397}
+Updated to decisions: [-1, 100, 100, 3.896539045372809]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9800922782649633}
+Worse eu 21.999999999999996, decreasing learning rate to 0.8800000000000001
+
+Gradients: {2: 0.0, 3: 0.0, 60: 2.7001472722295397}
+Updated to decisions: [-1, 100, 100, 3.3025066454823104]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9645147033682853}
+After epoch 2, expected utility: 22.000000000000004 and learning_rate 0.9680000000000002
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 4.004569408799586]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9820943206528507}
+Worse eu 22.0, decreasing learning rate to 0.7744000000000002
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 3.8641568561361312]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9794505355398522}
+Worse eu 22.0, decreasing learning rate to 0.6195200000000002
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 3.751826814005367]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9770636052688106}
+Worse eu 22.0, decreasing learning rate to 0.49561600000000017
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 3.661962780300756]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9749609980332462}
+Worse eu 22.0, decreasing learning rate to 0.39649280000000015
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 3.590071553337067]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9731447512565848}
+Worse eu 22.0, decreasing learning rate to 0.3171942400000001
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 3.5325585717661157]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.971600097123374}
+Worse eu 22.0, decreasing learning rate to 0.25375539200000014
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.7252714497079297}
+Updated to decisions: [-1, 100, 100, 3.4865481865093546]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.970302591493303}
+After epoch 3, expected utility: 22.000000000000004 and learning_rate 0.27913093120000015
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.6145377999787338}
+Updated to decisions: [-1, 100, 100, 3.658084694875018]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9748661514337716}
+Worse eu 22.0, decreasing learning rate to 0.22330474496000013
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.6145377999787338}
+Updated to decisions: [-1, 100, 100, 3.6237773932018853]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9740117130121546}
+Worse eu 22.0, decreasing learning rate to 0.17864379596800012
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.6145377999787338}
+Updated to decisions: [-1, 100, 100, 3.596331551863379]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9733078666738997}
+Worse eu 22.0, decreasing learning rate to 0.1429150367744001
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.6145377999787338}
+Updated to decisions: [-1, 100, 100, 3.5743748787925744]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9727314728172419}
+Worse eu 22.0, decreasing learning rate to 0.11433202941952009
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.6145377999787338}
+Updated to decisions: [-1, 100, 100, 3.5568095403359306]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9722616639451116}
+After epoch 4, expected utility: 22.000000000000004 and learning_rate 0.1257652323614721
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.6292992520157217]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9741511220027264}
+Worse eu 22.0, decreasing learning rate to 0.1006121858891777
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.6148013096797635]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9737835330230811}
+Worse eu 21.999999999999996, decreasing learning rate to 0.08048974871134217
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.603202955810997]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9734858040312304}
+Worse eu 22.0, decreasing learning rate to 0.06439179896907374
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.593924272715984]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.973245255063633}
+Worse eu 21.999999999999996, decreasing learning rate to 0.051513439175258996
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.586501326239973]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9730512890029002}
+Worse eu 22.0, decreasing learning rate to 0.0412107513402072
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.5805629690591645]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9728951323543636}
+Worse eu 22.0, decreasing learning rate to 0.03296860107216576
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.5758122833145176]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9727695740103768}
+Worse eu 22.0, decreasing learning rate to 0.02637488085773261
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.5720117347188003]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9726687204544472}
+Worse eu 22.0, decreasing learning rate to 0.02109990468618609
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.568971295842226]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.972587776309767}
+Worse eu 22.0, decreasing learning rate to 0.016879923748948873
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.5763891205754124}
+Updated to decisions: [-1, 100, 100, 3.566538944740967]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9725228533019432}
+After epoch 5, expected utility: 22.000000000000004 and learning_rate 0.018567916123843762
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.571277509367922}
+Updated to decisions: [-1, 100, 100, 3.577146377618349]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9728048904608565}
+Worse eu 22.0, decreasing learning rate to 0.01485433289907501
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.571277509367922}
+Updated to decisions: [-1, 100, 100, 3.575024891042873]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9727487090656931}
+Worse eu 22.0, decreasing learning rate to 0.01188346631926001
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.571277509367922}
+Updated to decisions: [-1, 100, 100, 3.5733277017824916]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9727036827401023}
+Worse eu 22.0, decreasing learning rate to 0.009506773055408008
+Final decisions: {burglary: 1, earthquake: 1, dec_2: 1}
+Final expected utility: 22.0
+-------------------------------
+
+
+Gradients: {2: 3.621545320006593, 3: 3.7146177319308142, 60: 0.6322630092509036}
+Updated to decisions: [-1, 4.991710083856812, 4.291687041477807, 1.1810201151144573]
+Decisions: {burglary: 0.9932518112576947, earthquake: 0.9865028417322486, dec_2: 0.7651311735995584}
+After epoch 1, expected utility: 21.44397655391963 and learning_rate 1.1
+
+Gradients: {2: 0.1467686241521051, 3: 0.28844822440630846, 60: 2.670842024891809}
+Updated to decisions: [-1, 5.153155570424127, 4.6089800883247465, 4.118946342495447]
+Decisions: {burglary: 0.9942520962562132, earthquake: 0.9901362885701641, dec_2: 0.9839985698731293}
+After epoch 2, expected utility: 21.557785303254768 and learning_rate 1.2100000000000002
+
+Gradients: {2: 0.12539653078549368, 3: 0.21210903139462065, 60: 0.3339167352456962}
+Updated to decisions: [-1, 5.304885372674574, 4.8656320163122375, 4.5229855921427395]
+Decisions: {burglary: 0.9950572842114925, earthquake: 0.9923519871661854, dec_2: 0.989260037104844}
+After epoch 3, expected utility: 21.63558739694629 and learning_rate 1.3310000000000004
+
+Gradients: {2: 0.10803430892329402, 3: 0.16514624973569272, 60: 0.22737457926456173}
+Updated to decisions: [-1, 5.448679037851479, 5.085441674710444, 4.825621157143871]
+Decisions: {burglary: 0.9957164440910068, earthquake: 0.9938518790056707, dec_2: 0.9920422638675157}
+After epoch 4, expected utility: 21.69330927708831 and learning_rate 1.4641000000000006
+
+Gradients: {2: 0.09374650882044144, 3: 0.13316227490653376, 60: 0.16988232784563873}
+Updated to decisions: [-1, 5.585933301415487, 5.280404561401101, 5.074345873342671]
+Decisions: {burglary: 0.9962637637883276, earthquake: 0.9949354096355156, dec_2: 0.9937837072306255}
+After epoch 5, expected utility: 21.738159925139485 and learning_rate 1.6105100000000008
+
+Gradients: {2: 0.0818437350738604, 3: 0.10995064373325901, 60: 0.133450838708401}
+Updated to decisions: [-1, 5.71774345518929, 5.457481172639952, 5.289269783590938]
+Decisions: {burglary: 0.9967236496835126, earthquake: 0.9957538236763922, dec_2: 0.9949798855220927}
+After epoch 6, expected utility: 21.774096326866914 and learning_rate 1.771561000000001
+
+Gradients: {2: 0.0718197418343204, 3: 0.09235457361715542, 60: 0.10821103067872366}
+Updated to decisions: [-1, 5.8449765088530405, 5.621092933431734, 5.480972225311168]
+Decisions: {burglary: 0.9971139506842138, earthquake: 0.9963923802615074, dec_2: 0.9958519994361986}
+After epoch 7, expected utility: 21.803530247246133 and learning_rate 1.9487171000000014
+
+Gradients: {2: 0.06329846318721938, 3: 0.07858473475456094, 60: 0.08969079095534095}
+Updated to decisions: [-1, 5.968327306469695, 5.774232349846911, 5.6557542033583665]
+Decisions: {burglary: 0.9974480118488923, earthquake: 0.9969030394490663, dec_2: 0.9965148543292776}
+After epoch 8, expected utility: 21.828040796417223 and learning_rate 2.1435888100000016
+
+Gradients: {2: 0.05599596383444099, 3: 0.06754569705148931, 60: 0.07554366622093098}
+Updated to decisions: [-1, 6.088359627950368, 5.9190225502101335, 5.817688760935929]
+Decisions: {burglary: 0.997736009207225, earthquake: 0.9973193789348342, dec_2: 0.9970343493226269}
+After epoch 9, expected utility: 21.848717194690607 and learning_rate 2.357947691000002
+
+Gradients: {2: 0.04969429543065152, 3: 0.05852683842777148, 60: 0.06441135431756217}
+Updated to decisions: [-1, 6.205536177116945, 6.057025773742428, 5.969567365123208]
+Decisions: {burglary: 0.997985838641806, earthquake: 0.9976641148753167, dec_2: 0.9974511664414618}
+After epoch 10, expected utility: 21.866341145202234 and learning_rate 2.5937424601000023
+
+Gradients: {2: 0.0442235400211947, 3: 0.05104579132708638, 60: 0.05544956168174868}
+Updated to decisions: [-1, 6.320240650605849, 6.189425410116896, 6.113389247651093]
+Decisions: {burglary: 0.9982037220200567, earthquake: 0.9979531931095302, dec_2: 0.9977918491652169}
+After epoch 11, expected utility: 21.881491470487383 and learning_rate 2.853116706110003
+
+Gradients: {2: 0.03944932689638886, 3: 0.04476294828314248, 60: 0.0481042546219084}
+Updated to decisions: [-1, 6.432794184218731, 6.3171393256782675, 6.250636300147829]
+Decisions: {burglary: 0.9983946297192435, earthquake: 0.9981981525843365, dec_2: 0.9980744885683697}
+After epoch 12, expected utility: 21.894607764648647 and learning_rate 3.1384283767210035
+
+Gradients: {2: 0.03526401705984544, 3: 0.03943190579170348, 60: 0.04199596913510575}
+Updated to decisions: [-1, 6.543467776036524, 6.440893537763139, 6.382437641389345]
+Decisions: {burglary: 0.9985625811355084, earthquake: 0.9984075590447957, dec_2: 0.9983118587529596}
+After epoch 13, expected utility: 21.906030963646664 and learning_rate 3.4522712143931042
+
+Gradients: {2: 0.03158037522154465, 3: 0.03486931234753212, 60: 0.03685562082684013}
+Updated to decisions: [-1, 6.652491796353596, 6.561271861046206, 6.509673240258432]
+Decisions: {burglary: 0.9987108623411649, earthquake: 0.9985879107705034, dec_2: 0.9985132475463365}
+After epoch 14, expected utility: 21.916030207694376 and learning_rate 3.797498335832415
+
+Gradients: {2: 0.028326954891338123, 3: 0.030935768355027544, 60: 0.032486825900991285}
+Updated to decisions: [-1, 6.760063360412652, 6.67875038989212, 6.633041907553924]
+Decisions: {burglary: 0.9988421863593199, earthquake: 0.998744230752902, dec_2: 0.9986855766091444}
+After epoch 15, expected utility: 21.924821200191953 and learning_rate 4.177248169415656
+
+Gradients: {2: 0.02544468218080139, 3: 0.027523307640531156, 60: 0.028742739847465556}
+Updated to decisions: [-1, 6.866352112473768, 6.793722076349793, 6.75310746496574]
+Decisions: {burglary: 0.9989588129702219, earthquake: 0.9988804654249918, dec_2: 0.9988341140758707}
+After epoch 16, expected utility: 21.9325790960789 and learning_rate 4.594972986357222
+
+Gradients: {2: 0.022884291531521356, 3: 0.02454694940519119, 60: 0.025511260796413145}
+Updated to decisions: [-1, 6.9715048138730324, 6.9065146457641236, 6.870331019173172]
+Decisions: {burglary: 0.9990626395026022, earthquake: 0.9989997600785007, dec_2: 0.9989629432375426}
+After epoch 17, expected utility: 21.93944776038614 and learning_rate 5.054470284992944
+
+Gradients: {2: 0.020604375932941076, 3: 0.02193885071203655, 60: 0.022705262221765197}
+Updated to decisions: [-1, 100, 100, 6.985094092386057]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 0.9990752796962564}
+After epoch 18, expected utility: 22.0 and learning_rate 5.559917313492239
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.02030622194619182}
+Updated to decisions: [-1, 100, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 1.0}
+After epoch 19, expected utility: 22.0 and learning_rate 6.115909044841463
+
+Gradients: {2: 0.0, 3: 0.0, 60: 0.0}
+Updated to decisions: [-1, 100, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0, dec_2: 1.0}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1, dec_2: 1}
+Final expected utility: 22.0
+-------------------------------
+

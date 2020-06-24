@@ -1,0 +1,62 @@
+Starting compilation
+Compilation took 0.011025428771972656 seconds.
+
+Fixed weights: {1: pos_neg_weight(p_weight=s(0.7,0), n_weight=s(0.3,0)), 2: pos_neg_weight(p_weight=s(t,26), n_weight=s(t,0)), 3: pos_neg_weight(p_weight=s(t,4), n_weight=s(t,-23)), 4: True, 10: pos_neg_weight(p_weight=s(0.94,0), n_weight=s(0.06,0)), 13: True, 19: pos_neg_weight(p_weight=s(0.29,0), n_weight=s(0.71,0)), 22: True, 28: pos_neg_weight(p_weight=s(0.95,0), n_weight=s(0.05,0)), 31: True, 37: pos_neg_weight(p_weight=s(0.001,0), n_weight=s(0.999,0)), 40: pos_neg_weight(p_weight=s(1.0,3), n_weight=s(1.0,-16)), 48: pos_neg_weight(p_weight=s(0.01,0), n_weight=s(0.99,0)), 51: True, 57: pos_neg_weight(p_weight=s(0.05,0), n_weight=s(0.95,0)), 60: pos_neg_weight(p_weight=s(0.9,0), n_weight=s(0.1,0)), 63: pos_neg_weight(p_weight=s(1.0,22), n_weight=s(1.0,-46)), 0: pos_neg_weight(p_weight=s(1.0,0), n_weight=s(1.0,0))}
+decision_weights: [-1, 0, 0]
+key_to_decision_index: {2: 1, 3: 2}
+
+Gradients: {2: 21.8504, 3: 9.6204}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+After epoch 1, expected utility: 44.36 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.0}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1}
+Final expected utility: 44.36
+-------------------------------
+
+
+Gradients: {2: 20.49587575993355, 3: 8.565081799132392}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+After epoch 1, expected utility: 44.36 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.0}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1}
+Final expected utility: 44.36
+-------------------------------
+
+
+Gradients: {2: 44.32520917704857, 3: 17.18142348693276}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+After epoch 1, expected utility: 44.36 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.0}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1}
+Final expected utility: 44.36
+-------------------------------
+
+
+Gradients: {2: 23.87019429331403, 3: 8.7596536436754}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+After epoch 1, expected utility: 44.36 and learning_rate 1.1
+
+Gradients: {2: 0.0, 3: 0.0}
+Updated to decisions: [-1, 100, 100]
+Decisions: {burglary: 1.0, earthquake: 1.0}
+Result converged.
+Final decisions: {burglary: 1, earthquake: 1}
+Final expected utility: 44.36
+-------------------------------
+
